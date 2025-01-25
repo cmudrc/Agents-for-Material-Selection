@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from data_generation_helper import WIKIPEDIA_SEARCH_PROMPT, WikipediaSearch, compile_question, append_results
 
 ##########################################################################################
-# running 14B and 32B models using huggingface inference endpoint
+# trying to run 14B and 32B models using huggingface inference endpoint
 
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
@@ -52,10 +52,7 @@ MODEL_IDS = {
 
 # print(torch.cuda.is_available())
 
-for modelsize in [
-                '14',
-                # '32'
-                ]:
+for modelsize in ['14', '32']:
     
     inference_url=INFERENCE_URLS[modelsize]
     model_id=MODEL_IDS[modelsize]
@@ -107,13 +104,7 @@ for modelsize in [
     max_iterations=10
     )
     
-    for question_type in [
-                        'agentic',
-                        'zero-shot', 
-                        'few-shot',
-                        'parallel',
-                        'chain-of-thought'
-                        ]:
+    for question_type in ['agentic','zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         results = pd.DataFrame(columns=['design', 'criteria', 'material', 'response'])
         for design in ['kitchen utensil grip', 'safety helmet', 'underwater component', 'spacecraft component']:
             for criterion in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:

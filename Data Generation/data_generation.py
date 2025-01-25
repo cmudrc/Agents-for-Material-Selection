@@ -1,20 +1,27 @@
+# force cuda usage
+import os
+os.environ['FORCE_CUDA'] = '1'
+os.environ['GGML_CUDA'] = '1'
+os.environ['DGGML_CUDA_FORCE_CUBLAS'] = '1'
+os.environ['DLLAVA_BUILD'] = '0'
+os.environ['DCMAKE_CUDA_ARCHITECTURES'] = '80'
+
+##########################################################################################
+
 import llama_cpp
 from transformers import ReactCodeAgent
 import regex as re
 import pandas as pd
 from data_generation_helper import WIKIPEDIA_SEARCH_PROMPT, WikipediaSearch, compile_question, append_results
+import torch
 
 ##########################################################################################
-# running 1.5B, 3B, and 7B models locally
+
+device = torch.device("cuda")
 
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
-for modelsize in [
-                '1.5',
-                '3',
-                '7',
-                '14'
-                ]:
+for modelsize in ['1.5', '3', '7', '14', '32']:
     # create LLM object
     llm = llama_cpp.Llama.from_pretrained(
         repo_id=f'bartowski/Qwen2.5-{modelsize}B-Instruct-GGUF',
@@ -22,6 +29,8 @@ for modelsize in [
         n_ctx=2048,
         gpu=True,
         metal=True,
+        buffer_type='cuda',
+        GGML_CUDA=1,
         n_gpu_layers=-1
     )
 
@@ -46,13 +55,7 @@ for modelsize in [
     max_iterations=10
     )
     
-    for question_type in [
-                        'agentic',
-                        'zero-shot', 
-                        'few-shot',
-                        'parallel',
-                        'chain-of-thought'
-                        ]:
+    for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         results = pd.DataFrame(columns=['design', 'criteria', 'material', 'response'])
         for design in ['kitchen utensil grip', 'safety helmet', 'underwater component', 'spacecraft component']:
             for criterion in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
