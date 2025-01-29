@@ -11,6 +11,12 @@
 
 ## Installation
 
+If running the code with Google search:
 ```
-pip install
+pip install pandas seaborn matplotlib scipy scikit-learn statsmodels numpy requests pathvalidate langchain-community load-dotenv transformers regex llama-cpp markdownify puremagic mammoth python-pptx beautifulsoup4 pdfminer.six youtube-transcript-api
+```
+
+If running the code with Wikipedia search:
+```
+pip install pandas seaborn matplotlib scipy scikit-learn statsmodels numpy langchain-community transformers llama-cpp
 ```
