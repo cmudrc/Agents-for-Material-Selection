@@ -8,11 +8,7 @@ import statsmodels.formula.api as smf
 import statsmodels.api as sm
 
 ##########################################################################################
-
-# Linear regression using categorical and numerical data
-# https://www.geeksforgeeks.org/multiple-linear-regression-with-scikit-learn/#
-# https://saturncloud.io/blog/linear-regression-with-sklearn-using-categorical-variables/
-# https://www.kaggle.com/code/emineyetm/multiple-linear-regression-in-python
+# Code adapted from: https://stackoverflow.com/a/57239611
 
 # Get regression metrics
 def regression_results(y_true, y_pred, y_val, grouping):
@@ -28,6 +24,9 @@ def regression_results(y_true, y_pred, y_val, grouping):
     print('MAE:', round(mean_absolute_error,4))
     print('MSE:', round(mse,4))
     print('RMSE:', round(np.sqrt(mse),4))
+
+##########################################################################################
+# Code adapted from: https://saturncloud.io/blog/linear-regression-with-sklearn-using-categorical-variables/
 
 def ols_regression(results_df, y_val, grouping):
     # Separate features (X) and target variable (y)
@@ -58,14 +57,14 @@ def ols_regression(results_df, y_val, grouping):
 
 ##########################################################################################
 
-# read survey results
+# Read survey results
 survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
 survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
 survey_df = survey_df.dropna(how='any')
 
 def zscore_regression(grouping):
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std']).reset_index()
-    # combine all data across model sizes and prompt types
+    # Combine all data across model sizes and prompt types
     results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'Z-Score'])
     for modelsize in [1.5, 3, 7]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
@@ -81,11 +80,11 @@ def zscore_regression(grouping):
     
     ols_regression(results_df, 'Z-Score', grouping)
 
-# read in mae data
+# Read in MAE data
 mae_df = pd.read_csv('Results/Data/mean_error.csv')
 
 def mae_regression(grouping):
-    # combine all data across model sizes and prompt types
+    # Combine all data across model sizes and prompt types
     results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'MAE'])
     for modelsize in [1.5, 3, 7]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:

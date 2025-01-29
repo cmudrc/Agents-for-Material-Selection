@@ -1,10 +1,6 @@
-# force cuda usage
+# Force cuda usage
 import os
 os.environ['FORCE_CUDA'] = '1'
-os.environ['GGML_CUDA'] = '1'
-os.environ['DGGML_CUDA_FORCE_CUBLAS'] = '1'
-os.environ['DLLAVA_BUILD'] = '0'
-os.environ['DCMAKE_CUDA_ARCHITECTURES'] = '80'
 
 ##########################################################################################
 
@@ -13,28 +9,24 @@ from transformers import ReactCodeAgent
 import regex as re
 import pandas as pd
 from data_generation_helper import WIKIPEDIA_SEARCH_PROMPT, WikipediaSearch, compile_question, append_results
-import torch
 
 ##########################################################################################
-
-device = torch.device("cuda")
+# Code adapted from: https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/generation.py
 
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
 for modelsize in ['1.5', '3', '7', '14', '32']:
-    # create LLM object
+    # Create LLM object
     llm = llama_cpp.Llama.from_pretrained(
         repo_id=f'bartowski/Qwen2.5-{modelsize}B-Instruct-GGUF',
         filename=f'Qwen2.5-{modelsize}B-Instruct-Q4_K_M.gguf',
         n_ctx=2048,
         gpu=True,
         metal=True,
-        buffer_type='cuda',
-        GGML_CUDA=1,
         n_gpu_layers=-1
     )
 
-    # define a function to call the LLM and return output
+    # Define a function to call the LLM and return output
     def llm_engine(messages, max_tokens=1000, stop_sequences=['Task']) -> str:
         response = llm.create_chat_completion(
             messages=messages,
@@ -45,7 +37,7 @@ for modelsize in ['1.5', '3', '7', '14', '32']:
         answer = response['choices'][0]['message']['content']
         return answer
     
-    # create agent with web search tool
+    # Create agent equipped with search tool
     websurfer_agent = ReactCodeAgent(
     system_prompt=WIKIPEDIA_SEARCH_PROMPT,
     tools=[WikipediaSearch()],

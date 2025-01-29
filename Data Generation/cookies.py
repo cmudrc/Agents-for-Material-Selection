@@ -1,4 +1,4 @@
-# https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/cookies.py
+# Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/cookies.py
 
 COOKIES_LIST = [
     {

@@ -6,6 +6,7 @@ from collections import defaultdict
 
 ##########################################################################################
 
+# Keep track of figure for saving plots
 figure = 1
 
 def plot(num, df, grouping, y_val, modelsize, question_type):
@@ -30,7 +31,7 @@ def size_prompt_analysis(grouping):
     # iqr_dict = defaultdict(list)
     zscore_dict = defaultdict(list)
 
-    # add mae values from previously generated csv file
+    # Add MAE values from previously generated csv file
     mae_df = pd.read_csv('Results/Data/mean_error.csv')
     for modelsize in [1.5, 3, 7]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
@@ -40,13 +41,13 @@ def size_prompt_analysis(grouping):
             for mean_error in list(stats_df['mean']):
                 mae_dict[str(modelsize)+'B\n'+question_type].append(mean_error)
 
-    # read survey results
+    # Read survey results
     survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
     survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
     survey_df = survey_df.dropna(how='any')
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
-    # read llm results
+    # Read LLM results
     for modelsize in ['1.5', '3', '7']:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = pd.read_csv(f'Results/Data/qwen_{modelsize}B_{question_type}.csv')
@@ -61,7 +62,7 @@ def size_prompt_analysis(grouping):
             for zscore in list(merged_stats['mean']):
                 zscore_dict[modelsize+'B\n'+question_type].append(zscore)
 
-    # create dataframe of mae values
+    # Create dataframe of mae values
     mae_values = []
     labels = []
     for key, values in mae_dict.items():
@@ -69,7 +70,7 @@ def size_prompt_analysis(grouping):
         labels.extend([key] * len(values))
     mae_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'MAEs': mae_values})
 
-    # # create dataframe of iqr values
+    # # Create dataframe of IQR values
     # iqr_values = []
     # labels = []
     # for key, values in iqr_dict.items():
@@ -77,7 +78,7 @@ def size_prompt_analysis(grouping):
     #     labels.extend([key] * len(values))
     # iqr_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'IQRs': iqr_values})
 
-    # create dataframe of z-score values
+    # Create dataframe of z-score values
     zscore_values = []
     labels = []
     for key, values in zscore_dict.items():
@@ -89,13 +90,13 @@ def size_prompt_analysis(grouping):
     # plot(12, iqr_df, grouping, "IQRs")
     plot(12, zscore_df, grouping, "Z-Scores", None, None)
 
-    # plot by size
+    # Plot by size
     for modelsize in ['1.5', '3', '7']:
         plot(5, mae_df, grouping, "MAEs", modelsize, None)
         # plot(5, iqr_df, grouping, "IQRs", modelsize, None)
         plot(5, zscore_df, grouping, "Z-Scores", modelsize, None)
 
-    # plot by prompt type
+    # Plot by prompt type
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         plot(3, mae_df, grouping, "MAEs", None, question_type)
         # plot(3, iqr_df, grouping, "IQRs", None, question_type)

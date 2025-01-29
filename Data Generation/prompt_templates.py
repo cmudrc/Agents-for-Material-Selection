@@ -1,4 +1,4 @@
-# https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/prompt_templates.py
+# Code adapted from: https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/prompt_templates.py
 
 few_shot = """
         - Example 1

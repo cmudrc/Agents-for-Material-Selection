@@ -6,18 +6,18 @@ from collections import defaultdict
 
 ##########################################################################################
 
-# analyze data based on grouping
+# Analyze data based on grouping
 def iqr_and_zscore_by_model(grouping):
     iqr_dict = defaultdict(list)
     zscore_dict = defaultdict(list)
 
-    # read survey results
+    # Read survey results
     survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
     survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
     survey_df = survey_df.dropna(how='any')
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
-    # read agent results
+    # Read agent results
     for model in ['Llama 3B', 'Qwen 3B']:
         data_df = pd.read_csv(f'Results/Data/{model.lower().replace(' ', '_')}.csv')
         model = model + '\nAgent'
@@ -31,7 +31,7 @@ def iqr_and_zscore_by_model(grouping):
         for zscore in list(merged_stats['mean']):
             zscore_dict[model].append(zscore)
 
-    # read previously generated gpt-4, mixtral, and mechgpt results
+    # Read previously generated gpt-4, mixtral, and mechgpt results
     for type in ['Zero-Shot', 'Few-Shot']:
         for model in ['GPT-4', 'Mixtral', 'MechGPT']:
             data_df = pd.read_csv(f'Results/Data/{type.lower() + '_' + model.lower()}.csv')
@@ -48,7 +48,7 @@ def iqr_and_zscore_by_model(grouping):
             for zscore in list(merged_stats['mean']):
                 zscore_dict[type_model].append(zscore)
 
-    # create dataframe of iqr values
+    # Create dataframe of iqr values
     iqr_values = []
     labels = []
     for key, values in iqr_dict.items():
@@ -56,7 +56,7 @@ def iqr_and_zscore_by_model(grouping):
         labels.extend([key] * len(values))
     iqr_df = pd.DataFrame({'Model and Prompt Type': labels, 'IQRs': iqr_values})
 
-    # create dataframe of z-score values
+    # Create dataframe of z-score values
     zscore_values = []
     labels = []
     for key, values in zscore_dict.items():
@@ -64,14 +64,14 @@ def iqr_and_zscore_by_model(grouping):
         labels.extend([key] * len(values))
     zscore_df = pd.DataFrame({'Model and Prompt Type': labels, 'Z-Scores': zscore_values})
 
-    # plot iqr by model and prompt type
+    # Plot iqr by model and prompt type
     palette = sns.color_palette('hls', 8)
     plt.figure(figsize=(10,6))
     ax = sns.boxplot(x='Model and Prompt Type', y='IQRs', data=iqr_df, palette=palette)
     plt.title(f'Score Distribution Grouped By {' and '.join(word.capitalize() for word in grouping)}')
     plt.tight_layout()
 
-    # plot iqr by model and prompt type
+    # Plot iqr by model and prompt type
     plt.figure(figsize=(10,6))
     ax = sns.boxplot(x='Model and Prompt Type', y='Z-Scores', data=zscore_df, palette=palette)
     plt.title(f'Score Proximity to Survey Results Grouped By {' and '.join(word.capitalize() for word in grouping)}')

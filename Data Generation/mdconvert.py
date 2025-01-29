@@ -22,7 +22,7 @@ import pdfminer.high_level
 from youtube_transcript_api import YouTubeTranscriptApi
 
 ##########################################################################################
-# https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/mdconvert.py
+# Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/mdconvert.py
 
 class DocumentConverterResult:
     """The result of converting a document to text."""

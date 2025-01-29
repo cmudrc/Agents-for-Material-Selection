@@ -1,7 +1,7 @@
 import pandas as pd
 
 ##########################################################################################
-# https://github.com/grndnl/llm_material_selection_jcise/blob/main/evaluation/mean_error_per_design_criteria_material.py
+# Code adapted from: https://github.com/grndnl/llm_material_selection_jcise/blob/main/evaluation/mean_error_per_design_criteria_material.py
 
 def calculate_mean_error(row, survey_df):
     # Filter the survey responses for matching design, criteria, and material

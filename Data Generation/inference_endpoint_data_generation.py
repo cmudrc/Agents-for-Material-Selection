@@ -3,76 +3,47 @@ from transformers import ReactCodeAgent
 import regex as re
 import pandas as pd
 import requests
-import torch
 from openai import OpenAI
-from transformers import AutoTokenizer, AutoModelForCausalLM
 from data_generation_helper import WIKIPEDIA_SEARCH_PROMPT, WikipediaSearch, compile_question, append_results
 
 ##########################################################################################
-# trying to run 14B and 32B models using huggingface inference endpoint
+# Code adapted from: https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/generation.py
 
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
-# creating mapping for model size to inference endpoint URL
+# Creating mapping for model size to inference endpoint URL
 INFERENCE_URLS = {
     '14': os.getenv('14B_INFERENCE_URL'),
     '32': os.getenv('32B_INFERENCE_URL')
 }
 
-# creating mapping for model size to model
+# Creating mapping for model size to model
 MODEL_IDS = {
     '14': 'tgi',
     '32': None
 }
 
-# def test_inference_url():
-#     headers = {
-#         'Authorization': f'Bearer {os.getenv('HUGGINGFACE_API_TOKEN')}',
-#         'Content-Type': 'application/json'
-#     }
-#     payload = {
-#         "messages": [
-#             {"role": "user", "content": "Hi!"}
-#         ],
-#         "max_tokens": 100,
-#         "temperature": 0.7,
-#         "parameters": {"n_gpu_layers": 28}
-#     }
-#     response = requests.post(
-#             url=os.getenv('14B_INFERENCE_URL'),
-#             headers=headers,
-#             json=payload
-#         )
-#     if response.status_code == 200:
-#         print("Inference URL is accessible.")
-#         print("Response:", response.json())  # Optionally print the response to understand the structure
-#     else:
-#         print(f"Error accessing the inference URL: {response.status_code} - {response.text}")
-# test_inference_url()
-
-# print(torch.cuda.is_available())
-
+# Running models using huggingface inference endpoint
 for modelsize in ['14', '32']:
-    
     inference_url=INFERENCE_URLS[modelsize]
     model_id=MODEL_IDS[modelsize]
     
-    # # define a function to call the inference endpoint and return output
-    # def llm_engine(messages, max_tokens=1000, stop_sequences=['Task'], temperature=0.6):
-    #     client = OpenAI(
-    #         base_url=inference_url,
-    #         api_key=os.getenv('HUGGINGFACE_API_TOKEN')
-    #     )
-    #     chat_completion = client.chat.completions.create(
-    #         model=model_id,
-    #         messages=messages,
-    #         max_tokens=max_tokens,
-    #         temperature=temperature,
-    #         stop=stop_sequences
-    #     )
-    #     return chat_completion.choices[0].message.content
+    # Define a function to call the inference endpoint and return output
+    def llm_engine(messages, max_tokens=1000, stop_sequences=['Task'], temperature=0.6):
+        client = OpenAI(
+            base_url=inference_url,
+            api_key=os.getenv('HUGGINGFACE_API_TOKEN')
+        )
+        chat_completion = client.chat.completions.create(
+            model=model_id,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=temperature,
+            stop=stop_sequences
+        )
+        return chat_completion.choices[0].message.content
 
-    # define a function to call the inference endpoint and return output
+    # Define a function to call the inference endpoint and return output
     def llm_engine(messages, max_tokens=1000, stop_sequences=['Task'], temperature=0.6):
         headers = {
             'Authorization': f'Bearer {os.getenv('HUGGINGFACE_API_TOKEN')}',
@@ -94,7 +65,7 @@ for modelsize in ['14', '32']:
         answer = response.json()['choices'][0]['message']['content']
         return answer
         
-    # create agent with web search tool
+    # Create agent with web search tool
     websurfer_agent = ReactCodeAgent(
     system_prompt=WIKIPEDIA_SEARCH_PROMPT,
     tools=[WikipediaSearch()],

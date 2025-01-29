@@ -9,7 +9,7 @@ import regex as re
 from prompt_templates import few_shot
 
 ##########################################################################################
-# https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/web_surfer.py
+# Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/web_surfer.py
 
 load_dotenv.load_dotenv(override=True)
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0'
@@ -43,6 +43,7 @@ def _browser_state() -> Tuple[str, str]:
     header += f"Viewport position: Showing page {current_page+1} of {total_pages}.\n"
     return (header, browser.viewport)
 
+# Create tool for searching Google
 class WebSearch(Tool):
     name='web_search'
     description='Perform a web search query then return the search results.'
@@ -62,7 +63,10 @@ class WebSearch(Tool):
         browser.visit_page(f'google: {query}', filter_year=filter_year)
         header, content = _browser_state()
         return header.strip() + '\n=======================\n' + content
+    
+##########################################################################################
 
+# Create tool for searching Wikipedia
 class WikipediaSearch(Tool):
     name = "wikipedia_search"
     description = "Search Wikipedia, the free encyclopedia."
@@ -85,6 +89,7 @@ class WikipediaSearch(Tool):
 
 ##########################################################################################
 
+# Prompt for using Google search tool
 GOOGLE_SEARCH_PROMPT = '''
 You are an expert assistant who can solve any task using code blobs. You will be given a task to solve as best you can.
 To do so, you have been given access to a list of tools: these tools are basically Python functions which you can call with code.
@@ -184,6 +189,7 @@ Here are the rules you should always follow to solve your task:
 If you solve the task correctly, you will receive a reward of $1,000,000. Now begin!
 '''
 
+# Prompt for using Wikipedia search tool
 WIKIPEDIA_SEARCH_PROMPT = '''
 You are an expert assistant who can solve any task using code blobs. You will be given a task to solve as best you can.
 To do so, you have been given access to a list of tools: these tools are basically Python functions which you can call with code.
@@ -284,7 +290,7 @@ If you solve the task correctly, you will receive a reward of $1,000,000. Now be
 '''
 
 ##########################################################################################
-# https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/generation.py
+# Code adapted from: https://github.com/grndnl/llm_material_selection_jcise/blob/main/generation/generation.py
 
 def compile_question(design, criterion, material, question_type, count=None, reasoning=None):
     if question_type == 'agentic' or question_type == 'zero-shot':

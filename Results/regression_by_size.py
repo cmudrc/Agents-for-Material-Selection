@@ -7,6 +7,7 @@ from scipy.stats import linregress
 
 ##########################################################################################
 
+# Perform linear regression to determine relationship between model size and some dependent variable
 def regression_by_size(val_list, y_val):
     plt.figure()
     size, values = zip(*val_list)
@@ -32,13 +33,13 @@ def regression_by_size(val_list, y_val):
 iqr_list = []
 zscore_list = []
 
-# read survey results
+# Read survey results
 survey_df = pd.read_csv("Results/Data/survey_responses_mapped.csv")
 survey_df["material"] = survey_df["material"].replace("aluminium", "aluminum")
 survey_df = survey_df.dropna(how="any")
 survey_stats = survey_df.groupby(["design", "criteria"])['response'].agg(["mean", "std", lambda x: iqr(x)]).rename(columns={"<lambda_0>": "iqr"}).reset_index()
 
-# read agent results, and calculate iqr and z-score
+# Read agent results, and calculate IQR and z-score
 for size in [1.5, 3, 7]:
     df = pd.read_csv(f"Results/Data/qwen_{str(size)}b.csv")
     stats_df = df.groupby(["design", "criteria"])['response'].agg(["mean", "std", lambda x: iqr(x)]).rename(columns={"<lambda_0>": "iqr"}).reset_index()

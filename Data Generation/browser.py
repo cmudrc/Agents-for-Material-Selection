@@ -12,7 +12,7 @@ from mdconvert import MarkdownConverter, UnsupportedFormatException, FileConvers
 from cookies import COOKIES
 
 ##########################################################################################
-# https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/browser.py
+# Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/browser.py
 
 class SimpleTextBrowser:
     """(In preview) An extremely simple text-based web browser comparable to Lynx. Suitable for Agentic use."""
