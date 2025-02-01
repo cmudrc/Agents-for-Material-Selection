@@ -18,7 +18,7 @@ def calculate_mean_error(row, survey_df):
 results = []
 
 # Load the survey responses CSV
-survey_responses_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
+survey_responses_df = pd.read_csv('Data/survey_responses_mapped.csv')
 
 # drop the rows with nan values
 survey_responses_df = survey_responses_df.dropna()
@@ -32,7 +32,7 @@ for modelsize in [1.5, 3, 7, 14, 32]:
             for criteria in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
                 for material in ["steel", "aluminum", "titanium", "glass", "wood", "thermoplastic", "elastomer", "thermoset", "composite"]:
                     # load model data
-                    model_data_df = pd.read_csv(f'Results/Data/qwen_{str(modelsize)}B_{question_type}.csv')
+                    model_data_df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
 
                     # filter data
                     model_data_df = model_data_df[model_data_df['design'] == design]
@@ -61,4 +61,4 @@ for modelsize in [1.5, 3, 7, 14, 32]:
                     
 # Save the results to a CSV file
 results_df = pd.DataFrame(results)
-results_df.to_csv('Results/Data/mean_error.csv', index=False)
+results_df.to_csv('Data/mean_error.csv', index=False)

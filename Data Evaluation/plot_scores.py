@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 combined_df = pd.DataFrame()
 
 # Read survey results
-survey_df = pd.read_csv("Results/Data/survey_responses_mapped.csv")
+survey_df = pd.read_csv("Data/survey_responses_mapped.csv")
 survey_df = survey_df.dropna(how="any")
 survey_df["material"] = survey_df["material"].replace("aluminium", "aluminum")
 survey_df["type"] = "Survey"
@@ -15,14 +15,14 @@ combined_df = pd.concat([combined_df, survey_df])
 
 # Read agent results
 for model in ["Llama 3B", "Qwen 1.5b", "Qwen 3B", "Qwen 7B"]:
-    df = pd.read_csv(f"Results/Data/{model.lower().replace(" ", "_")}.csv")
+    df = pd.read_csv(f"Data/{model.lower().replace(" ", "_")}.csv")
     df["type"] = f"{model}\nModel"
     combined_df = pd.concat([combined_df, df])
 
 # Read previously generated mechgpt, gpt-4, and mixtral results
 for model in ["MechGPT", "GPT-4", "Mixtral"]:
     for question_type in ["Zero-Shot", "Few-Shot"]:
-        df = pd.read_csv(f"Results/Data/{question_type.lower()}_{model.lower()}.csv")
+        df = pd.read_csv(f"Data/{question_type.lower()}_{model.lower()}.csv")
         df = df.dropna(how="any")
         df["material"] = df["material"].replace("aluminium", "aluminum")
         df["type"] = f"{question_type}\n{model}"

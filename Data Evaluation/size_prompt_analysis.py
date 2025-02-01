@@ -32,7 +32,7 @@ def size_prompt_analysis(grouping):
     zscore_dict = defaultdict(list)
 
     # Add MAE values from previously generated csv file
-    mae_df = pd.read_csv('Results/Data/mean_error.csv')
+    mae_df = pd.read_csv('Data/mean_error.csv')
     for modelsize in [1.5, 3, 7]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
@@ -42,7 +42,7 @@ def size_prompt_analysis(grouping):
                 mae_dict[str(modelsize)+'B\n'+question_type].append(mean_error)
 
     # Read survey results
-    survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
+    survey_df = pd.read_csv('Data/survey_responses_mapped.csv')
     survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
     survey_df = survey_df.dropna(how='any')
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
@@ -50,7 +50,7 @@ def size_prompt_analysis(grouping):
     # Read LLM results
     for modelsize in ['1.5', '3', '7']:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-            df = pd.read_csv(f'Results/Data/qwen_{modelsize}B_{question_type}.csv')
+            df = pd.read_csv(f'Data/qwen_{modelsize}B_{question_type}.csv')
             df['response'] = pd.to_numeric(df['response'], errors='coerce')
             df_stats = df.groupby(grouping)['response'].agg(['mean', 'std']).reset_index()
             # df_stats = df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()

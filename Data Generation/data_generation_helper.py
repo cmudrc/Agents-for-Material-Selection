@@ -1,68 +1,68 @@
-import os
+# import os
 import langchain_community.utilities.wikipedia
-from typing import Tuple, Optional
-from browser import SimpleTextBrowser
-import time
-import load_dotenv
+# from typing import Tuple, Optional
+# from browser import SimpleTextBrowser
+# import time
+# import load_dotenv
 from transformers import Tool
 import regex as re
 from prompt_templates import few_shot
 
 ##########################################################################################
-# Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/web_surfer.py
+# # Code adapted from: https://github.com/aymeric-roucher/agent_reasoning_benchmark/blob/main/scripts/tools/web_surfer.py
 
-load_dotenv.load_dotenv(override=True)
-user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0'
+# load_dotenv.load_dotenv(override=True)
+# user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0'
 
-browser_config = {
-    'viewport_size': 1024 * 5,
-    'downloads_folder': 'coding',
-    'request_kwargs': {
-        'headers': {'User-Agent': user_agent},
-        'timeout': 300,
-    },
-    'google_cse_id': os.getenv('GOOGLE_CSE_ID'),
-    'google_api_key': os.getenv('GOOGLE_API_KEY'),
-}
-browser = SimpleTextBrowser(**browser_config)
+# browser_config = {
+#     'viewport_size': 1024 * 5,
+#     'downloads_folder': 'coding',
+#     'request_kwargs': {
+#         'headers': {'User-Agent': user_agent},
+#         'timeout': 300,
+#     },
+#     'google_cse_id': os.getenv('GOOGLE_CSE_ID'),
+#     'google_api_key': os.getenv('GOOGLE_API_KEY'),
+# }
+# browser = SimpleTextBrowser(**browser_config)
 
-def _browser_state() -> Tuple[str, str]:
-    header = f"Address: {browser.address}\n"
-    if browser.page_title is not None:
-        header += f"Title: {browser.page_title}\n"
+# def _browser_state() -> Tuple[str, str]:
+#     header = f"Address: {browser.address}\n"
+#     if browser.page_title is not None:
+#         header += f"Title: {browser.page_title}\n"
 
-    current_page = browser.viewport_current_page
-    total_pages = len(browser.viewport_pages)
+#     current_page = browser.viewport_current_page
+#     total_pages = len(browser.viewport_pages)
 
-    address = browser.address
-    for i in range(len(browser.history)-2,-1,-1): # Start from the second last
-        if browser.history[i][0] == address:
-            header += f"You previously visited this page {round(time.time() - browser.history[i][1])} seconds ago.\n"
-            break
+#     address = browser.address
+#     for i in range(len(browser.history)-2,-1,-1): # Start from the second last
+#         if browser.history[i][0] == address:
+#             header += f"You previously visited this page {round(time.time() - browser.history[i][1])} seconds ago.\n"
+#             break
 
-    header += f"Viewport position: Showing page {current_page+1} of {total_pages}.\n"
-    return (header, browser.viewport)
+#     header += f"Viewport position: Showing page {current_page+1} of {total_pages}.\n"
+#     return (header, browser.viewport)
 
-# Create tool for searching Google
-class WebSearch(Tool):
-    name='web_search'
-    description='Perform a web search query then return the search results.'
-    inputs = {
-        'query': {
-            'type': 'string',
-            'description': 'The informational web search query to perform.'
-        }
-    }
-    inputs['filter_year']= {
-        'type': 'string',
-        'description': '[Optional parameter]: filter the search results to only include pages from a specific year. For example, "2020" will only include pages from 2020. Make sure to use this parameter if you are trying to search for articles from a specific date!'
-    }
-    output_type = 'string'
+# # Create tool for searching Google
+# class WebSearch(Tool):
+#     name='web_search'
+#     description='Perform a web search query then return the search results.'
+#     inputs = {
+#         'query': {
+#             'type': 'string',
+#             'description': 'The informational web search query to perform.'
+#         }
+#     }
+#     inputs['filter_year']= {
+#         'type': 'string',
+#         'description': '[Optional parameter]: filter the search results to only include pages from a specific year. For example, "2020" will only include pages from 2020. Make sure to use this parameter if you are trying to search for articles from a specific date!'
+#     }
+#     output_type = 'string'
 
-    def forward(self, query: str, filter_year: Optional[int] = None) -> str:
-        browser.visit_page(f'google: {query}', filter_year=filter_year)
-        header, content = _browser_state()
-        return header.strip() + '\n=======================\n' + content
+#     def forward(self, query: str, filter_year: Optional[int] = None) -> str:
+#         browser.visit_page(f'google: {query}', filter_year=filter_year)
+#         header, content = _browser_state()
+#         return header.strip() + '\n=======================\n' + content
     
 ##########################################################################################
 

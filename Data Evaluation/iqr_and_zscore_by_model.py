@@ -12,14 +12,14 @@ def iqr_and_zscore_by_model(grouping):
     zscore_dict = defaultdict(list)
 
     # Read survey results
-    survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
+    survey_df = pd.read_csv('Data/survey_responses_mapped.csv')
     survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
     survey_df = survey_df.dropna(how='any')
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
     # Read agent results
     for model in ['Llama 3B', 'Qwen 3B']:
-        data_df = pd.read_csv(f'Results/Data/{model.lower().replace(' ', '_')}.csv')
+        data_df = pd.read_csv(f'Data/{model.lower().replace(' ', '_')}.csv')
         model = model + '\nAgent'
         data_df['Type'] = model
         stats_df = data_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
@@ -34,7 +34,7 @@ def iqr_and_zscore_by_model(grouping):
     # Read previously generated gpt-4, mixtral, and mechgpt results
     for type in ['Zero-Shot', 'Few-Shot']:
         for model in ['GPT-4', 'Mixtral', 'MechGPT']:
-            data_df = pd.read_csv(f'Results/Data/{type.lower() + '_' + model.lower()}.csv')
+            data_df = pd.read_csv(f'Data/{type.lower() + '_' + model.lower()}.csv')
             data_df = data_df.dropna(how='any')
             data_df['material'] = data_df['material'].replace('aluminium', 'aluminum')
             type_model = type + '\n' + model

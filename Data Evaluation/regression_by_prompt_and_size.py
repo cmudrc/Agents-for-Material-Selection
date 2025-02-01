@@ -58,7 +58,7 @@ def ols_regression(results_df, y_val, grouping):
 ##########################################################################################
 
 # Read survey results
-survey_df = pd.read_csv('Results/Data/survey_responses_mapped.csv')
+survey_df = pd.read_csv('Data/survey_responses_mapped.csv')
 survey_df['material'] = survey_df['material'].replace('aluminium', 'aluminum')
 survey_df = survey_df.dropna(how='any')
 
@@ -68,7 +68,7 @@ def zscore_regression(grouping):
     results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'Z-Score'])
     for modelsize in [1.5, 3, 7]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-            df = pd.read_csv(f'Results/Data/qwen_{str(modelsize)}B_{question_type}.csv')
+            df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
             df['response'] = pd.to_numeric(df['response'], errors='coerce')
             merged_df = pd.merge(df, survey_stats, on=grouping, how='left')
             merged_df['Z-Score'] = (merged_df['response'] - merged_df['mean']) / merged_df['std']
@@ -81,7 +81,7 @@ def zscore_regression(grouping):
     ols_regression(results_df, 'Z-Score', grouping)
 
 # Read in MAE data
-mae_df = pd.read_csv('Results/Data/mean_error.csv')
+mae_df = pd.read_csv('Data/mean_error.csv')
 
 def mae_regression(grouping):
     # Combine all data across model sizes and prompt types
