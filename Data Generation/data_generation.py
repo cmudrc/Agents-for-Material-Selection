@@ -15,7 +15,7 @@ from data_generation_helper import WIKIPEDIA_SEARCH_PROMPT, WikipediaSearch, com
 
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
-for modelsize in ['1.5', '3', '7', '14', '32']:
+for modelsize in ['1.5', '3', '7', '14', '32', '72']:
     # Create LLM object
     llm = llama_cpp.Llama.from_pretrained(
         repo_id=f'bartowski/Qwen2.5-{modelsize}B-Instruct-GGUF',

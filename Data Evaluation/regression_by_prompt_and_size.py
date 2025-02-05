@@ -66,7 +66,7 @@ def zscore_regression(grouping):
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std']).reset_index()
     # Combine all data across model sizes and prompt types
     results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'Z-Score'])
-    for modelsize in [1.5, 3, 7]:
+    for modelsize in [1.5, 3, 7, 14, 32, 72]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
             df['response'] = pd.to_numeric(df['response'], errors='coerce')

@@ -33,7 +33,7 @@ def size_prompt_analysis(grouping):
 
     # Add MAE values from previously generated csv file
     mae_df = pd.read_csv('Data/mean_error.csv')
-    for modelsize in [1.5, 3, 7]:
+    for modelsize in [1.5, 3, 7, 14, 32, 72]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
             df = df.dropna(how='any')

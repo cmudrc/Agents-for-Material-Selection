@@ -3599,3 +3599,723 @@ model_size,question_type,design,criteria,material,mean_error
 32.0,chain-of-thought,safety helmet,high strength,elastomer,-2.267605633802817
 32.0,chain-of-thought,safety helmet,high strength,thermoset,1.9577464788732395
 32.0,chain-of-thought,safety helmet,high strength,composite,0.7887323943661971
+72.0,agentic,kitchen utensil grip,lightweight,steel,-1.635135135135135
+72.0,agentic,kitchen utensil grip,lightweight,aluminum,-0.7228915662650602
+72.0,agentic,kitchen utensil grip,lightweight,titanium,0.7640449438202247
+72.0,agentic,kitchen utensil grip,lightweight,glass,1.1139240506329113
+72.0,agentic,kitchen utensil grip,lightweight,wood,4.973684210526316
+72.0,agentic,kitchen utensil grip,lightweight,thermoplastic,4.753086419753086
+72.0,agentic,kitchen utensil grip,lightweight,elastomer,6.205479452054795
+72.0,agentic,kitchen utensil grip,lightweight,thermoset,4.373333333333333
+72.0,agentic,kitchen utensil grip,lightweight,composite,-0.05194805194805195
+72.0,agentic,kitchen utensil grip,heat resistant,steel,4.136986301369863
+72.0,agentic,kitchen utensil grip,heat resistant,aluminum,-6.205479452054795
+72.0,agentic,kitchen utensil grip,heat resistant,titanium,3.041095890410959
+72.0,agentic,kitchen utensil grip,heat resistant,glass,4.8493150684931505
+72.0,agentic,kitchen utensil grip,heat resistant,wood,-0.9726027397260274
+72.0,agentic,kitchen utensil grip,heat resistant,thermoplastic,1.6575342465753424
+72.0,agentic,kitchen utensil grip,heat resistant,elastomer,2.164383561643836
+72.0,agentic,kitchen utensil grip,heat resistant,thermoset,2.5753424657534247
+72.0,agentic,kitchen utensil grip,heat resistant,composite,1.1232876712328768
+72.0,agentic,kitchen utensil grip,corrosion resistant,steel,-1.5205479452054795
+72.0,agentic,kitchen utensil grip,corrosion resistant,aluminum,2.0684931506849313
+72.0,agentic,kitchen utensil grip,corrosion resistant,titanium,4.945205479452055
+72.0,agentic,kitchen utensil grip,corrosion resistant,glass,2.5205479452054793
+72.0,agentic,kitchen utensil grip,corrosion resistant,wood,-2.356164383561644
+72.0,agentic,kitchen utensil grip,corrosion resistant,thermoplastic,3.589041095890411
+72.0,agentic,kitchen utensil grip,corrosion resistant,elastomer,3.958904109589041
+72.0,agentic,kitchen utensil grip,corrosion resistant,thermoset,4.808219178082192
+72.0,agentic,kitchen utensil grip,corrosion resistant,composite,2.3013698630136985
+72.0,agentic,kitchen utensil grip,high strength,steel,3.891891891891892
+72.0,agentic,kitchen utensil grip,high strength,aluminum,0.7432432432432432
+72.0,agentic,kitchen utensil grip,high strength,titanium,1.1756756756756757
+72.0,agentic,kitchen utensil grip,high strength,glass,-3.472972972972973
+72.0,agentic,kitchen utensil grip,high strength,wood,-1.2972972972972974
+72.0,agentic,kitchen utensil grip,high strength,thermoplastic,-0.013513513513513514
+72.0,agentic,kitchen utensil grip,high strength,elastomer,-3.081081081081081
+72.0,agentic,kitchen utensil grip,high strength,thermoset,1.472972972972973
+72.0,agentic,kitchen utensil grip,high strength,composite,0.5540540540540541
+72.0,agentic,spacecraft component,lightweight,steel,-4.957746478873239
+72.0,agentic,spacecraft component,lightweight,aluminum,1.9295774647887325
+72.0,agentic,spacecraft component,lightweight,titanium,0.5633802816901409
+72.0,agentic,spacecraft component,lightweight,glass,0.4507042253521127
+72.0,agentic,spacecraft component,lightweight,wood,-2.7183098591549295
+72.0,agentic,spacecraft component,lightweight,thermoplastic,3.4225352112676055
+72.0,agentic,spacecraft component,lightweight,elastomer,3.7183098591549295
+72.0,agentic,spacecraft component,lightweight,thermoset,2.3661971830985915
+72.0,agentic,spacecraft component,lightweight,composite,1.1971830985915493
+72.0,agentic,spacecraft component,heat resistant,steel,3.8666666666666667
+72.0,agentic,spacecraft component,heat resistant,aluminum,-2.1066666666666665
+72.0,agentic,spacecraft component,heat resistant,titanium,1.2666666666666666
+72.0,agentic,spacecraft component,heat resistant,glass,4.973333333333334
+72.0,agentic,spacecraft component,heat resistant,wood,-2.013333333333333
+72.0,agentic,spacecraft component,heat resistant,thermoplastic,-1.6266666666666667
+72.0,agentic,spacecraft component,heat resistant,elastomer,-0.49333333333333335
+72.0,agentic,spacecraft component,heat resistant,thermoset,2.533333333333333
+72.0,agentic,spacecraft component,heat resistant,composite,0.17333333333333334
+72.0,agentic,spacecraft component,corrosion resistant,steel,-1.4057971014492754
+72.0,agentic,spacecraft component,corrosion resistant,aluminum,2.347826086956522
+72.0,agentic,spacecraft component,corrosion resistant,titanium,1.2318840579710144
+72.0,agentic,spacecraft component,corrosion resistant,glass,3.9130434782608696
+72.0,agentic,spacecraft component,corrosion resistant,wood,-1.2173913043478262
+72.0,agentic,spacecraft component,corrosion resistant,thermoplastic,4.072463768115942
+72.0,agentic,spacecraft component,corrosion resistant,elastomer,4.913043478260869
+72.0,agentic,spacecraft component,corrosion resistant,thermoset,6.739130434782608
+72.0,agentic,spacecraft component,corrosion resistant,composite,2.1884057971014492
+72.0,agentic,spacecraft component,high strength,steel,6.164383561643835
+72.0,agentic,spacecraft component,high strength,aluminum,0.3150684931506849
+72.0,agentic,spacecraft component,high strength,titanium,0.1095890410958904
+72.0,agentic,spacecraft component,high strength,glass,-2.1232876712328768
+72.0,agentic,spacecraft component,high strength,wood,-0.8082191780821918
+72.0,agentic,spacecraft component,high strength,thermoplastic,1.3287671232876712
+72.0,agentic,spacecraft component,high strength,elastomer,-1.6849315068493151
+72.0,agentic,spacecraft component,high strength,thermoset,1.452054794520548
+72.0,agentic,spacecraft component,high strength,composite,1.5068493150684932
+72.0,agentic,underwater component,lightweight,steel,-3.6486486486486487
+72.0,agentic,underwater component,lightweight,aluminum,0.5135135135135135
+72.0,agentic,underwater component,lightweight,titanium,-0.6891891891891891
+72.0,agentic,underwater component,lightweight,glass,2.0
+72.0,agentic,underwater component,lightweight,wood,1.472972972972973
+72.0,agentic,underwater component,lightweight,thermoplastic,3.72972972972973
+72.0,agentic,underwater component,lightweight,elastomer,4.878378378378378
+72.0,agentic,underwater component,lightweight,thermoset,3.7162162162162162
+72.0,agentic,underwater component,lightweight,composite,0.6351351351351351
+72.0,agentic,underwater component,heat resistant,steel,3.3947368421052633
+72.0,agentic,underwater component,heat resistant,aluminum,-1.355263157894737
+72.0,agentic,underwater component,heat resistant,titanium,0.7368421052631579
+72.0,agentic,underwater component,heat resistant,glass,4.105263157894737
+72.0,agentic,underwater component,heat resistant,wood,0.02631578947368421
+72.0,agentic,underwater component,heat resistant,thermoplastic,1.75
+72.0,agentic,underwater component,heat resistant,elastomer,3.513157894736842
+72.0,agentic,underwater component,heat resistant,thermoset,2.8421052631578947
+72.0,agentic,underwater component,heat resistant,composite,0.6973684210526315
+72.0,agentic,underwater component,corrosion resistant,steel,-2.2435897435897436
+72.0,agentic,underwater component,corrosion resistant,aluminum,0.5256410256410257
+72.0,agentic,underwater component,corrosion resistant,titanium,1.0128205128205128
+72.0,agentic,underwater component,corrosion resistant,glass,4.038461538461538
+72.0,agentic,underwater component,corrosion resistant,wood,1.3205128205128205
+72.0,agentic,underwater component,corrosion resistant,thermoplastic,4.371794871794871
+72.0,agentic,underwater component,corrosion resistant,elastomer,4.705128205128205
+72.0,agentic,underwater component,corrosion resistant,thermoset,2.9743589743589745
+72.0,agentic,underwater component,corrosion resistant,composite,2.871794871794872
+72.0,agentic,underwater component,high strength,steel,4.197183098591549
+72.0,agentic,underwater component,high strength,aluminum,0.8732394366197183
+72.0,agentic,underwater component,high strength,titanium,-0.028169014084507043
+72.0,agentic,underwater component,high strength,glass,-2.4507042253521125
+72.0,agentic,underwater component,high strength,wood,-0.39436619718309857
+72.0,agentic,underwater component,high strength,thermoplastic,0.7464788732394366
+72.0,agentic,underwater component,high strength,elastomer,-0.2112676056338028
+72.0,agentic,underwater component,high strength,thermoset,1.0140845070422535
+72.0,agentic,underwater component,high strength,composite,1.1830985915492958
+72.0,agentic,safety helmet,lightweight,steel,-3.5833333333333335
+72.0,agentic,safety helmet,lightweight,aluminum,1.1666666666666667
+72.0,agentic,safety helmet,lightweight,titanium,-0.3055555555555556
+72.0,agentic,safety helmet,lightweight,glass,-0.3611111111111111
+72.0,agentic,safety helmet,lightweight,wood,1.3888888888888888
+72.0,agentic,safety helmet,lightweight,thermoplastic,4.958333333333333
+72.0,agentic,safety helmet,lightweight,elastomer,4.930555555555555
+72.0,agentic,safety helmet,lightweight,thermoset,3.3055555555555554
+72.0,agentic,safety helmet,lightweight,composite,1.375
+72.0,agentic,safety helmet,heat resistant,steel,0.9154929577464789
+72.0,agentic,safety helmet,heat resistant,aluminum,2.056338028169014
+72.0,agentic,safety helmet,heat resistant,titanium,2.9295774647887325
+72.0,agentic,safety helmet,heat resistant,glass,1.943661971830986
+72.0,agentic,safety helmet,heat resistant,wood,0.4084507042253521
+72.0,agentic,safety helmet,heat resistant,thermoplastic,0.8591549295774648
+72.0,agentic,safety helmet,heat resistant,elastomer,-1.3943661971830985
+72.0,agentic,safety helmet,heat resistant,thermoset,3.3098591549295775
+72.0,agentic,safety helmet,heat resistant,composite,-0.36619718309859156
+72.0,agentic,safety helmet,corrosion resistant,steel,1.0277777777777777
+72.0,agentic,safety helmet,corrosion resistant,aluminum,3.5833333333333335
+72.0,agentic,safety helmet,corrosion resistant,titanium,3.138888888888889
+72.0,agentic,safety helmet,corrosion resistant,glass,0.2361111111111111
+72.0,agentic,safety helmet,corrosion resistant,wood,0.05555555555555555
+72.0,agentic,safety helmet,corrosion resistant,thermoplastic,3.638888888888889
+72.0,agentic,safety helmet,corrosion resistant,elastomer,3.2777777777777777
+72.0,agentic,safety helmet,corrosion resistant,thermoset,2.9583333333333335
+72.0,agentic,safety helmet,corrosion resistant,composite,0.9305555555555556
+72.0,agentic,safety helmet,high strength,steel,3.7183098591549295
+72.0,agentic,safety helmet,high strength,aluminum,-0.7887323943661971
+72.0,agentic,safety helmet,high strength,titanium,1.6338028169014085
+72.0,agentic,safety helmet,high strength,glass,-1.3380281690140845
+72.0,agentic,safety helmet,high strength,wood,-0.18309859154929578
+72.0,agentic,safety helmet,high strength,thermoplastic,0.22535211267605634
+72.0,agentic,safety helmet,high strength,elastomer,-2.267605633802817
+72.0,agentic,safety helmet,high strength,thermoset,1.9577464788732395
+72.0,agentic,safety helmet,high strength,composite,-0.2112676056338028
+72.0,zero-shot,kitchen utensil grip,lightweight,steel,-1.635135135135135
+72.0,zero-shot,kitchen utensil grip,lightweight,aluminum,-0.7228915662650602
+72.0,zero-shot,kitchen utensil grip,lightweight,titanium,0.7640449438202247
+72.0,zero-shot,kitchen utensil grip,lightweight,glass,2.1139240506329116
+72.0,zero-shot,kitchen utensil grip,lightweight,wood,4.973684210526316
+72.0,zero-shot,kitchen utensil grip,lightweight,thermoplastic,4.753086419753086
+72.0,zero-shot,kitchen utensil grip,lightweight,elastomer,6.205479452054795
+72.0,zero-shot,kitchen utensil grip,lightweight,thermoset,4.373333333333333
+72.0,zero-shot,kitchen utensil grip,lightweight,composite,-0.05194805194805195
+72.0,zero-shot,kitchen utensil grip,heat resistant,steel,0.136986301369863
+72.0,zero-shot,kitchen utensil grip,heat resistant,aluminum,-3.2054794520547945
+72.0,zero-shot,kitchen utensil grip,heat resistant,titanium,2.041095890410959
+72.0,zero-shot,kitchen utensil grip,heat resistant,glass,0.8493150684931506
+72.0,zero-shot,kitchen utensil grip,heat resistant,wood,1.0273972602739727
+72.0,zero-shot,kitchen utensil grip,heat resistant,thermoplastic,1.6575342465753424
+72.0,zero-shot,kitchen utensil grip,heat resistant,elastomer,2.164383561643836
+72.0,zero-shot,kitchen utensil grip,heat resistant,thermoset,2.5753424657534247
+72.0,zero-shot,kitchen utensil grip,heat resistant,composite,1.1232876712328768
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,steel,2.4794520547945207
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,aluminum,2.0684931506849313
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,titanium,3.9452054794520546
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,glass,2.5205479452054793
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,wood,0.6438356164383562
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,thermoplastic,3.589041095890411
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,elastomer,3.958904109589041
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,thermoset,1.8082191780821917
+72.0,zero-shot,kitchen utensil grip,corrosion resistant,composite,2.3013698630136985
+72.0,zero-shot,kitchen utensil grip,high strength,steel,3.891891891891892
+72.0,zero-shot,kitchen utensil grip,high strength,aluminum,0.7432432432432432
+72.0,zero-shot,kitchen utensil grip,high strength,titanium,1.1756756756756757
+72.0,zero-shot,kitchen utensil grip,high strength,glass,-4.472972972972973
+72.0,zero-shot,kitchen utensil grip,high strength,wood,-0.2972972972972973
+72.0,zero-shot,kitchen utensil grip,high strength,thermoplastic,-0.013513513513513514
+72.0,zero-shot,kitchen utensil grip,high strength,elastomer,0.918918918918919
+72.0,zero-shot,kitchen utensil grip,high strength,thermoset,1.472972972972973
+72.0,zero-shot,kitchen utensil grip,high strength,composite,0.5540540540540541
+72.0,zero-shot,spacecraft component,lightweight,steel,-4.957746478873239
+72.0,zero-shot,spacecraft component,lightweight,aluminum,1.9295774647887325
+72.0,zero-shot,spacecraft component,lightweight,titanium,0.5633802816901409
+72.0,zero-shot,spacecraft component,lightweight,glass,0.4507042253521127
+72.0,zero-shot,spacecraft component,lightweight,wood,-1.7183098591549295
+72.0,zero-shot,spacecraft component,lightweight,thermoplastic,3.4225352112676055
+72.0,zero-shot,spacecraft component,lightweight,elastomer,-0.28169014084507044
+72.0,zero-shot,spacecraft component,lightweight,thermoset,2.3661971830985915
+72.0,zero-shot,spacecraft component,lightweight,composite,1.1971830985915493
+72.0,zero-shot,spacecraft component,heat resistant,steel,3.8666666666666667
+72.0,zero-shot,spacecraft component,heat resistant,aluminum,-1.1066666666666667
+72.0,zero-shot,spacecraft component,heat resistant,titanium,1.2666666666666666
+72.0,zero-shot,spacecraft component,heat resistant,glass,4.973333333333334
+72.0,zero-shot,spacecraft component,heat resistant,wood,-2.013333333333333
+72.0,zero-shot,spacecraft component,heat resistant,thermoplastic,-1.6266666666666667
+72.0,zero-shot,spacecraft component,heat resistant,elastomer,-0.49333333333333335
+72.0,zero-shot,spacecraft component,heat resistant,thermoset,3.533333333333333
+72.0,zero-shot,spacecraft component,heat resistant,composite,0.17333333333333334
+72.0,zero-shot,spacecraft component,corrosion resistant,steel,0.5942028985507246
+72.0,zero-shot,spacecraft component,corrosion resistant,aluminum,2.347826086956522
+72.0,zero-shot,spacecraft component,corrosion resistant,titanium,1.2318840579710144
+72.0,zero-shot,spacecraft component,corrosion resistant,glass,3.9130434782608696
+72.0,zero-shot,spacecraft component,corrosion resistant,wood,-1.2173913043478262
+72.0,zero-shot,spacecraft component,corrosion resistant,thermoplastic,4.072463768115942
+72.0,zero-shot,spacecraft component,corrosion resistant,elastomer,4.913043478260869
+72.0,zero-shot,spacecraft component,corrosion resistant,thermoset,3.739130434782609
+72.0,zero-shot,spacecraft component,corrosion resistant,composite,2.1884057971014492
+72.0,zero-shot,spacecraft component,high strength,steel,3.164383561643836
+72.0,zero-shot,spacecraft component,high strength,aluminum,0.3150684931506849
+72.0,zero-shot,spacecraft component,high strength,titanium,0.1095890410958904
+72.0,zero-shot,spacecraft component,high strength,glass,-2.1232876712328768
+72.0,zero-shot,spacecraft component,high strength,wood,-2.808219178082192
+72.0,zero-shot,spacecraft component,high strength,thermoplastic,1.3287671232876712
+72.0,zero-shot,spacecraft component,high strength,elastomer,-1.6849315068493151
+72.0,zero-shot,spacecraft component,high strength,thermoset,1.452054794520548
+72.0,zero-shot,spacecraft component,high strength,composite,0.5068493150684932
+72.0,zero-shot,underwater component,lightweight,steel,-3.6486486486486487
+72.0,zero-shot,underwater component,lightweight,aluminum,0.5135135135135135
+72.0,zero-shot,underwater component,lightweight,titanium,-0.6891891891891891
+72.0,zero-shot,underwater component,lightweight,glass,1.0
+72.0,zero-shot,underwater component,lightweight,wood,1.472972972972973
+72.0,zero-shot,underwater component,lightweight,thermoplastic,3.72972972972973
+72.0,zero-shot,underwater component,lightweight,elastomer,4.878378378378378
+72.0,zero-shot,underwater component,lightweight,thermoset,3.7162162162162162
+72.0,zero-shot,underwater component,lightweight,composite,0.6351351351351351
+72.0,zero-shot,underwater component,heat resistant,steel,3.3947368421052633
+72.0,zero-shot,underwater component,heat resistant,aluminum,0.6447368421052632
+72.0,zero-shot,underwater component,heat resistant,titanium,0.7368421052631579
+72.0,zero-shot,underwater component,heat resistant,glass,4.105263157894737
+72.0,zero-shot,underwater component,heat resistant,wood,0.02631578947368421
+72.0,zero-shot,underwater component,heat resistant,thermoplastic,2.75
+72.0,zero-shot,underwater component,heat resistant,elastomer,3.513157894736842
+72.0,zero-shot,underwater component,heat resistant,thermoset,2.8421052631578947
+72.0,zero-shot,underwater component,heat resistant,composite,0.6973684210526315
+72.0,zero-shot,underwater component,corrosion resistant,steel,-3.2435897435897436
+72.0,zero-shot,underwater component,corrosion resistant,aluminum,1.5256410256410255
+72.0,zero-shot,underwater component,corrosion resistant,titanium,1.0128205128205128
+72.0,zero-shot,underwater component,corrosion resistant,glass,3.0384615384615383
+72.0,zero-shot,underwater component,corrosion resistant,wood,1.3205128205128205
+72.0,zero-shot,underwater component,corrosion resistant,thermoplastic,4.371794871794871
+72.0,zero-shot,underwater component,corrosion resistant,elastomer,5.705128205128205
+72.0,zero-shot,underwater component,corrosion resistant,thermoset,3.9743589743589745
+72.0,zero-shot,underwater component,corrosion resistant,composite,2.871794871794872
+72.0,zero-shot,underwater component,high strength,steel,4.197183098591549
+72.0,zero-shot,underwater component,high strength,aluminum,0.8732394366197183
+72.0,zero-shot,underwater component,high strength,titanium,0.971830985915493
+72.0,zero-shot,underwater component,high strength,glass,-2.4507042253521125
+72.0,zero-shot,underwater component,high strength,wood,0.6056338028169014
+72.0,zero-shot,underwater component,high strength,thermoplastic,0.7464788732394366
+72.0,zero-shot,underwater component,high strength,elastomer,1.7887323943661972
+72.0,zero-shot,underwater component,high strength,thermoset,2.0140845070422535
+72.0,zero-shot,underwater component,high strength,composite,1.1830985915492958
+72.0,zero-shot,safety helmet,lightweight,steel,-3.5833333333333335
+72.0,zero-shot,safety helmet,lightweight,aluminum,1.1666666666666667
+72.0,zero-shot,safety helmet,lightweight,titanium,-0.3055555555555556
+72.0,zero-shot,safety helmet,lightweight,glass,-0.3611111111111111
+72.0,zero-shot,safety helmet,lightweight,wood,1.3888888888888888
+72.0,zero-shot,safety helmet,lightweight,thermoplastic,3.9583333333333335
+72.0,zero-shot,safety helmet,lightweight,elastomer,4.930555555555555
+72.0,zero-shot,safety helmet,lightweight,thermoset,3.3055555555555554
+72.0,zero-shot,safety helmet,lightweight,composite,1.375
+72.0,zero-shot,safety helmet,heat resistant,steel,4.915492957746479
+72.0,zero-shot,safety helmet,heat resistant,aluminum,2.056338028169014
+72.0,zero-shot,safety helmet,heat resistant,titanium,2.9295774647887325
+72.0,zero-shot,safety helmet,heat resistant,glass,1.943661971830986
+72.0,zero-shot,safety helmet,heat resistant,wood,0.4084507042253521
+72.0,zero-shot,safety helmet,heat resistant,thermoplastic,0.8591549295774648
+72.0,zero-shot,safety helmet,heat resistant,elastomer,1.6056338028169015
+72.0,zero-shot,safety helmet,heat resistant,thermoset,3.3098591549295775
+72.0,zero-shot,safety helmet,heat resistant,composite,-0.36619718309859156
+72.0,zero-shot,safety helmet,corrosion resistant,steel,2.0277777777777777
+72.0,zero-shot,safety helmet,corrosion resistant,aluminum,2.5833333333333335
+72.0,zero-shot,safety helmet,corrosion resistant,titanium,3.138888888888889
+72.0,zero-shot,safety helmet,corrosion resistant,glass,0.2361111111111111
+72.0,zero-shot,safety helmet,corrosion resistant,wood,-0.9444444444444444
+72.0,zero-shot,safety helmet,corrosion resistant,thermoplastic,3.638888888888889
+72.0,zero-shot,safety helmet,corrosion resistant,elastomer,4.277777777777778
+72.0,zero-shot,safety helmet,corrosion resistant,thermoset,2.9583333333333335
+72.0,zero-shot,safety helmet,corrosion resistant,composite,0.9305555555555556
+72.0,zero-shot,safety helmet,high strength,steel,3.7183098591549295
+72.0,zero-shot,safety helmet,high strength,aluminum,1.2112676056338028
+72.0,zero-shot,safety helmet,high strength,titanium,1.6338028169014085
+72.0,zero-shot,safety helmet,high strength,glass,-0.3380281690140845
+72.0,zero-shot,safety helmet,high strength,wood,-0.18309859154929578
+72.0,zero-shot,safety helmet,high strength,thermoplastic,0.22535211267605634
+72.0,zero-shot,safety helmet,high strength,elastomer,1.732394366197183
+72.0,zero-shot,safety helmet,high strength,thermoset,1.9577464788732395
+72.0,zero-shot,safety helmet,high strength,composite,-0.2112676056338028
+72.0,few-shot,kitchen utensil grip,lightweight,steel,-1.635135135135135
+72.0,few-shot,kitchen utensil grip,lightweight,aluminum,0.27710843373493976
+72.0,few-shot,kitchen utensil grip,lightweight,titanium,0.7640449438202247
+72.0,few-shot,kitchen utensil grip,lightweight,glass,1.1139240506329113
+72.0,few-shot,kitchen utensil grip,lightweight,wood,4.973684210526316
+72.0,few-shot,kitchen utensil grip,lightweight,thermoplastic,4.753086419753086
+72.0,few-shot,kitchen utensil grip,lightweight,elastomer,6.205479452054795
+72.0,few-shot,kitchen utensil grip,lightweight,thermoset,2.3733333333333335
+72.0,few-shot,kitchen utensil grip,lightweight,composite,-0.05194805194805195
+72.0,few-shot,kitchen utensil grip,heat resistant,steel,4.136986301369863
+72.0,few-shot,kitchen utensil grip,heat resistant,aluminum,-2.2054794520547945
+72.0,few-shot,kitchen utensil grip,heat resistant,titanium,3.041095890410959
+72.0,few-shot,kitchen utensil grip,heat resistant,glass,4.8493150684931505
+72.0,few-shot,kitchen utensil grip,heat resistant,wood,0.0273972602739726
+72.0,few-shot,kitchen utensil grip,heat resistant,thermoplastic,0.6575342465753424
+72.0,few-shot,kitchen utensil grip,heat resistant,elastomer,2.164383561643836
+72.0,few-shot,kitchen utensil grip,heat resistant,thermoset,2.5753424657534247
+72.0,few-shot,kitchen utensil grip,heat resistant,composite,1.1232876712328768
+72.0,few-shot,kitchen utensil grip,corrosion resistant,steel,2.4794520547945207
+72.0,few-shot,kitchen utensil grip,corrosion resistant,aluminum,0.0684931506849315
+72.0,few-shot,kitchen utensil grip,corrosion resistant,titanium,3.9452054794520546
+72.0,few-shot,kitchen utensil grip,corrosion resistant,glass,3.5205479452054793
+72.0,few-shot,kitchen utensil grip,corrosion resistant,wood,-2.356164383561644
+72.0,few-shot,kitchen utensil grip,corrosion resistant,thermoplastic,3.589041095890411
+72.0,few-shot,kitchen utensil grip,corrosion resistant,elastomer,3.958904109589041
+72.0,few-shot,kitchen utensil grip,corrosion resistant,thermoset,2.808219178082192
+72.0,few-shot,kitchen utensil grip,corrosion resistant,composite,2.3013698630136985
+72.0,few-shot,kitchen utensil grip,high strength,steel,3.891891891891892
+72.0,few-shot,kitchen utensil grip,high strength,aluminum,-1.2567567567567568
+72.0,few-shot,kitchen utensil grip,high strength,titanium,2.175675675675676
+72.0,few-shot,kitchen utensil grip,high strength,glass,-3.472972972972973
+72.0,few-shot,kitchen utensil grip,high strength,wood,-0.2972972972972973
+72.0,few-shot,kitchen utensil grip,high strength,thermoplastic,0.9864864864864865
+72.0,few-shot,kitchen utensil grip,high strength,elastomer,0.918918918918919
+72.0,few-shot,kitchen utensil grip,high strength,thermoset,0.47297297297297297
+72.0,few-shot,kitchen utensil grip,high strength,composite,0.5540540540540541
+72.0,few-shot,spacecraft component,lightweight,steel,-3.9577464788732395
+72.0,few-shot,spacecraft component,lightweight,aluminum,1.9295774647887325
+72.0,few-shot,spacecraft component,lightweight,titanium,1.5633802816901408
+72.0,few-shot,spacecraft component,lightweight,glass,0.4507042253521127
+72.0,few-shot,spacecraft component,lightweight,wood,-2.7183098591549295
+72.0,few-shot,spacecraft component,lightweight,thermoplastic,3.4225352112676055
+72.0,few-shot,spacecraft component,lightweight,elastomer,0.7183098591549296
+72.0,few-shot,spacecraft component,lightweight,thermoset,1.3661971830985915
+72.0,few-shot,spacecraft component,lightweight,composite,2.1971830985915495
+72.0,few-shot,spacecraft component,heat resistant,steel,2.8666666666666667
+72.0,few-shot,spacecraft component,heat resistant,aluminum,-3.1066666666666665
+72.0,few-shot,spacecraft component,heat resistant,titanium,1.2666666666666666
+72.0,few-shot,spacecraft component,heat resistant,glass,4.973333333333334
+72.0,few-shot,spacecraft component,heat resistant,wood,-2.013333333333333
+72.0,few-shot,spacecraft component,heat resistant,thermoplastic,-1.6266666666666667
+72.0,few-shot,spacecraft component,heat resistant,elastomer,-0.49333333333333335
+72.0,few-shot,spacecraft component,heat resistant,thermoset,3.533333333333333
+72.0,few-shot,spacecraft component,heat resistant,composite,0.17333333333333334
+72.0,few-shot,spacecraft component,corrosion resistant,steel,-1.4057971014492754
+72.0,few-shot,spacecraft component,corrosion resistant,aluminum,1.3478260869565217
+72.0,few-shot,spacecraft component,corrosion resistant,titanium,1.2318840579710144
+72.0,few-shot,spacecraft component,corrosion resistant,glass,3.9130434782608696
+72.0,few-shot,spacecraft component,corrosion resistant,wood,0.782608695652174
+72.0,few-shot,spacecraft component,corrosion resistant,thermoplastic,4.072463768115942
+72.0,few-shot,spacecraft component,corrosion resistant,elastomer,4.913043478260869
+72.0,few-shot,spacecraft component,corrosion resistant,thermoset,4.739130434782608
+72.0,few-shot,spacecraft component,corrosion resistant,composite,2.1884057971014492
+72.0,few-shot,spacecraft component,high strength,steel,4.164383561643835
+72.0,few-shot,spacecraft component,high strength,aluminum,-0.684931506849315
+72.0,few-shot,spacecraft component,high strength,titanium,1.1095890410958904
+72.0,few-shot,spacecraft component,high strength,glass,-3.1232876712328768
+72.0,few-shot,spacecraft component,high strength,wood,-0.8082191780821918
+72.0,few-shot,spacecraft component,high strength,thermoplastic,0.3287671232876712
+72.0,few-shot,spacecraft component,high strength,elastomer,-1.6849315068493151
+72.0,few-shot,spacecraft component,high strength,thermoset,0.4520547945205479
+72.0,few-shot,spacecraft component,high strength,composite,0.5068493150684932
+72.0,few-shot,underwater component,lightweight,steel,-3.6486486486486487
+72.0,few-shot,underwater component,lightweight,aluminum,0.5135135135135135
+72.0,few-shot,underwater component,lightweight,titanium,-0.6891891891891891
+72.0,few-shot,underwater component,lightweight,glass,1.0
+72.0,few-shot,underwater component,lightweight,wood,1.472972972972973
+72.0,few-shot,underwater component,lightweight,thermoplastic,4.72972972972973
+72.0,few-shot,underwater component,lightweight,elastomer,4.878378378378378
+72.0,few-shot,underwater component,lightweight,thermoset,2.7162162162162162
+72.0,few-shot,underwater component,lightweight,composite,0.6351351351351351
+72.0,few-shot,underwater component,heat resistant,steel,3.3947368421052633
+72.0,few-shot,underwater component,heat resistant,aluminum,-2.3552631578947367
+72.0,few-shot,underwater component,heat resistant,titanium,0.7368421052631579
+72.0,few-shot,underwater component,heat resistant,glass,5.105263157894737
+72.0,few-shot,underwater component,heat resistant,wood,0.02631578947368421
+72.0,few-shot,underwater component,heat resistant,thermoplastic,1.75
+72.0,few-shot,underwater component,heat resistant,elastomer,0.5131578947368421
+72.0,few-shot,underwater component,heat resistant,thermoset,2.8421052631578947
+72.0,few-shot,underwater component,heat resistant,composite,-0.3026315789473684
+72.0,few-shot,underwater component,corrosion resistant,steel,-2.2435897435897436
+72.0,few-shot,underwater component,corrosion resistant,aluminum,-1.4743589743589745
+72.0,few-shot,underwater component,corrosion resistant,titanium,1.0128205128205128
+72.0,few-shot,underwater component,corrosion resistant,glass,3.0384615384615383
+72.0,few-shot,underwater component,corrosion resistant,wood,0.32051282051282054
+72.0,few-shot,underwater component,corrosion resistant,thermoplastic,5.371794871794871
+72.0,few-shot,underwater component,corrosion resistant,elastomer,5.705128205128205
+72.0,few-shot,underwater component,corrosion resistant,thermoset,2.9743589743589745
+72.0,few-shot,underwater component,corrosion resistant,composite,2.871794871794872
+72.0,few-shot,underwater component,high strength,steel,4.197183098591549
+72.0,few-shot,underwater component,high strength,aluminum,-1.1267605633802817
+72.0,few-shot,underwater component,high strength,titanium,0.971830985915493
+72.0,few-shot,underwater component,high strength,glass,-2.4507042253521125
+72.0,few-shot,underwater component,high strength,wood,-0.39436619718309857
+72.0,few-shot,underwater component,high strength,thermoplastic,0.7464788732394366
+72.0,few-shot,underwater component,high strength,elastomer,-0.2112676056338028
+72.0,few-shot,underwater component,high strength,thermoset,1.0140845070422535
+72.0,few-shot,underwater component,high strength,composite,1.1830985915492958
+72.0,few-shot,safety helmet,lightweight,steel,-3.5833333333333335
+72.0,few-shot,safety helmet,lightweight,aluminum,1.1666666666666667
+72.0,few-shot,safety helmet,lightweight,titanium,-0.3055555555555556
+72.0,few-shot,safety helmet,lightweight,glass,-0.3611111111111111
+72.0,few-shot,safety helmet,lightweight,wood,1.3888888888888888
+72.0,few-shot,safety helmet,lightweight,thermoplastic,4.958333333333333
+72.0,few-shot,safety helmet,lightweight,elastomer,3.9305555555555554
+72.0,few-shot,safety helmet,lightweight,thermoset,3.3055555555555554
+72.0,few-shot,safety helmet,lightweight,composite,1.375
+72.0,few-shot,safety helmet,heat resistant,steel,3.915492957746479
+72.0,few-shot,safety helmet,heat resistant,aluminum,0.056338028169014086
+72.0,few-shot,safety helmet,heat resistant,titanium,2.9295774647887325
+72.0,few-shot,safety helmet,heat resistant,glass,1.943661971830986
+72.0,few-shot,safety helmet,heat resistant,wood,0.4084507042253521
+72.0,few-shot,safety helmet,heat resistant,thermoplastic,-0.14084507042253522
+72.0,few-shot,safety helmet,heat resistant,elastomer,0.6056338028169014
+72.0,few-shot,safety helmet,heat resistant,thermoset,3.3098591549295775
+72.0,few-shot,safety helmet,heat resistant,composite,-0.36619718309859156
+72.0,few-shot,safety helmet,corrosion resistant,steel,2.0277777777777777
+72.0,few-shot,safety helmet,corrosion resistant,aluminum,1.5833333333333333
+72.0,few-shot,safety helmet,corrosion resistant,titanium,3.138888888888889
+72.0,few-shot,safety helmet,corrosion resistant,glass,3.236111111111111
+72.0,few-shot,safety helmet,corrosion resistant,wood,-0.9444444444444444
+72.0,few-shot,safety helmet,corrosion resistant,thermoplastic,3.638888888888889
+72.0,few-shot,safety helmet,corrosion resistant,elastomer,3.2777777777777777
+72.0,few-shot,safety helmet,corrosion resistant,thermoset,2.9583333333333335
+72.0,few-shot,safety helmet,corrosion resistant,composite,0.9305555555555556
+72.0,few-shot,safety helmet,high strength,steel,4.71830985915493
+72.0,few-shot,safety helmet,high strength,aluminum,0.2112676056338028
+72.0,few-shot,safety helmet,high strength,titanium,2.6338028169014085
+72.0,few-shot,safety helmet,high strength,glass,-1.3380281690140845
+72.0,few-shot,safety helmet,high strength,wood,-0.18309859154929578
+72.0,few-shot,safety helmet,high strength,thermoplastic,1.2253521126760563
+72.0,few-shot,safety helmet,high strength,elastomer,-1.267605633802817
+72.0,few-shot,safety helmet,high strength,thermoset,1.9577464788732395
+72.0,few-shot,safety helmet,high strength,composite,-0.2112676056338028
+72.0,parallel,kitchen utensil grip,lightweight,steel,-1.635135135135135
+72.0,parallel,kitchen utensil grip,lightweight,aluminum,-0.7228915662650602
+72.0,parallel,kitchen utensil grip,lightweight,titanium,-1.2359550561797752
+72.0,parallel,kitchen utensil grip,lightweight,glass,1.1139240506329113
+72.0,parallel,kitchen utensil grip,lightweight,wood,2.973684210526316
+72.0,parallel,kitchen utensil grip,lightweight,thermoplastic,4.753086419753086
+72.0,parallel,kitchen utensil grip,lightweight,elastomer,7.205479452054795
+72.0,parallel,kitchen utensil grip,lightweight,thermoset,4.373333333333333
+72.0,parallel,kitchen utensil grip,lightweight,composite,-0.05194805194805195
+72.0,parallel,kitchen utensil grip,heat resistant,steel,-0.863013698630137
+72.0,parallel,kitchen utensil grip,heat resistant,aluminum,-3.2054794520547945
+72.0,parallel,kitchen utensil grip,heat resistant,titanium,-0.958904109589041
+72.0,parallel,kitchen utensil grip,heat resistant,glass,2.8493150684931505
+72.0,parallel,kitchen utensil grip,heat resistant,wood,-2.9726027397260273
+72.0,parallel,kitchen utensil grip,heat resistant,thermoplastic,1.6575342465753424
+72.0,parallel,kitchen utensil grip,heat resistant,elastomer,1.1643835616438356
+72.0,parallel,kitchen utensil grip,heat resistant,thermoset,2.5753424657534247
+72.0,parallel,kitchen utensil grip,heat resistant,composite,2.1232876712328768
+72.0,parallel,kitchen utensil grip,corrosion resistant,steel,1.4794520547945205
+72.0,parallel,kitchen utensil grip,corrosion resistant,aluminum,2.0684931506849313
+72.0,parallel,kitchen utensil grip,corrosion resistant,titanium,3.9452054794520546
+72.0,parallel,kitchen utensil grip,corrosion resistant,glass,0.5205479452054794
+72.0,parallel,kitchen utensil grip,corrosion resistant,wood,-1.356164383561644
+72.0,parallel,kitchen utensil grip,corrosion resistant,thermoplastic,3.589041095890411
+72.0,parallel,kitchen utensil grip,corrosion resistant,elastomer,4.958904109589041
+72.0,parallel,kitchen utensil grip,corrosion resistant,thermoset,1.8082191780821917
+72.0,parallel,kitchen utensil grip,corrosion resistant,composite,2.3013698630136985
+72.0,parallel,kitchen utensil grip,high strength,steel,4.891891891891892
+72.0,parallel,kitchen utensil grip,high strength,aluminum,0.7432432432432432
+72.0,parallel,kitchen utensil grip,high strength,titanium,1.1756756756756757
+72.0,parallel,kitchen utensil grip,high strength,glass,-3.472972972972973
+72.0,parallel,kitchen utensil grip,high strength,wood,-2.2972972972972974
+72.0,parallel,kitchen utensil grip,high strength,thermoplastic,-1.0135135135135136
+72.0,parallel,kitchen utensil grip,high strength,elastomer,-1.0810810810810811
+72.0,parallel,kitchen utensil grip,high strength,thermoset,0.47297297297297297
+72.0,parallel,kitchen utensil grip,high strength,composite,0.5540540540540541
+72.0,parallel,spacecraft component,lightweight,steel,-3.9577464788732395
+72.0,parallel,spacecraft component,lightweight,aluminum,1.9295774647887325
+72.0,parallel,spacecraft component,lightweight,titanium,-0.43661971830985913
+72.0,parallel,spacecraft component,lightweight,glass,-0.5492957746478874
+72.0,parallel,spacecraft component,lightweight,wood,-3.7183098591549295
+72.0,parallel,spacecraft component,lightweight,thermoplastic,1.4225352112676057
+72.0,parallel,spacecraft component,lightweight,elastomer,0.7183098591549296
+72.0,parallel,spacecraft component,lightweight,thermoset,0.36619718309859156
+72.0,parallel,spacecraft component,lightweight,composite,2.1971830985915495
+72.0,parallel,spacecraft component,heat resistant,steel,3.8666666666666667
+72.0,parallel,spacecraft component,heat resistant,aluminum,-1.1066666666666667
+72.0,parallel,spacecraft component,heat resistant,titanium,1.2666666666666666
+72.0,parallel,spacecraft component,heat resistant,glass,1.9733333333333334
+72.0,parallel,spacecraft component,heat resistant,wood,-0.013333333333333334
+72.0,parallel,spacecraft component,heat resistant,thermoplastic,0.37333333333333335
+72.0,parallel,spacecraft component,heat resistant,elastomer,-0.49333333333333335
+72.0,parallel,spacecraft component,heat resistant,thermoset,2.533333333333333
+72.0,parallel,spacecraft component,heat resistant,composite,1.1733333333333333
+72.0,parallel,spacecraft component,corrosion resistant,steel,-1.4057971014492754
+72.0,parallel,spacecraft component,corrosion resistant,aluminum,1.3478260869565217
+72.0,parallel,spacecraft component,corrosion resistant,titanium,1.2318840579710144
+72.0,parallel,spacecraft component,corrosion resistant,glass,1.9130434782608696
+72.0,parallel,spacecraft component,corrosion resistant,wood,0.782608695652174
+72.0,parallel,spacecraft component,corrosion resistant,thermoplastic,2.072463768115942
+72.0,parallel,spacecraft component,corrosion resistant,elastomer,0.9130434782608695
+72.0,parallel,spacecraft component,corrosion resistant,thermoset,2.739130434782609
+72.0,parallel,spacecraft component,corrosion resistant,composite,2.1884057971014492
+72.0,parallel,spacecraft component,high strength,steel,4.164383561643835
+72.0,parallel,spacecraft component,high strength,aluminum,0.3150684931506849
+72.0,parallel,spacecraft component,high strength,titanium,1.1095890410958904
+72.0,parallel,spacecraft component,high strength,glass,-1.1232876712328768
+72.0,parallel,spacecraft component,high strength,wood,-1.8082191780821917
+72.0,parallel,spacecraft component,high strength,thermoplastic,0.3287671232876712
+72.0,parallel,spacecraft component,high strength,elastomer,-1.6849315068493151
+72.0,parallel,spacecraft component,high strength,thermoset,1.452054794520548
+72.0,parallel,spacecraft component,high strength,composite,2.506849315068493
+72.0,parallel,underwater component,lightweight,steel,-3.6486486486486487
+72.0,parallel,underwater component,lightweight,aluminum,0.5135135135135135
+72.0,parallel,underwater component,lightweight,titanium,-0.6891891891891891
+72.0,parallel,underwater component,lightweight,glass,2.0
+72.0,parallel,underwater component,lightweight,wood,0.47297297297297297
+72.0,parallel,underwater component,lightweight,thermoplastic,2.72972972972973
+72.0,parallel,underwater component,lightweight,elastomer,1.8783783783783783
+72.0,parallel,underwater component,lightweight,thermoset,1.7162162162162162
+72.0,parallel,underwater component,lightweight,composite,1.635135135135135
+72.0,parallel,underwater component,heat resistant,steel,3.3947368421052633
+72.0,parallel,underwater component,heat resistant,aluminum,-1.355263157894737
+72.0,parallel,underwater component,heat resistant,titanium,1.736842105263158
+72.0,parallel,underwater component,heat resistant,glass,1.105263157894737
+72.0,parallel,underwater component,heat resistant,wood,-0.9736842105263158
+72.0,parallel,underwater component,heat resistant,thermoplastic,1.75
+72.0,parallel,underwater component,heat resistant,elastomer,-0.4868421052631579
+72.0,parallel,underwater component,heat resistant,thermoset,3.8421052631578947
+72.0,parallel,underwater component,heat resistant,composite,2.6973684210526314
+72.0,parallel,underwater component,corrosion resistant,steel,-3.2435897435897436
+72.0,parallel,underwater component,corrosion resistant,aluminum,-1.4743589743589745
+72.0,parallel,underwater component,corrosion resistant,titanium,1.0128205128205128
+72.0,parallel,underwater component,corrosion resistant,glass,3.0384615384615383
+72.0,parallel,underwater component,corrosion resistant,wood,-0.6794871794871795
+72.0,parallel,underwater component,corrosion resistant,thermoplastic,2.371794871794872
+72.0,parallel,underwater component,corrosion resistant,elastomer,1.705128205128205
+72.0,parallel,underwater component,corrosion resistant,thermoset,2.9743589743589745
+72.0,parallel,underwater component,corrosion resistant,composite,2.871794871794872
+72.0,parallel,underwater component,high strength,steel,4.197183098591549
+72.0,parallel,underwater component,high strength,aluminum,-0.1267605633802817
+72.0,parallel,underwater component,high strength,titanium,0.971830985915493
+72.0,parallel,underwater component,high strength,glass,-1.4507042253521127
+72.0,parallel,underwater component,high strength,wood,-0.39436619718309857
+72.0,parallel,underwater component,high strength,thermoplastic,1.7464788732394365
+72.0,parallel,underwater component,high strength,elastomer,-1.2112676056338028
+72.0,parallel,underwater component,high strength,thermoset,2.0140845070422535
+72.0,parallel,underwater component,high strength,composite,2.183098591549296
+72.0,parallel,safety helmet,lightweight,steel,-4.583333333333333
+72.0,parallel,safety helmet,lightweight,aluminum,2.1666666666666665
+72.0,parallel,safety helmet,lightweight,titanium,0.6944444444444444
+72.0,parallel,safety helmet,lightweight,glass,0.6388888888888888
+72.0,parallel,safety helmet,lightweight,wood,-0.6111111111111112
+72.0,parallel,safety helmet,lightweight,thermoplastic,3.9583333333333335
+72.0,parallel,safety helmet,lightweight,elastomer,1.9305555555555556
+72.0,parallel,safety helmet,lightweight,thermoset,2.3055555555555554
+72.0,parallel,safety helmet,lightweight,composite,3.375
+72.0,parallel,safety helmet,heat resistant,steel,4.915492957746479
+72.0,parallel,safety helmet,heat resistant,aluminum,1.056338028169014
+72.0,parallel,safety helmet,heat resistant,titanium,2.9295774647887325
+72.0,parallel,safety helmet,heat resistant,glass,2.943661971830986
+72.0,parallel,safety helmet,heat resistant,wood,-0.5915492957746479
+72.0,parallel,safety helmet,heat resistant,thermoplastic,0.8591549295774648
+72.0,parallel,safety helmet,heat resistant,elastomer,0.6056338028169014
+72.0,parallel,safety helmet,heat resistant,thermoset,3.3098591549295775
+72.0,parallel,safety helmet,heat resistant,composite,0.6338028169014085
+72.0,parallel,safety helmet,corrosion resistant,steel,0.027777777777777776
+72.0,parallel,safety helmet,corrosion resistant,aluminum,2.5833333333333335
+72.0,parallel,safety helmet,corrosion resistant,titanium,2.138888888888889
+72.0,parallel,safety helmet,corrosion resistant,glass,0.2361111111111111
+72.0,parallel,safety helmet,corrosion resistant,wood,-0.9444444444444444
+72.0,parallel,safety helmet,corrosion resistant,thermoplastic,1.6388888888888888
+72.0,parallel,safety helmet,corrosion resistant,elastomer,0.2777777777777778
+72.0,parallel,safety helmet,corrosion resistant,thermoset,-0.041666666666666664
+72.0,parallel,safety helmet,corrosion resistant,composite,1.9305555555555556
+72.0,parallel,safety helmet,high strength,steel,4.71830985915493
+72.0,parallel,safety helmet,high strength,aluminum,0.2112676056338028
+72.0,parallel,safety helmet,high strength,titanium,2.6338028169014085
+72.0,parallel,safety helmet,high strength,glass,-0.3380281690140845
+72.0,parallel,safety helmet,high strength,wood,-1.1830985915492958
+72.0,parallel,safety helmet,high strength,thermoplastic,0.22535211267605634
+72.0,parallel,safety helmet,high strength,elastomer,-1.267605633802817
+72.0,parallel,safety helmet,high strength,thermoset,1.9577464788732395
+72.0,parallel,safety helmet,high strength,composite,1.7887323943661972
+72.0,chain-of-thought,kitchen utensil grip,lightweight,steel,-1.635135135135135
+72.0,chain-of-thought,kitchen utensil grip,lightweight,aluminum,-0.7228915662650602
+72.0,chain-of-thought,kitchen utensil grip,lightweight,titanium,1.7640449438202248
+72.0,chain-of-thought,kitchen utensil grip,lightweight,glass,-0.8860759493670886
+72.0,chain-of-thought,kitchen utensil grip,lightweight,wood,5.973684210526316
+72.0,chain-of-thought,kitchen utensil grip,lightweight,thermoplastic,4.753086419753086
+72.0,chain-of-thought,kitchen utensil grip,lightweight,elastomer,6.205479452054795
+72.0,chain-of-thought,kitchen utensil grip,lightweight,thermoset,5.373333333333333
+72.0,chain-of-thought,kitchen utensil grip,lightweight,composite,-0.05194805194805195
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,steel,3.136986301369863
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,aluminum,-4.205479452054795
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,titanium,-1.9589041095890412
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,glass,0.8493150684931506
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,wood,0.0273972602739726
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,thermoplastic,1.6575342465753424
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,elastomer,4.164383561643835
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,thermoset,3.5753424657534247
+72.0,chain-of-thought,kitchen utensil grip,heat resistant,composite,1.1232876712328768
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,steel,3.4794520547945207
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,aluminum,2.0684931506849313
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,titanium,3.9452054794520546
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,glass,-1.4794520547945205
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,wood,-0.3561643835616438
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,thermoplastic,4.589041095890411
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,elastomer,4.958904109589041
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,thermoset,2.808219178082192
+72.0,chain-of-thought,kitchen utensil grip,corrosion resistant,composite,3.3013698630136985
+72.0,chain-of-thought,kitchen utensil grip,high strength,steel,1.8918918918918919
+72.0,chain-of-thought,kitchen utensil grip,high strength,aluminum,0.7432432432432432
+72.0,chain-of-thought,kitchen utensil grip,high strength,titanium,1.1756756756756757
+72.0,chain-of-thought,kitchen utensil grip,high strength,glass,-4.472972972972973
+72.0,chain-of-thought,kitchen utensil grip,high strength,wood,-0.2972972972972973
+72.0,chain-of-thought,kitchen utensil grip,high strength,thermoplastic,0.9864864864864865
+72.0,chain-of-thought,kitchen utensil grip,high strength,elastomer,1.9189189189189189
+72.0,chain-of-thought,kitchen utensil grip,high strength,thermoset,1.472972972972973
+72.0,chain-of-thought,kitchen utensil grip,high strength,composite,0.5540540540540541
+72.0,chain-of-thought,spacecraft component,lightweight,steel,-3.9577464788732395
+72.0,chain-of-thought,spacecraft component,lightweight,aluminum,78.92957746478874
+72.0,chain-of-thought,spacecraft component,lightweight,titanium,1.5633802816901408
+72.0,chain-of-thought,spacecraft component,lightweight,glass,0.4507042253521127
+72.0,chain-of-thought,spacecraft component,lightweight,wood,-1.7183098591549295
+72.0,chain-of-thought,spacecraft component,lightweight,thermoplastic,3.4225352112676055
+72.0,chain-of-thought,spacecraft component,lightweight,elastomer,3.7183098591549295
+72.0,chain-of-thought,spacecraft component,lightweight,thermoset,3.3661971830985915
+72.0,chain-of-thought,spacecraft component,lightweight,composite,2.1971830985915495
+72.0,chain-of-thought,spacecraft component,heat resistant,steel,3.8666666666666667
+72.0,chain-of-thought,spacecraft component,heat resistant,aluminum,-3.1066666666666665
+72.0,chain-of-thought,spacecraft component,heat resistant,titanium,1.2666666666666666
+72.0,chain-of-thought,spacecraft component,heat resistant,glass,3.973333333333333
+72.0,chain-of-thought,spacecraft component,heat resistant,wood,-2.013333333333333
+72.0,chain-of-thought,spacecraft component,heat resistant,thermoplastic,2.3733333333333335
+72.0,chain-of-thought,spacecraft component,heat resistant,elastomer,-0.49333333333333335
+72.0,chain-of-thought,spacecraft component,heat resistant,thermoset,3.533333333333333
+72.0,chain-of-thought,spacecraft component,heat resistant,composite,1.1733333333333333
+72.0,chain-of-thought,spacecraft component,corrosion resistant,steel,-1.4057971014492754
+72.0,chain-of-thought,spacecraft component,corrosion resistant,aluminum,1.3478260869565217
+72.0,chain-of-thought,spacecraft component,corrosion resistant,titanium,1.2318840579710144
+72.0,chain-of-thought,spacecraft component,corrosion resistant,glass,2.9130434782608696
+72.0,chain-of-thought,spacecraft component,corrosion resistant,wood,-1.2173913043478262
+72.0,chain-of-thought,spacecraft component,corrosion resistant,thermoplastic,5.072463768115942
+72.0,chain-of-thought,spacecraft component,corrosion resistant,elastomer,4.913043478260869
+72.0,chain-of-thought,spacecraft component,corrosion resistant,thermoset,4.739130434782608
+72.0,chain-of-thought,spacecraft component,corrosion resistant,composite,3.1884057971014492
+72.0,chain-of-thought,spacecraft component,high strength,steel,2.164383561643836
+72.0,chain-of-thought,spacecraft component,high strength,aluminum,0.3150684931506849
+72.0,chain-of-thought,spacecraft component,high strength,titanium,1.1095890410958904
+72.0,chain-of-thought,spacecraft component,high strength,glass,-2.1232876712328768
+72.0,chain-of-thought,spacecraft component,high strength,wood,-2.808219178082192
+72.0,chain-of-thought,spacecraft component,high strength,thermoplastic,1.3287671232876712
+72.0,chain-of-thought,spacecraft component,high strength,elastomer,-2.684931506849315
+72.0,chain-of-thought,spacecraft component,high strength,thermoset,2.452054794520548
+72.0,chain-of-thought,spacecraft component,high strength,composite,1.5068493150684932
+72.0,chain-of-thought,underwater component,lightweight,steel,-3.6486486486486487
+72.0,chain-of-thought,underwater component,lightweight,aluminum,1.5135135135135136
+72.0,chain-of-thought,underwater component,lightweight,titanium,0.3108108108108108
+72.0,chain-of-thought,underwater component,lightweight,glass,1.0
+72.0,chain-of-thought,underwater component,lightweight,wood,4.472972972972973
+72.0,chain-of-thought,underwater component,lightweight,thermoplastic,4.72972972972973
+72.0,chain-of-thought,underwater component,lightweight,elastomer,5.878378378378378
+72.0,chain-of-thought,underwater component,lightweight,thermoset,3.7162162162162162
+72.0,chain-of-thought,underwater component,lightweight,composite,0.6351351351351351
+72.0,chain-of-thought,underwater component,heat resistant,steel,3.3947368421052633
+72.0,chain-of-thought,underwater component,heat resistant,aluminum,-0.35526315789473684
+72.0,chain-of-thought,underwater component,heat resistant,titanium,1.736842105263158
+72.0,chain-of-thought,underwater component,heat resistant,glass,4.105263157894737
+72.0,chain-of-thought,underwater component,heat resistant,wood,0.02631578947368421
+72.0,chain-of-thought,underwater component,heat resistant,thermoplastic,2.75
+72.0,chain-of-thought,underwater component,heat resistant,elastomer,3.513157894736842
+72.0,chain-of-thought,underwater component,heat resistant,thermoset,3.8421052631578947
+72.0,chain-of-thought,underwater component,heat resistant,composite,0.6973684210526315
+72.0,chain-of-thought,underwater component,corrosion resistant,steel,0.7564102564102564
+72.0,chain-of-thought,underwater component,corrosion resistant,aluminum,1.5256410256410255
+72.0,chain-of-thought,underwater component,corrosion resistant,titanium,1.0128205128205128
+72.0,chain-of-thought,underwater component,corrosion resistant,glass,4.038461538461538
+72.0,chain-of-thought,underwater component,corrosion resistant,wood,1.3205128205128205
+72.0,chain-of-thought,underwater component,corrosion resistant,thermoplastic,5.371794871794871
+72.0,chain-of-thought,underwater component,corrosion resistant,elastomer,5.705128205128205
+72.0,chain-of-thought,underwater component,corrosion resistant,thermoset,4.9743589743589745
+72.0,chain-of-thought,underwater component,corrosion resistant,composite,2.871794871794872
+72.0,chain-of-thought,underwater component,high strength,steel,4.197183098591549
+72.0,chain-of-thought,underwater component,high strength,aluminum,0.8732394366197183
+72.0,chain-of-thought,underwater component,high strength,titanium,0.971830985915493
+72.0,chain-of-thought,underwater component,high strength,glass,-1.4507042253521127
+72.0,chain-of-thought,underwater component,high strength,wood,-0.39436619718309857
+72.0,chain-of-thought,underwater component,high strength,thermoplastic,1.7464788732394365
+72.0,chain-of-thought,underwater component,high strength,elastomer,-1.2112676056338028
+72.0,chain-of-thought,underwater component,high strength,thermoset,3.0140845070422535
+72.0,chain-of-thought,underwater component,high strength,composite,1.1830985915492958
+72.0,chain-of-thought,safety helmet,lightweight,steel,-3.5833333333333335
+72.0,chain-of-thought,safety helmet,lightweight,aluminum,1.1666666666666667
+72.0,chain-of-thought,safety helmet,lightweight,titanium,-0.3055555555555556
+72.0,chain-of-thought,safety helmet,lightweight,glass,-2.361111111111111
+72.0,chain-of-thought,safety helmet,lightweight,wood,1.3888888888888888
+72.0,chain-of-thought,safety helmet,lightweight,thermoplastic,4.958333333333333
+72.0,chain-of-thought,safety helmet,lightweight,elastomer,4.930555555555555
+72.0,chain-of-thought,safety helmet,lightweight,thermoset,4.305555555555555
+72.0,chain-of-thought,safety helmet,lightweight,composite,2.375
+72.0,chain-of-thought,safety helmet,heat resistant,steel,0.9154929577464789
+72.0,chain-of-thought,safety helmet,heat resistant,aluminum,-1.943661971830986
+72.0,chain-of-thought,safety helmet,heat resistant,titanium,2.9295774647887325
+72.0,chain-of-thought,safety helmet,heat resistant,glass,1.943661971830986
+72.0,chain-of-thought,safety helmet,heat resistant,wood,0.4084507042253521
+72.0,chain-of-thought,safety helmet,heat resistant,thermoplastic,-0.14084507042253522
+72.0,chain-of-thought,safety helmet,heat resistant,elastomer,2.6056338028169015
+72.0,chain-of-thought,safety helmet,heat resistant,thermoset,3.3098591549295775
+72.0,chain-of-thought,safety helmet,heat resistant,composite,-0.36619718309859156
+72.0,chain-of-thought,safety helmet,corrosion resistant,steel,1.0277777777777777
+72.0,chain-of-thought,safety helmet,corrosion resistant,aluminum,3.5833333333333335
+72.0,chain-of-thought,safety helmet,corrosion resistant,titanium,3.138888888888889
+72.0,chain-of-thought,safety helmet,corrosion resistant,glass,0.2361111111111111
+72.0,chain-of-thought,safety helmet,corrosion resistant,wood,-0.9444444444444444
+72.0,chain-of-thought,safety helmet,corrosion resistant,thermoplastic,3.638888888888889
+72.0,chain-of-thought,safety helmet,corrosion resistant,elastomer,4.277777777777778
+72.0,chain-of-thought,safety helmet,corrosion resistant,thermoset,2.9583333333333335
+72.0,chain-of-thought,safety helmet,corrosion resistant,composite,1.9305555555555556
+72.0,chain-of-thought,safety helmet,high strength,steel,2.7183098591549295
+72.0,chain-of-thought,safety helmet,high strength,aluminum,1.2112676056338028
+72.0,chain-of-thought,safety helmet,high strength,titanium,2.6338028169014085
+72.0,chain-of-thought,safety helmet,high strength,glass,-0.3380281690140845
+72.0,chain-of-thought,safety helmet,high strength,wood,-0.18309859154929578
+72.0,chain-of-thought,safety helmet,high strength,thermoplastic,1.2253521126760563
+72.0,chain-of-thought,safety helmet,high strength,elastomer,2.732394366197183
+72.0,chain-of-thought,safety helmet,high strength,thermoset,1.9577464788732395
+72.0,chain-of-thought,safety helmet,high strength,composite,0.7887323943661971
