@@ -1,0 +1,298 @@
+2025-02-04 22:33:18,926 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:20,934 - INFO - Search Query: properties of steel
+2025-02-04 22:33:24,981 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:27,009 - INFO - Search Query: properties of aluminum
+2025-02-04 22:33:31,343 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:33,373 - INFO - Search Query: properties of titanium
+2025-02-04 22:33:37,685 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:39,714 - INFO - Search Query: properties of glass
+2025-02-04 22:33:44,369 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:46,398 - INFO - Search Query: properties of wood
+2025-02-04 22:33:51,611 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:33:53,768 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:33:58,792 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:34:00,947 - INFO - Search Query: properties of thermoset
+2025-02-04 22:34:05,606 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:34:07,698 - INFO - Search Query: properties of elastomer
+2025-02-04 22:34:11,754 - INFO - Design and criterion: lightweight kitchen utensil grip
+2025-02-04 22:34:13,814 - INFO - Search Query: composite materials properties
+2025-02-04 22:34:16,569 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:18,599 - INFO - Search Query: properties of steel
+2025-02-04 22:34:21,387 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:23,417 - INFO - Search Query: properties of aluminum
+2025-02-04 22:34:26,195 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:28,225 - INFO - Search Query: properties of titanium
+2025-02-04 22:34:31,047 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:33,078 - INFO - Search Query: properties of glass
+2025-02-04 22:34:37,355 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:39,387 - INFO - Search Query: properties of wood
+2025-02-04 22:34:42,254 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:44,410 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:34:47,181 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:49,334 - INFO - Search Query: properties of thermoset
+2025-02-04 22:34:53,878 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:34:55,970 - INFO - Search Query: properties of elastomer
+2025-02-04 22:35:00,046 - INFO - Design and criterion: heat resistant kitchen utensil grip
+2025-02-04 22:35:02,138 - INFO - Search Query: properties of composite materials
+2025-02-04 22:35:06,745 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:08,777 - INFO - Search Query: properties of steel
+2025-02-04 22:35:13,298 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:15,329 - INFO - Search Query: properties of aluminum
+2025-02-04 22:35:20,739 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:22,771 - INFO - Search Query: properties of titanium
+2025-02-04 22:35:25,603 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:27,634 - INFO - Search Query: properties of glass
+2025-02-04 22:35:31,711 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:33,743 - INFO - Search Query: properties of wood
+2025-02-04 22:35:38,250 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:40,406 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:35:44,718 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:46,873 - INFO - Search Query: properties of thermoset
+2025-02-04 22:35:51,286 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:53,380 - INFO - Search Query: properties of elastomer
+2025-02-04 22:35:57,798 - INFO - Design and criterion: corrosion resistant kitchen utensil grip
+2025-02-04 22:35:59,894 - INFO - Search Query: properties of composite materials
+2025-02-04 22:36:02,809 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:04,838 - INFO - Search Query: properties of steel
+2025-02-04 22:36:09,105 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:11,133 - INFO - Search Query: properties of aluminum
+2025-02-04 22:36:15,754 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:17,783 - INFO - Search Query: properties of titanium
+2025-02-04 22:36:22,506 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:24,536 - INFO - Search Query: properties of glass
+2025-02-04 22:36:29,157 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:31,186 - INFO - Search Query: properties of wood
+2025-02-04 22:36:35,107 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:37,262 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:36:41,271 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:43,429 - INFO - Search Query: properties of thermoset
+2025-02-04 22:36:48,078 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:50,173 - INFO - Search Query: properties of elastomer
+2025-02-04 22:36:54,427 - INFO - Design and criterion: high strength kitchen utensil grip
+2025-02-04 22:36:56,458 - INFO - Search Query: properties of composite
+2025-02-04 22:37:00,814 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:02,847 - INFO - Search Query: properties of steel
+2025-02-04 22:37:06,954 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:08,986 - INFO - Search Query: properties of aluminum
+2025-02-04 22:37:13,183 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:15,215 - INFO - Search Query: properties of titanium
+2025-02-04 22:37:20,740 - INFO - Search Query: necessary properties of safety helmets
+2025-02-04 22:37:25,800 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:27,176 - INFO - Search Query: properties of glass
+2025-02-04 22:37:32,013 - INFO - Search Query: necessary properties of safety helmets
+2025-02-04 22:37:36,304 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:38,335 - INFO - Search Query: properties of wood
+2025-02-04 22:37:43,227 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:45,384 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:37:50,576 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:52,733 - INFO - Search Query: properties of thermoset
+2025-02-04 22:37:55,439 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:37:57,532 - INFO - Search Query: properties of elastomer
+2025-02-04 22:38:01,649 - INFO - Design and criterion: lightweight safety helmet
+2025-02-04 22:38:03,745 - INFO - Search Query: properties of composite materials
+2025-02-04 22:38:07,920 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:09,953 - INFO - Search Query: properties of steel
+2025-02-04 22:38:15,789 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:17,823 - INFO - Search Query: properties of aluminum
+2025-02-04 22:38:22,564 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:24,596 - INFO - Search Query: properties of titanium
+2025-02-04 22:38:29,832 - INFO - Search Query: necessary properties of safety helmets
+2025-02-04 22:38:35,494 - INFO - Search Query: titanium use in safety helmets
+2025-02-04 22:38:40,628 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:42,005 - INFO - Search Query: properties of glass
+2025-02-04 22:38:46,023 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:48,055 - INFO - Search Query: properties of wood
+2025-02-04 22:38:50,842 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:52,999 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:38:56,838 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:38:58,994 - INFO - Search Query: properties of thermoset
+2025-02-04 22:39:03,319 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:39:05,412 - INFO - Search Query: properties of elastomer
+2025-02-04 22:39:09,293 - INFO - Design and criterion: heat resistant safety helmet
+2025-02-04 22:39:11,355 - INFO - Search Query: properties of composite
+2025-02-04 22:39:16,307 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:18,337 - INFO - Search Query: properties of steel
+2025-02-04 22:39:22,493 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:24,520 - INFO - Search Query: properties of aluminum
+2025-02-04 22:39:27,279 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:29,311 - INFO - Search Query: properties of titanium
+2025-02-04 22:39:32,074 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:34,105 - INFO - Search Query: properties of glass
+2025-02-04 22:39:39,538 - INFO - Search Query: necessary properties of safety helmets
+2025-02-04 22:39:42,792 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:44,822 - INFO - Search Query: properties of wood
+2025-02-04 22:39:47,666 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:49,824 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:39:53,959 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:39:56,116 - INFO - Search Query: properties of thermoset
+2025-02-04 22:40:00,611 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:40:02,708 - INFO - Search Query: properties of elastomer
+2025-02-04 22:40:06,652 - INFO - Design and criterion: corrosion resistant safety helmet
+2025-02-04 22:40:08,747 - INFO - Search Query: properties of composite materials
+2025-02-04 22:40:13,236 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:15,268 - INFO - Search Query: properties of steel
+2025-02-04 22:40:18,072 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:20,104 - INFO - Search Query: properties of aluminum
+2025-02-04 22:40:24,524 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:26,555 - INFO - Search Query: properties of titanium
+2025-02-04 22:40:31,606 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:33,639 - INFO - Search Query: properties of glass
+2025-02-04 22:40:37,925 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:39,957 - INFO - Search Query: properties of wood
+2025-02-04 22:40:43,051 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:45,207 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:40:50,083 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:52,240 - INFO - Search Query: properties of thermoset
+2025-02-04 22:40:55,069 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:40:57,163 - INFO - Search Query: properties of elastomer
+2025-02-04 22:41:01,207 - INFO - Design and criterion: high strength safety helmet
+2025-02-04 22:41:03,239 - INFO - Search Query: composite materials
+2025-02-04 22:41:10,510 - INFO - Search Query: necessary properties of safety helmets
+2025-02-04 22:41:18,159 - INFO - Search Query: composite materials use in safety helmets
+2025-02-04 22:41:22,240 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:24,273 - INFO - Search Query: properties of steel
+2025-02-04 22:41:28,226 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:30,259 - INFO - Search Query: properties of aluminum
+2025-02-04 22:41:35,591 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:37,623 - INFO - Search Query: properties of titanium
+2025-02-04 22:41:42,188 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:44,221 - INFO - Search Query: properties of glass
+2025-02-04 22:41:49,931 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:51,964 - INFO - Search Query: properties of wood
+2025-02-04 22:41:55,768 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:41:57,925 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:42:03,329 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:42:05,489 - INFO - Search Query: properties of thermoset
+2025-02-04 22:42:11,122 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:42:13,216 - INFO - Search Query: properties of elastomer
+2025-02-04 22:42:17,527 - INFO - Design and criterion: lightweight underwater component
+2025-02-04 22:42:19,623 - INFO - Search Query: properties of composite materials
+2025-02-04 22:42:22,398 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:24,432 - INFO - Search Query: properties of steel
+2025-02-04 22:42:28,158 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:30,191 - INFO - Search Query: properties of aluminum
+2025-02-04 22:42:35,843 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:37,876 - INFO - Search Query: properties of titanium
+2025-02-04 22:42:40,590 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:42,623 - INFO - Search Query: properties of glass
+2025-02-04 22:42:46,456 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:48,491 - INFO - Search Query: properties of wood
+2025-02-04 22:42:51,400 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:42:53,559 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:42:58,224 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:43:00,412 - INFO - Search Query: properties of thermoset
+2025-02-04 22:43:03,120 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:43:05,213 - INFO - Search Query: properties of elastomer
+2025-02-04 22:43:11,244 - INFO - Design and criterion: heat resistant underwater component
+2025-02-04 22:43:13,277 - INFO - Search Query: properties of composite
+2025-02-04 22:43:16,066 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:18,099 - INFO - Search Query: properties of steel
+2025-02-04 22:43:21,139 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:23,170 - INFO - Search Query: properties of aluminum
+2025-02-04 22:43:28,954 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:30,986 - INFO - Search Query: properties of titanium
+2025-02-04 22:43:33,776 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:35,807 - INFO - Search Query: properties of glass
+2025-02-04 22:43:41,009 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:43,199 - INFO - Search Query: properties of wood
+2025-02-04 22:43:45,977 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:48,136 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:43:52,075 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:43:54,233 - INFO - Search Query: properties of thermoset
+2025-02-04 22:43:58,429 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:44:00,525 - INFO - Search Query: properties of elastomer
+2025-02-04 22:44:04,919 - INFO - Design and criterion: corrosion resistant underwater component
+2025-02-04 22:44:07,014 - INFO - Search Query: properties of composite materials
+2025-02-04 22:44:09,799 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:11,830 - INFO - Search Query: properties of steel
+2025-02-04 22:44:16,029 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:18,064 - INFO - Search Query: properties of aluminum
+2025-02-04 22:44:22,575 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:24,611 - INFO - Search Query: properties of titanium
+2025-02-04 22:44:28,627 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:30,661 - INFO - Search Query: properties of glass
+2025-02-04 22:44:34,890 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:36,922 - INFO - Search Query: properties of wood
+2025-02-04 22:44:39,754 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:41,910 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:44:47,122 - INFO - Search Query: necessary properties of underwater components
+2025-02-04 22:44:51,240 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:44:52,742 - INFO - Search Query: properties of thermoset
+2025-02-04 22:44:57,101 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:45:00,148 - INFO - Search Query: properties of elastomers
+2025-02-04 22:45:04,556 - INFO - Design and criterion: high strength underwater component
+2025-02-04 22:45:06,652 - INFO - Search Query: properties of composite materials
+2025-02-04 22:45:09,488 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:11,519 - INFO - Search Query: properties of steel
+2025-02-04 22:45:15,640 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:17,671 - INFO - Search Query: properties of aluminum
+2025-02-04 22:45:22,178 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:24,210 - INFO - Search Query: properties of titanium
+2025-02-04 22:45:27,871 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:29,902 - INFO - Search Query: properties of glass
+2025-02-04 22:45:33,670 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:35,702 - INFO - Search Query: properties of wood
+2025-02-04 22:45:41,023 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:43,181 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:45:48,104 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:50,262 - INFO - Search Query: properties of thermoset
+2025-02-04 22:45:55,732 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:45:57,827 - INFO - Search Query: properties of elastomer
+2025-02-04 22:46:02,244 - INFO - Design and criterion: lightweight spacecraft component
+2025-02-04 22:46:04,275 - INFO - Search Query: properties of composite
+2025-02-04 22:46:07,105 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:09,137 - INFO - Search Query: properties of steel
+2025-02-04 22:46:13,563 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:15,595 - INFO - Search Query: properties of aluminum
+2025-02-04 22:46:22,171 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:24,203 - INFO - Search Query: properties of titanium
+2025-02-04 22:46:26,945 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:28,977 - INFO - Search Query: properties of glass
+2025-02-04 22:46:33,728 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:35,760 - INFO - Search Query: properties of wood
+2025-02-04 22:46:38,596 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:40,753 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:46:45,170 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:47,327 - INFO - Search Query: properties of thermoset
+2025-02-04 22:46:52,384 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:46:54,480 - INFO - Search Query: properties of elastomer
+2025-02-04 22:46:58,180 - INFO - Design and criterion: heat resistant spacecraft component
+2025-02-04 22:47:00,277 - INFO - Search Query: properties of composite materials
+2025-02-04 22:47:03,070 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:05,101 - INFO - Search Query: properties of steel
+2025-02-04 22:47:10,398 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:12,433 - INFO - Search Query: properties of aluminum
+2025-02-04 22:47:17,396 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:19,428 - INFO - Search Query: properties of titanium
+2025-02-04 22:47:22,406 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:24,437 - INFO - Search Query: properties of glass
+2025-02-04 22:47:28,366 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:30,398 - INFO - Search Query: properties of wood
+2025-02-04 22:47:35,990 - INFO - Search Query: necessary properties of spacecraft components
+2025-02-04 22:47:38,130 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:40,286 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:47:45,659 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:47,818 - INFO - Search Query: properties of thermoset
+2025-02-04 22:47:52,460 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:47:54,555 - INFO - Search Query: properties of elastomer
+2025-02-04 22:47:58,563 - INFO - Design and criterion: corrosion resistant spacecraft component
+2025-02-04 22:48:00,658 - INFO - Search Query: properties of composite materials
+2025-02-04 22:48:05,805 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:07,839 - INFO - Search Query: properties of steel
+2025-02-04 22:48:12,814 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:14,846 - INFO - Search Query: properties of aluminum
+2025-02-04 22:48:20,423 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:22,454 - INFO - Search Query: properties of titanium
+2025-02-04 22:48:26,946 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:28,982 - INFO - Search Query: properties of glass
+2025-02-04 22:48:33,169 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:35,199 - INFO - Search Query: properties of wood
+2025-02-04 22:48:41,878 - INFO - Search Query: necessary properties of spacecraft components
+2025-02-04 22:48:45,207 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:47,363 - INFO - Search Query: properties of thermoplastic
+2025-02-04 22:48:51,566 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:48:53,726 - INFO - Search Query: properties of thermoset
+2025-02-04 22:48:58,149 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:49:00,246 - INFO - Search Query: properties of elastomer
+2025-02-04 22:49:04,268 - INFO - Design and criterion: high strength spacecraft component
+2025-02-04 22:49:06,301 - INFO - Search Query: properties of composite
