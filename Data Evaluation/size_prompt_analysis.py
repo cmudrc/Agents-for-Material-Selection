@@ -12,11 +12,11 @@ figure = 1
 def plot(num, df, grouping, y_val, modelsize, question_type):
     global figure
     palette = sns.color_palette('hls', num)
-    if num == 12: figsize = (14, 8)
-    elif num == 5: figsize = (10, 6)
-    else: figsize = (8, 5)
+    if num == 30: figsize = (20, 12)
+    elif num == 10: figsize = (14, 8)
+    else: figsize = (10, 6)
     plt.figure(figsize=figsize)
-    if modelsize != None: df = df[df['Model Size and Prompt Type'].str.startswith(modelsize)]
+    if modelsize != None: df = df[df['Model Size and Prompt Type'].str.startswith(f'{modelsize}B')]
     elif question_type != None: df = df[df['Model Size and Prompt Type'].str.endswith(question_type)]
     ax = sns.boxplot(x='Model Size and Prompt Type', y=y_val, data=df, palette=palette)
     plt.title(f'{y_val} Grouped By {' and '.join(word.capitalize() for word in grouping)}')
@@ -48,7 +48,7 @@ def size_prompt_analysis(grouping):
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
     # Read LLM results
-    for modelsize in ['1.5', '3', '7']:
+    for modelsize in ['1.5', '3', '7', '14', '32', '72']:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = pd.read_csv(f'Data/qwen_{modelsize}B_{question_type}.csv')
             df['response'] = pd.to_numeric(df['response'], errors='coerce')
@@ -86,23 +86,24 @@ def size_prompt_analysis(grouping):
         labels.extend([key] * len(values))
     zscore_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'Z-Scores': zscore_values})
 
-    plot(12, mae_df, grouping, "MAEs", None, None)
-    # plot(12, iqr_df, grouping, "IQRs")
-    plot(12, zscore_df, grouping, "Z-Scores", None, None)
+    # plot(30, mae_df, grouping, "MAEs", None, None)
+    # plot(30, iqr_df, grouping, "IQRs")
+    # plot(30, zscore_df, grouping, "Z-Scores", None, None)
 
     # Plot by size
-    for modelsize in ['1.5', '3', '7']:
+    for modelsize in ['1.5', '3', '7', '14', '32', '72']:
         plot(5, mae_df, grouping, "MAEs", modelsize, None)
         # plot(5, iqr_df, grouping, "IQRs", modelsize, None)
         plot(5, zscore_df, grouping, "Z-Scores", modelsize, None)
 
     # Plot by prompt type
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-        plot(3, mae_df, grouping, "MAEs", None, question_type)
-        # plot(3, iqr_df, grouping, "IQRs", None, question_type)
-        plot(3, zscore_df, grouping, "Z-Scores", None, question_type)
+        plot(6, mae_df, grouping, "MAEs", None, question_type)
+        # plot(6, iqr_df, grouping, "IQRs", None, question_type)
+        plot(6, zscore_df, grouping, "Z-Scores", None, question_type)
 
 ##########################################################################################
 
 size_prompt_analysis(['design', 'criteria'])
 size_prompt_analysis(['material'])
+plt.show()
