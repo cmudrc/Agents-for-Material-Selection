@@ -1,0 +1,144 @@
+2025-02-14 19:01:32,358 - INFO - Not all errors for kitchen utensil grip, lightweight, steel
+2025-02-14 19:01:46,787 - INFO - Not all errors for kitchen utensil grip, lightweight, aluminum
+2025-02-14 19:02:05,163 - INFO - Not all errors for kitchen utensil grip, lightweight, titanium
+2025-02-14 19:02:17,899 - INFO - Not all errors for kitchen utensil grip, lightweight, glass
+2025-02-14 19:02:32,146 - INFO - Not all errors for kitchen utensil grip, lightweight, wood
+2025-02-14 19:02:54,683 - INFO - Filter out kitchen utensil grip, lightweight, thermoplastic
+2025-02-14 19:03:12,083 - INFO - Filter out kitchen utensil grip, lightweight, thermoset
+2025-02-14 19:03:31,188 - INFO - Not all errors for kitchen utensil grip, lightweight, elastomer
+2025-02-14 19:03:50,897 - INFO - Not all errors for kitchen utensil grip, lightweight, composite
+2025-02-14 19:04:01,625 - INFO - Not all errors for kitchen utensil grip, heat resistant, steel
+2025-02-14 19:04:19,994 - INFO - Not all errors for kitchen utensil grip, heat resistant, aluminum
+2025-02-14 19:04:38,038 - INFO - Not all errors for kitchen utensil grip, heat resistant, titanium
+2025-02-14 19:04:54,452 - INFO - Not all errors for kitchen utensil grip, heat resistant, glass
+2025-02-14 19:05:08,399 - INFO - Not all errors for kitchen utensil grip, heat resistant, wood
+2025-02-14 19:05:27,832 - INFO - Filter out kitchen utensil grip, heat resistant, thermoplastic
+2025-02-14 19:05:46,624 - INFO - Not all errors for kitchen utensil grip, heat resistant, thermoset
+2025-02-14 19:06:05,166 - INFO - Not all errors for kitchen utensil grip, heat resistant, elastomer
+2025-02-14 19:06:24,478 - INFO - Filter out kitchen utensil grip, heat resistant, composite
+2025-02-14 19:06:46,770 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, steel
+2025-02-14 19:07:05,716 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, aluminum
+2025-02-14 19:07:23,786 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, titanium
+2025-02-14 19:07:42,478 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, glass
+2025-02-14 19:08:01,190 - INFO - Filter out kitchen utensil grip, corrosion resistant, wood
+2025-02-14 19:08:18,576 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, thermoplastic
+2025-02-14 19:08:37,343 - INFO - Filter out kitchen utensil grip, corrosion resistant, thermoset
+2025-02-14 19:08:57,040 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, elastomer
+2025-02-14 19:09:14,724 - INFO - Not all errors for kitchen utensil grip, corrosion resistant, composite
+2025-02-14 19:09:33,171 - INFO - Not all errors for kitchen utensil grip, high strength, steel
+2025-02-14 19:09:51,968 - INFO - Not all errors for kitchen utensil grip, high strength, aluminum
+2025-02-14 19:10:06,203 - INFO - Not all errors for kitchen utensil grip, high strength, titanium
+2025-02-14 19:10:24,548 - INFO - Not all errors for kitchen utensil grip, high strength, glass
+2025-02-14 19:10:39,345 - INFO - Filter out kitchen utensil grip, high strength, wood
+2025-02-14 19:10:56,217 - INFO - Filter out kitchen utensil grip, high strength, thermoplastic
+2025-02-14 19:11:13,140 - INFO - Filter out kitchen utensil grip, high strength, thermoset
+2025-02-14 19:11:41,574 - INFO - Not all errors for kitchen utensil grip, high strength, elastomer
+2025-02-14 19:11:54,800 - INFO - Not all errors for kitchen utensil grip, high strength, composite
+2025-02-14 19:12:13,517 - INFO - Not all errors for safety helmet, lightweight, steel
+2025-02-14 19:12:31,013 - INFO - Not all errors for safety helmet, lightweight, aluminum
+2025-02-14 19:12:49,471 - INFO - Filter out safety helmet, lightweight, titanium
+2025-02-14 19:13:09,218 - INFO - Not all errors for safety helmet, lightweight, glass
+2025-02-14 19:13:24,044 - INFO - Filter out safety helmet, lightweight, wood
+2025-02-14 19:13:40,898 - INFO - Filter out safety helmet, lightweight, thermoplastic
+2025-02-14 19:13:53,629 - INFO - Filter out safety helmet, lightweight, thermoset
+2025-02-14 19:14:16,955 - INFO - Filter out safety helmet, lightweight, elastomer
+2025-02-14 19:14:37,636 - INFO - Filter out safety helmet, lightweight, composite
+2025-02-14 19:14:55,716 - INFO - Not all errors for safety helmet, heat resistant, steel
+2025-02-14 19:15:10,584 - INFO - Filter out safety helmet, heat resistant, aluminum
+2025-02-14 19:15:29,421 - INFO - Not all errors for safety helmet, heat resistant, titanium
+2025-02-14 19:15:51,850 - INFO - Filter out safety helmet, heat resistant, glass
+2025-02-14 19:16:08,411 - INFO - Filter out safety helmet, heat resistant, wood
+2025-02-14 19:16:21,353 - INFO - Filter out safety helmet, heat resistant, thermoplastic
+2025-02-14 19:16:48,234 - INFO - Filter out safety helmet, heat resistant, thermoset
+2025-02-14 19:17:09,739 - INFO - Not all errors for safety helmet, heat resistant, elastomer
+2025-02-14 19:17:27,619 - INFO - Not all errors for safety helmet, heat resistant, composite
+2025-02-14 19:17:42,712 - INFO - Filter out safety helmet, corrosion resistant, steel
+2025-02-14 19:17:59,082 - INFO - Filter out safety helmet, corrosion resistant, aluminum
+2025-02-14 19:18:19,341 - INFO - Not all errors for safety helmet, corrosion resistant, titanium
+2025-02-14 19:18:37,838 - INFO - Not all errors for safety helmet, corrosion resistant, glass
+2025-02-14 19:18:53,695 - INFO - Filter out safety helmet, corrosion resistant, wood
+2025-02-14 19:19:10,675 - INFO - Filter out safety helmet, corrosion resistant, thermoplastic
+2025-02-14 19:19:31,838 - INFO - Filter out safety helmet, corrosion resistant, thermoset
+2025-02-14 19:19:52,130 - INFO - Not all errors for safety helmet, corrosion resistant, elastomer
+2025-02-14 19:20:15,309 - INFO - Not all errors for safety helmet, corrosion resistant, composite
+2025-02-14 19:20:33,740 - INFO - Not all errors for safety helmet, high strength, steel
+2025-02-14 19:20:51,359 - INFO - Not all errors for safety helmet, high strength, aluminum
+2025-02-14 19:21:09,664 - INFO - Filter out safety helmet, high strength, titanium
+2025-02-14 19:21:18,849 - INFO - Not all errors for safety helmet, high strength, glass
+2025-02-14 19:21:37,670 - INFO - Not all errors for safety helmet, high strength, wood
+2025-02-14 19:21:53,279 - INFO - Filter out safety helmet, high strength, thermoplastic
+2025-02-14 19:22:14,717 - INFO - Filter out safety helmet, high strength, thermoset
+2025-02-14 19:22:31,066 - INFO - Filter out safety helmet, high strength, elastomer
+2025-02-14 19:22:50,355 - INFO - Filter out safety helmet, high strength, composite
+2025-02-14 19:23:10,318 - INFO - Not all errors for underwater component, lightweight, steel
+2025-02-14 19:23:28,022 - INFO - Not all errors for underwater component, lightweight, aluminum
+2025-02-14 19:23:45,688 - INFO - Not all errors for underwater component, lightweight, titanium
+2025-02-14 19:23:58,879 - INFO - Not all errors for underwater component, lightweight, glass
+2025-02-14 19:24:18,699 - INFO - Not all errors for underwater component, lightweight, wood
+2025-02-14 19:24:41,627 - INFO - Filter out underwater component, lightweight, thermoplastic
+2025-02-14 19:25:01,528 - INFO - Filter out underwater component, lightweight, thermoset
+2025-02-14 19:25:21,789 - INFO - Filter out underwater component, lightweight, elastomer
+2025-02-14 19:25:42,113 - INFO - Not all errors for underwater component, lightweight, composite
+2025-02-14 19:26:00,064 - INFO - Not all errors for underwater component, heat resistant, steel
+2025-02-14 19:26:17,667 - INFO - Not all errors for underwater component, heat resistant, aluminum
+2025-02-14 19:26:35,809 - INFO - Not all errors for underwater component, heat resistant, titanium
+2025-02-14 19:26:52,786 - INFO - Not all errors for underwater component, heat resistant, glass
+2025-02-14 19:27:11,364 - INFO - Not all errors for underwater component, heat resistant, wood
+2025-02-14 19:27:35,103 - INFO - Not all errors for underwater component, heat resistant, thermoplastic
+2025-02-14 19:27:53,534 - INFO - Not all errors for underwater component, heat resistant, thermoset
+2025-02-14 19:28:12,486 - INFO - Filter out underwater component, heat resistant, elastomer
+2025-02-14 19:28:29,352 - INFO - Filter out underwater component, heat resistant, composite
+2025-02-14 19:28:50,506 - INFO - Not all errors for underwater component, corrosion resistant, steel
+2025-02-14 19:29:08,063 - INFO - Not all errors for underwater component, corrosion resistant, aluminum
+2025-02-14 19:29:25,553 - INFO - Not all errors for underwater component, corrosion resistant, titanium
+2025-02-14 19:29:42,802 - INFO - Not all errors for underwater component, corrosion resistant, glass
+2025-02-14 19:30:00,363 - INFO - Not all errors for underwater component, corrosion resistant, wood
+2025-02-14 19:30:19,765 - INFO - Filter out underwater component, corrosion resistant, thermoplastic
+2025-02-14 19:30:39,478 - INFO - Not all errors for underwater component, corrosion resistant, thermoset
+2025-02-14 19:31:01,673 - INFO - Not all errors for underwater component, corrosion resistant, elastomer
+2025-02-14 19:31:21,144 - INFO - Not all errors for underwater component, corrosion resistant, composite
+2025-02-14 19:31:38,850 - INFO - Not all errors for underwater component, high strength, steel
+2025-02-14 19:31:57,280 - INFO - Filter out underwater component, high strength, aluminum
+2025-02-14 19:32:17,038 - INFO - Not all errors for underwater component, high strength, titanium
+2025-02-14 19:32:51,087 - INFO - Not all errors for underwater component, high strength, glass
+2025-02-14 19:32:59,909 - INFO - Not all errors for underwater component, high strength, wood
+2025-02-14 19:33:20,010 - INFO - Not all errors for underwater component, high strength, thermoplastic
+2025-02-14 19:33:38,752 - INFO - Not all errors for underwater component, high strength, thermoset
+2025-02-14 19:33:53,717 - INFO - Filter out underwater component, high strength, elastomer
+2025-02-14 19:34:15,977 - INFO - Not all errors for underwater component, high strength, composite
+2025-02-14 19:34:34,544 - INFO - Filter out spacecraft component, lightweight, steel
+2025-02-14 19:34:52,800 - INFO - Not all errors for spacecraft component, lightweight, aluminum
+2025-02-14 19:35:12,271 - INFO - Not all errors for spacecraft component, lightweight, titanium
+2025-02-14 19:35:30,829 - INFO - Filter out spacecraft component, lightweight, glass
+2025-02-14 19:35:51,461 - INFO - Not all errors for spacecraft component, lightweight, wood
+2025-02-14 19:36:06,995 - INFO - Filter out spacecraft component, lightweight, thermoplastic
+2025-02-14 19:36:40,494 - INFO - Not all errors for spacecraft component, lightweight, thermoset
+2025-02-14 19:36:58,328 - INFO - Not all errors for spacecraft component, lightweight, elastomer
+2025-02-14 19:37:17,648 - INFO - Not all errors for spacecraft component, lightweight, composite
+2025-02-14 19:37:28,727 - INFO - Not all errors for spacecraft component, heat resistant, steel
+2025-02-14 19:37:47,302 - INFO - Filter out spacecraft component, heat resistant, aluminum
+2025-02-14 19:38:06,124 - INFO - Not all errors for spacecraft component, heat resistant, titanium
+2025-02-14 19:38:24,569 - INFO - Filter out spacecraft component, heat resistant, glass
+2025-02-14 19:38:34,028 - INFO - Not all errors for spacecraft component, heat resistant, wood
+2025-02-14 19:38:50,253 - INFO - Filter out spacecraft component, heat resistant, thermoplastic
+2025-02-14 19:39:06,202 - INFO - Not all errors for spacecraft component, heat resistant, thermoset
+2025-02-14 19:39:24,006 - INFO - Not all errors for spacecraft component, heat resistant, elastomer
+2025-02-14 19:39:43,338 - INFO - Filter out spacecraft component, heat resistant, composite
+2025-02-14 19:39:59,502 - INFO - Not all errors for spacecraft component, corrosion resistant, steel
+2025-02-14 19:40:17,116 - INFO - Not all errors for spacecraft component, corrosion resistant, aluminum
+2025-02-14 19:40:35,597 - INFO - Not all errors for spacecraft component, corrosion resistant, titanium
+2025-02-14 19:40:55,886 - INFO - Not all errors for spacecraft component, corrosion resistant, glass
+2025-02-14 19:41:13,330 - INFO - Not all errors for spacecraft component, corrosion resistant, wood
+2025-02-14 19:41:31,921 - INFO - Not all errors for spacecraft component, corrosion resistant, thermoplastic
+2025-02-14 19:41:51,218 - INFO - Filter out spacecraft component, corrosion resistant, thermoset
+2025-02-14 19:42:10,550 - INFO - Not all errors for spacecraft component, corrosion resistant, elastomer
+2025-02-14 19:42:29,159 - INFO - Not all errors for spacecraft component, corrosion resistant, composite
+2025-02-14 19:42:46,735 - INFO - Not all errors for spacecraft component, high strength, steel
+2025-02-14 19:43:03,934 - INFO - Not all errors for spacecraft component, high strength, aluminum
+2025-02-14 19:43:22,003 - INFO - Not all errors for spacecraft component, high strength, titanium
+2025-02-14 19:43:37,002 - INFO - Filter out spacecraft component, high strength, glass
+2025-02-14 19:43:56,312 - INFO - Not all errors for spacecraft component, high strength, wood
+2025-02-14 19:44:11,719 - INFO - Filter out spacecraft component, high strength, thermoplastic
+2025-02-14 19:44:31,432 - INFO - Filter out spacecraft component, high strength, thermoset
+2025-02-14 19:44:52,572 - INFO - Not all errors for spacecraft component, high strength, elastomer
+2025-02-14 19:45:11,556 - INFO - Filter out spacecraft component, high strength, composite
