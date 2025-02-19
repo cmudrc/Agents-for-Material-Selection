@@ -10,7 +10,9 @@ Material selection is fundamental to the design process, as it significantly imp
 📦 Agents-for-Material-Selection
 ├─ Data  # Data collected
 ├─ Data Evaluation  # Scripts used to evaluate the results
-└─ Data Generation  # Scripts used to generate the results
+├─ Data Generation  # Scripts used to generate the results
+├─ Search Logs  # Search logs collected
+└─ Search Logs Evaluation  # Scripts used to evaluate the search logs
 ```
 
 ## Installation
