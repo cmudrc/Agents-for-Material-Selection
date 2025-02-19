@@ -1,0 +1,288 @@
+2025-02-17 23:36:52,641 - INFO - Keeping result for kitchen utensil grip, lightweight, steel
+2025-02-17 23:36:52,641 - INFO - Searches: properties of steel, necessary properties of kitchen utensil grips, steel use in kitchen utensil grips
+2025-02-17 23:36:56,412 - INFO - Keeping result for kitchen utensil grip, lightweight, aluminum
+2025-02-17 23:36:56,412 - INFO - Searches: properties of aluminum
+2025-02-17 23:37:02,136 - INFO - Keeping result for kitchen utensil grip, lightweight, titanium
+2025-02-17 23:37:02,136 - INFO - Searches: properties of titanium, necessary properties of kitchen utensil grips
+2025-02-17 23:37:10,009 - INFO - Keeping result for kitchen utensil grip, lightweight, glass
+2025-02-17 23:37:10,009 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips, glass use in kitchen utensil grips
+2025-02-17 23:37:13,659 - INFO - Keeping result for kitchen utensil grip, lightweight, wood
+2025-02-17 23:37:13,660 - INFO - Searches: properties of wood
+2025-02-17 23:37:19,185 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoplastic
+2025-02-17 23:37:19,185 - INFO - Searches: properties of thermoplastic, lightweight thermoplastic
+2025-02-17 23:37:26,708 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoset
+2025-02-17 23:37:26,708 - INFO - Searches: properties of thermoset materials, necessary properties of kitchen utensil grips, thermoset materials use in kitchen utensil grips
+2025-02-17 23:37:33,359 - INFO - Keeping result for kitchen utensil grip, lightweight, elastomer
+2025-02-17 23:37:33,359 - INFO - Searches: properties of elastomers, necessary properties of kitchen utensil grips, elastomer use in kitchen utensil grips
+2025-02-17 23:37:40,823 - INFO - Keeping result for kitchen utensil grip, lightweight, composite
+2025-02-17 23:37:40,823 - INFO - Searches: properties of composite materials, necessary properties of kitchen utensil grips, composite materials use in kitchen utensil grips
+2025-02-17 23:37:48,284 - INFO - Keeping result for kitchen utensil grip, heat resistant, steel
+2025-02-17 23:37:48,284 - INFO - Searches: properties of steel, heat resistance of steel, suitability of steel for kitchen utensil grips
+2025-02-17 23:37:57,590 - INFO - Keeping result for kitchen utensil grip, heat resistant, aluminum
+2025-02-17 23:37:57,590 - INFO - Searches: properties of aluminum, heat resistance of aluminum, heat conductivity of aluminum
+2025-02-17 23:38:03,135 - INFO - Keeping result for kitchen utensil grip, heat resistant, titanium
+2025-02-17 23:38:03,135 - INFO - Searches: properties of titanium, use of titanium in heat resistant applications
+2025-02-17 23:38:11,770 - INFO - Keeping result for kitchen utensil grip, heat resistant, glass
+2025-02-17 23:38:11,770 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips, glass use in kitchen utensil grips
+2025-02-17 23:38:17,201 - INFO - Keeping result for kitchen utensil grip, heat resistant, wood
+2025-02-17 23:38:17,201 - INFO - Searches: properties of wood, heat resistance of wood
+2025-02-17 23:38:26,289 - INFO - Keeping result for kitchen utensil grip, heat resistant, thermoplastic
+2025-02-17 23:38:26,289 - INFO - Searches: properties of thermoplastic, necessary properties of kitchen utensil grips, thermoplastic use in kitchen utensil grips
+2025-02-17 23:38:29,882 - INFO - Keeping result for kitchen utensil grip, heat resistant, thermoset
+2025-02-17 23:38:29,882 - INFO - Searches: properties of thermoset materials
+2025-02-17 23:38:35,357 - INFO - Keeping result for kitchen utensil grip, heat resistant, elastomer
+2025-02-17 23:38:35,357 - INFO - Searches: properties of elastomers, heat resistant elastomers
+2025-02-17 23:38:40,039 - INFO - Keeping result for kitchen utensil grip, heat resistant, composite
+2025-02-17 23:38:40,040 - INFO - Searches: properties of composite materials, suitability of composite materials for kitchen utensil grips
+2025-02-17 23:38:43,613 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, steel
+2025-02-17 23:38:43,613 - INFO - Searches: properties of steel
+2025-02-17 23:38:50,095 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, aluminum
+2025-02-17 23:38:50,096 - INFO - Searches: properties of aluminum, necessary properties of corrosion resistant materials
+2025-02-17 23:38:53,424 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, titanium
+2025-02-17 23:38:53,424 - INFO - Searches: properties of titanium
+2025-02-17 23:38:59,215 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, glass
+2025-02-17 23:38:59,215 - INFO - Searches: properties of glass, glass use in kitchen utensils
+2025-02-17 23:39:07,401 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, wood
+2025-02-17 23:39:07,401 - INFO - Searches: properties of wood, necessary properties of kitchen utensil grips, wood use in kitchen utensil grips
+2025-02-17 23:39:15,421 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, thermoplastic
+2025-02-17 23:39:15,421 - INFO - Searches: properties of thermoplastic, necessary properties of kitchen utensil grips, thermoplastic use in kitchen utensil grips
+2025-02-17 23:39:22,432 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, thermoset
+2025-02-17 23:39:22,432 - INFO - Searches: properties of thermoset materials, necessary properties of kitchen utensil grips, thermoset use in kitchen utensil grips
+2025-02-17 23:39:29,458 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, elastomer
+2025-02-17 23:39:29,459 - INFO - Searches: properties of elastomers, necessary properties of kitchen utensil grips, elastomer use in kitchen utensil grips
+2025-02-17 23:39:36,452 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, composite
+2025-02-17 23:39:36,452 - INFO - Searches: properties of composite materials, properties of kitchen utensil grips, suitability of composite materials for kitchen utensil grips
+2025-02-17 23:39:39,583 - INFO - Keeping result for kitchen utensil grip, high strength, steel
+2025-02-17 23:39:39,583 - INFO - Searches: properties of steel
+2025-02-17 23:39:48,687 - INFO - Keeping result for kitchen utensil grip, high strength, aluminum
+2025-02-17 23:39:48,687 - INFO - Searches: properties of aluminum, necessary properties of kitchen utensil grips, aluminum use in kitchen utensil grips
+2025-02-17 23:39:52,081 - INFO - Keeping result for kitchen utensil grip, high strength, titanium
+2025-02-17 23:39:52,082 - INFO - Searches: properties of titanium
+2025-02-17 23:40:02,220 - INFO - Keeping result for kitchen utensil grip, high strength, glass
+2025-02-17 23:40:02,220 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips, glass use in kitchen utensil grips
+2025-02-17 23:40:10,483 - INFO - Keeping result for kitchen utensil grip, high strength, wood
+2025-02-17 23:40:10,483 - INFO - Searches: properties of wood, necessary properties of kitchen utensil grips, wood use in kitchen utensil grips
+2025-02-17 23:40:16,577 - INFO - Keeping result for kitchen utensil grip, high strength, thermoplastic
+2025-02-17 23:40:16,577 - INFO - Searches: properties of thermoplastic, necessary properties of kitchen utensil grips
+2025-02-17 23:40:20,004 - INFO - Keeping result for kitchen utensil grip, high strength, thermoset
+2025-02-17 23:40:20,004 - INFO - Searches: properties of thermoset materials
+2025-02-17 23:40:23,763 - INFO - Keeping result for kitchen utensil grip, high strength, elastomer
+2025-02-17 23:40:23,763 - INFO - Searches: properties of elastomers
+2025-02-17 23:40:27,368 - INFO - Keeping result for kitchen utensil grip, high strength, composite
+2025-02-17 23:40:27,368 - INFO - Searches: properties of composite materials, suitability of composite materials for kitchen utensil grips
+2025-02-17 23:40:32,939 - INFO - Keeping result for safety helmet, lightweight, steel
+2025-02-17 23:40:32,939 - INFO - Searches: properties of steel, lightweight steel
+2025-02-17 23:40:43,859 - INFO - Keeping result for safety helmet, lightweight, aluminum
+2025-02-17 23:40:43,859 - INFO - Searches: properties of aluminum, necessary properties of safety helmets, aluminum use in safety helmets, properties of aluminum alloys
+2025-02-17 23:40:51,750 - INFO - Keeping result for safety helmet, lightweight, titanium
+2025-02-17 23:40:51,750 - INFO - Searches: properties of titanium, necessary properties of safety helmets, titanium use in safety helmets
+2025-02-17 23:40:59,289 - INFO - Keeping result for safety helmet, lightweight, glass
+2025-02-17 23:40:59,289 - INFO - Searches: properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-02-17 23:41:02,833 - INFO - Keeping result for safety helmet, lightweight, wood
+2025-02-17 23:41:02,833 - INFO - Searches: properties of wood
+2025-02-17 23:41:10,596 - INFO - Keeping result for safety helmet, lightweight, thermoplastic
+2025-02-17 23:41:10,596 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-02-17 23:41:19,361 - INFO - Keeping result for safety helmet, lightweight, thermoset
+2025-02-17 23:41:19,361 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-02-17 23:41:28,253 - INFO - Keeping result for safety helmet, lightweight, elastomer
+2025-02-17 23:41:28,253 - INFO - Searches: properties of elastomer, necessary properties of safety helmets, elastomer use in safety helmets
+2025-02-17 23:41:36,682 - INFO - Keeping result for safety helmet, lightweight, composite
+2025-02-17 23:41:36,682 - INFO - Searches: properties of composite materials, necessary properties of safety helmets, composite use in safety helmets
+2025-02-17 23:41:44,743 - INFO - Keeping result for safety helmet, heat resistant, steel
+2025-02-17 23:41:44,743 - INFO - Searches: properties of steel, necessary properties of safety helmets, steel use in safety helmets
+2025-02-17 23:41:51,168 - INFO - Keeping result for safety helmet, heat resistant, aluminum
+2025-02-17 23:41:51,168 - INFO - Searches: properties of aluminum, necessary properties of heat resistant safety helmet
+2025-02-17 23:41:59,892 - INFO - Keeping result for safety helmet, heat resistant, titanium
+2025-02-17 23:41:59,892 - INFO - Searches: properties of titanium, necessary properties of safety helmets, titanium use in safety helmets
+2025-02-17 23:42:07,771 - INFO - Keeping result for safety helmet, heat resistant, glass
+2025-02-17 23:42:07,771 - INFO - Searches: properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-02-17 23:42:15,983 - INFO - Keeping result for safety helmet, heat resistant, wood
+2025-02-17 23:42:15,983 - INFO - Searches: properties of wood, necessary properties of safety helmets, wood use in safety helmets
+2025-02-17 23:42:22,344 - INFO - Keeping result for safety helmet, heat resistant, thermoplastic
+2025-02-17 23:42:22,345 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmet
+2025-02-17 23:42:28,547 - INFO - Keeping result for safety helmet, heat resistant, thermoset
+2025-02-17 23:42:28,547 - INFO - Searches: properties of thermoset materials, safety helmet material requirements
+2025-02-17 23:42:34,047 - INFO - Keeping result for safety helmet, heat resistant, elastomer
+2025-02-17 23:42:34,047 - INFO - Searches: properties of elastomers, suitability of elastomers for heat resistance
+2025-02-17 23:42:41,875 - INFO - Keeping result for safety helmet, heat resistant, composite
+2025-02-17 23:42:41,875 - INFO - Searches: properties of composite materials, necessary properties of safety helmets, composite use in safety helmets
+2025-02-17 23:42:49,659 - INFO - Keeping result for safety helmet, corrosion resistant, steel
+2025-02-17 23:42:49,659 - INFO - Searches: properties of steel, necessary properties of safety helmets, steel use in safety helmets
+2025-02-17 23:42:52,965 - INFO - Keeping result for safety helmet, corrosion resistant, aluminum
+2025-02-17 23:42:52,965 - INFO - Searches: properties of aluminum
+2025-02-17 23:42:56,135 - INFO - Keeping result for safety helmet, corrosion resistant, titanium
+2025-02-17 23:42:56,135 - INFO - Searches: properties of titanium
+2025-02-17 23:43:02,188 - INFO - Keeping result for safety helmet, corrosion resistant, glass
+2025-02-17 23:43:02,188 - INFO - Searches: properties of glass, suitability of glass in safety helmets
+2025-02-17 23:43:07,827 - INFO - Keeping result for safety helmet, corrosion resistant, wood
+2025-02-17 23:43:07,827 - INFO - Searches: properties of wood, necessary properties of safety helmets
+2025-02-17 23:43:17,714 - INFO - Keeping result for safety helmet, corrosion resistant, thermoplastic
+2025-02-17 23:43:17,714 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-02-17 23:43:22,562 - INFO - Keeping result for safety helmet, corrosion resistant, thermoset
+2025-02-17 23:43:22,562 - INFO - Searches: properties of thermoset materials, suitability of thermoset materials for corrosion resistant applications
+2025-02-17 23:43:28,321 - INFO - Keeping result for safety helmet, corrosion resistant, elastomer
+2025-02-17 23:43:28,321 - INFO - Searches: properties of elastomer, necessary properties of safety helmets
+2025-02-17 23:43:32,453 - INFO - Keeping result for safety helmet, corrosion resistant, composite
+2025-02-17 23:43:32,453 - INFO - Searches: properties of composite materials
+2025-02-17 23:43:35,925 - INFO - Keeping result for safety helmet, high strength, steel
+2025-02-17 23:43:35,925 - INFO - Searches: properties of steel
+2025-02-17 23:43:44,631 - INFO - Keeping result for safety helmet, high strength, aluminum
+2025-02-17 23:43:44,631 - INFO - Searches: aluminum properties, safety helmet properties, aluminum use in safety helmets
+2025-02-17 23:43:47,928 - INFO - Keeping result for safety helmet, high strength, titanium
+2025-02-17 23:43:47,928 - INFO - Searches: properties of titanium
+2025-02-17 23:43:55,732 - INFO - Keeping result for safety helmet, high strength, glass
+2025-02-17 23:43:55,732 - INFO - Searches: properties of glass, safety helmet material requirements
+2025-02-17 23:44:03,542 - INFO - Keeping result for safety helmet, high strength, wood
+2025-02-17 23:44:03,543 - INFO - Searches: properties of wood, necessary properties of safety helmets, wood use in safety helmets
+2025-02-17 23:44:11,535 - INFO - Keeping result for safety helmet, high strength, thermoplastic
+2025-02-17 23:44:11,536 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-02-17 23:44:15,035 - INFO - Keeping result for safety helmet, high strength, thermoset
+2025-02-17 23:44:15,035 - INFO - Searches: properties of thermoset materials
+2025-02-17 23:44:21,889 - INFO - Keeping result for safety helmet, high strength, elastomer
+2025-02-17 23:44:21,889 - INFO - Searches: properties of elastomers, elastomers in safety equipment
+2025-02-17 23:44:25,161 - INFO - Keeping result for safety helmet, high strength, composite
+2025-02-17 23:44:25,161 - INFO - Searches: properties of composite materials
+2025-02-17 23:44:32,890 - INFO - Keeping result for underwater component, lightweight, steel
+2025-02-17 23:44:32,890 - INFO - Searches: properties of steel, necessary properties of underwater components, steel use in underwater components
+2025-02-17 23:44:38,813 - INFO - Keeping result for underwater component, lightweight, aluminum
+2025-02-17 23:44:38,813 - INFO - Searches: properties of aluminum, necessary properties of underwater components
+2025-02-17 23:44:46,812 - INFO - Keeping result for underwater component, lightweight, titanium
+2025-02-17 23:44:46,813 - INFO - Searches: properties of titanium, necessary properties of underwater components, titanium use in underwater components
+2025-02-17 23:44:52,718 - INFO - Keeping result for underwater component, lightweight, glass
+2025-02-17 23:44:52,718 - INFO - Searches: properties of glass, necessary properties of underwater components
+2025-02-17 23:45:00,935 - INFO - Keeping result for underwater component, lightweight, wood
+2025-02-17 23:45:00,935 - INFO - Searches: properties of wood, necessary properties of underwater components, wood use in underwater components
+2025-02-17 23:45:09,206 - INFO - Keeping result for underwater component, lightweight, thermoplastic
+2025-02-17 23:45:09,206 - INFO - Searches: properties of thermoplastic, necessary properties of underwater components, thermoplastic use in underwater components
+2025-02-17 23:45:21,118 - INFO - Keeping result for underwater component, lightweight, thermoset
+2025-02-17 23:45:21,118 - INFO - Searches: properties of thermoset materials, thermoset materials for underwater applications, density of thermoset materials, other properties of thermoset materials
+2025-02-17 23:45:27,030 - INFO - Keeping result for underwater component, lightweight, elastomer
+2025-02-17 23:45:27,030 - INFO - Searches: properties of elastomers, elastomer underwater properties
+2025-02-17 23:45:34,818 - INFO - Keeping result for underwater component, lightweight, composite
+2025-02-17 23:45:34,818 - INFO - Searches: properties of composite materials, necessary properties of underwater components, composite use in underwater components
+2025-02-17 23:45:43,632 - INFO - Keeping result for underwater component, heat resistant, steel
+2025-02-17 23:45:43,633 - INFO - Searches: properties of steel, steel for underwater heat resistant applications, heat resistance scale of steel
+2025-02-17 23:45:49,726 - INFO - Keeping result for underwater component, heat resistant, aluminum
+2025-02-17 23:45:49,726 - INFO - Searches: properties of aluminum, heat resistance of aluminum
+2025-02-17 23:45:52,699 - INFO - Keeping result for underwater component, heat resistant, titanium
+2025-02-17 23:45:52,699 - INFO - Searches: properties of titanium
+2025-02-17 23:46:00,628 - INFO - Keeping result for underwater component, heat resistant, glass
+2025-02-17 23:46:00,628 - INFO - Searches: properties of glass, necessary properties of heat resistant components, glass use in heat resistant components
+2025-02-17 23:46:06,658 - INFO - Keeping result for underwater component, heat resistant, wood
+2025-02-17 23:46:06,658 - INFO - Searches: heat resistance of wood, necessary properties of heat resistant underwater components
+2025-02-17 23:46:12,688 - INFO - Keeping result for underwater component, heat resistant, thermoplastic
+2025-02-17 23:46:12,688 - INFO - Searches: properties of thermoplastic, necessary properties of heat resistant materials
+2025-02-17 23:46:21,478 - INFO - Keeping result for underwater component, heat resistant, thermoset
+2025-02-17 23:46:21,478 - INFO - Searches: properties of thermosets, thermosets underwater performance, thermosets heat resistance
+2025-02-17 23:46:30,461 - INFO - Keeping result for underwater component, heat resistant, elastomer
+2025-02-17 23:46:30,461 - INFO - Searches: properties of elastomers, heat resistance of elastomers, specific heat resistance of elastomers
+2025-02-17 23:46:35,825 - INFO - Keeping result for underwater component, heat resistant, composite
+2025-02-17 23:46:35,825 - INFO - Searches: properties of composite materials
+2025-02-17 23:46:51,840 - INFO - Keeping result for underwater component, corrosion resistant, steel
+2025-02-17 23:46:51,840 - INFO - Searches: properties of steel in underwater environments, necessary properties of corrosion resistant materials, can steel be treated to be corrosion resistant
+2025-02-17 23:46:59,629 - INFO - Keeping result for underwater component, corrosion resistant, aluminum
+2025-02-17 23:46:59,629 - INFO - Searches: properties of aluminum, necessary properties of corrosion resistant components, aluminum use in corrosion resistant components
+2025-02-17 23:47:02,832 - INFO - Keeping result for underwater component, corrosion resistant, titanium
+2025-02-17 23:47:02,833 - INFO - Searches: properties of titanium
+2025-02-17 23:47:10,505 - INFO - Keeping result for underwater component, corrosion resistant, glass
+2025-02-17 23:47:10,505 - INFO - Searches: properties of glass, necessary properties of corrosion resistant materials, glass as corrosion resistant material
+2025-02-17 23:47:13,654 - INFO - Keeping result for underwater component, corrosion resistant, wood
+2025-02-17 23:47:13,654 - INFO - Searches: properties of wood in marine environment
+2025-02-17 23:47:20,090 - INFO - Keeping result for underwater component, corrosion resistant, thermoplastic
+2025-02-17 23:47:20,090 - INFO - Searches: properties of thermoplastic, thermoplastic use in underwater components
+2025-02-17 23:47:28,699 - INFO - Keeping result for underwater component, corrosion resistant, thermoset
+2025-02-17 23:47:28,700 - INFO - Searches: properties of thermoset, corrosion resistance of thermosets, performance of thermosets in underwater environments
+2025-02-17 23:47:34,836 - INFO - Keeping result for underwater component, corrosion resistant, elastomer
+2025-02-17 23:47:34,836 - INFO - Searches: properties of elastomers, corrosion resistance of elastomers
+2025-02-17 23:47:40,852 - INFO - Keeping result for underwater component, corrosion resistant, composite
+2025-02-17 23:47:40,852 - INFO - Searches: properties of composite materials, performance of composites in underwater environments
+2025-02-17 23:47:44,135 - INFO - Keeping result for underwater component, high strength, steel
+2025-02-17 23:47:44,135 - INFO - Searches: properties of steel
+2025-02-17 23:47:50,113 - INFO - Keeping result for underwater component, high strength, aluminum
+2025-02-17 23:47:50,113 - INFO - Searches: aluminum properties underwater, properties of aluminum
+2025-02-17 23:47:57,742 - INFO - Keeping result for underwater component, high strength, titanium
+2025-02-17 23:47:57,742 - INFO - Searches: properties of titanium, necessary properties of underwater components, titanium use in underwater components
+2025-02-17 23:48:03,956 - INFO - Keeping result for underwater component, high strength, glass
+2025-02-17 23:48:03,956 - INFO - Searches: properties of glass, necessary properties of high-strength underwater components
+2025-02-17 23:48:09,826 - INFO - Keeping result for underwater component, high strength, wood
+2025-02-17 23:48:09,827 - INFO - Searches: properties of wood, wood performance in underwater environments
+2025-02-17 23:48:17,971 - INFO - Keeping result for underwater component, high strength, thermoplastic
+2025-02-17 23:48:17,971 - INFO - Searches: properties of thermoplastic, necessary properties of underwater components, thermoplastic use in underwater components
+2025-02-17 23:48:23,315 - INFO - Keeping result for underwater component, high strength, thermoset
+2025-02-17 23:48:23,315 - INFO - Searches: properties of thermosets, thermosets use in underwater components
+2025-02-17 23:48:29,927 - INFO - Keeping result for underwater component, high strength, elastomer
+2025-02-17 23:48:29,927 - INFO - Searches: properties of elastomers, elastomer for underwater applications
+2025-02-17 23:48:37,380 - INFO - Keeping result for underwater component, high strength, composite
+2025-02-17 23:48:37,380 - INFO - Searches: properties of composite materials, necessary properties of underwater components, composite use in underwater components
+2025-02-17 23:48:43,397 - INFO - Keeping result for spacecraft component, lightweight, steel
+2025-02-17 23:48:43,397 - INFO - Searches: properties of steel, necessary properties of lightweight materials for spacecraft components
+2025-02-17 23:48:51,027 - INFO - Keeping result for spacecraft component, lightweight, aluminum
+2025-02-17 23:48:51,027 - INFO - Searches: properties of aluminum, necessary properties of spacecraft components, aluminum use in spacecraft components
+2025-02-17 23:48:54,101 - INFO - Keeping result for spacecraft component, lightweight, titanium
+2025-02-17 23:48:54,101 - INFO - Searches: properties of titanium
+2025-02-17 23:49:03,391 - INFO - Keeping result for spacecraft component, lightweight, glass
+2025-02-17 23:49:03,391 - INFO - Searches: properties of glass, necessary properties of spacecraft components, glass use in spacecraft components
+2025-02-17 23:49:11,208 - INFO - Keeping result for spacecraft component, lightweight, wood
+2025-02-17 23:49:11,208 - INFO - Searches: properties of wood, necessary properties of spacecraft components, wood use in spacecraft components
+2025-02-17 23:49:18,856 - INFO - Keeping result for spacecraft component, lightweight, thermoplastic
+2025-02-17 23:49:18,856 - INFO - Searches: properties of thermoplastic, necessary properties of spacecraft components, thermoplastic use in spacecraft components
+2025-02-17 23:49:26,795 - INFO - Keeping result for spacecraft component, lightweight, thermoset
+2025-02-17 23:49:26,795 - INFO - Searches: properties of thermoset materials, necessary properties of spacecraft components, thermoset use in spacecraft components
+2025-02-17 23:49:30,879 - INFO - Keeping result for spacecraft component, lightweight, elastomer
+2025-02-17 23:49:30,879 - INFO - Searches: properties of elastomers, suitability of elastomers in spacecraft components
+2025-02-17 23:49:34,267 - INFO - Keeping result for spacecraft component, lightweight, composite
+2025-02-17 23:49:34,267 - INFO - Searches: properties of composite materials
+2025-02-17 23:49:37,849 - INFO - Keeping result for spacecraft component, heat resistant, steel
+2025-02-17 23:49:37,849 - INFO - Searches: heat resistance of steel
+2025-02-17 23:49:41,014 - INFO - Keeping result for spacecraft component, heat resistant, aluminum
+2025-02-17 23:49:41,014 - INFO - Searches: heat resistance of aluminum
+2025-02-17 23:49:49,122 - INFO - Keeping result for spacecraft component, heat resistant, titanium
+2025-02-17 23:49:49,122 - INFO - Searches: properties of titanium, necessary properties of heat resistant materials for spacecraft components, titanium use in spacecraft components
+2025-02-17 23:49:52,534 - INFO - Keeping result for spacecraft component, heat resistant, glass
+2025-02-17 23:49:52,534 - INFO - Searches: properties of glass
+2025-02-17 23:50:00,381 - INFO - Keeping result for spacecraft component, heat resistant, wood
+2025-02-17 23:50:00,382 - INFO - Searches: properties of wood, necessary properties of heat resistant materials, wood use in heat resistant materials
+2025-02-17 23:50:08,397 - INFO - Keeping result for spacecraft component, heat resistant, thermoplastic
+2025-02-17 23:50:08,397 - INFO - Searches: properties of thermoplastic, necessary properties of heat resistant materials, thermoplastic use in heat resistant applications
+2025-02-17 23:50:13,967 - INFO - Keeping result for spacecraft component, heat resistant, thermoset
+2025-02-17 23:50:13,967 - INFO - Searches: properties of thermoset, thermoset use in spacecraft components
+2025-02-17 23:50:17,116 - INFO - Keeping result for spacecraft component, heat resistant, elastomer
+2025-02-17 23:50:17,116 - INFO - Searches: properties of elastomers
+2025-02-17 23:50:20,219 - INFO - Keeping result for spacecraft component, heat resistant, composite
+2025-02-17 23:50:20,219 - INFO - Searches: heat resistance of composite materials
+2025-02-17 23:50:28,785 - INFO - Keeping result for spacecraft component, corrosion resistant, steel
+2025-02-17 23:50:28,785 - INFO - Searches: properties of steel, necessary properties of corrosion resistant component, steel use in corrosion resistant component
+2025-02-17 23:50:36,616 - INFO - Keeping result for spacecraft component, corrosion resistant, aluminum
+2025-02-17 23:50:36,616 - INFO - Searches: properties of aluminum, necessary properties of corrosion resistant materials, aluminum use in spacecraft components
+2025-02-17 23:50:39,614 - INFO - Keeping result for spacecraft component, corrosion resistant, titanium
+2025-02-17 23:50:39,614 - INFO - Searches: properties of titanium
+2025-02-17 23:50:46,613 - INFO - Keeping result for spacecraft component, corrosion resistant, glass
+2025-02-17 23:50:46,613 - INFO - Searches: properties of glass, glass use in space applications
+2025-02-17 23:50:51,862 - INFO - Keeping result for spacecraft component, corrosion resistant, wood
+2025-02-17 23:50:51,862 - INFO - Searches: properties of wood, corrosion resistant materials
+2025-02-17 23:50:59,628 - INFO - Keeping result for spacecraft component, corrosion resistant, thermoplastic
+2025-02-17 23:50:59,628 - INFO - Searches: properties of thermoplastic, necessary properties of spacecraft components, thermoplastic use in spacecraft components
+2025-02-17 23:51:05,449 - INFO - Keeping result for spacecraft component, corrosion resistant, thermoset
+2025-02-17 23:51:05,450 - INFO - Searches: properties of thermosets, corrosion resistance of thermosets
+2025-02-17 23:51:11,435 - INFO - Keeping result for spacecraft component, corrosion resistant, elastomer
+2025-02-17 23:51:11,435 - INFO - Searches: properties of elastomers, necessary properties of corrosion resistant materials
+2025-02-17 23:51:17,666 - INFO - Keeping result for spacecraft component, corrosion resistant, composite
+2025-02-17 23:51:17,666 - INFO - Searches: properties of composite materials, corrosion resistance of composite materials
+2025-02-17 23:51:25,238 - INFO - Keeping result for spacecraft component, high strength, steel
+2025-02-17 23:51:25,238 - INFO - Searches: properties of steel, necessary properties of spacecraft components, steel use in spacecraft components
+2025-02-17 23:51:33,020 - INFO - Keeping result for spacecraft component, high strength, aluminum
+2025-02-17 23:51:33,020 - INFO - Searches: properties of aluminum, necessary properties of spacecraft components, aluminum use in spacecraft components
+2025-02-17 23:51:40,673 - INFO - Keeping result for spacecraft component, high strength, titanium
+2025-02-17 23:51:40,673 - INFO - Searches: properties of titanium, necessary properties of spacecraft components, titanium use in spacecraft components
+2025-02-17 23:51:44,291 - INFO - Keeping result for spacecraft component, high strength, glass
+2025-02-17 23:51:44,291 - INFO - Searches: strength properties of glass
+2025-02-17 23:51:47,821 - INFO - Keeping result for spacecraft component, high strength, wood
+2025-02-17 23:51:47,821 - INFO - Searches: properties of wood
+2025-02-17 23:51:55,731 - INFO - Keeping result for spacecraft component, high strength, thermoplastic
+2025-02-17 23:51:55,731 - INFO - Searches: properties of thermoplastic, necessary properties of high strength components, thermoplastic use in high strength components
+2025-02-17 23:52:00,016 - INFO - Keeping result for spacecraft component, high strength, thermoset
+2025-02-17 23:52:00,016 - INFO - Searches: properties of thermoset
+2025-02-17 23:52:07,716 - INFO - Keeping result for spacecraft component, high strength, elastomer
+2025-02-17 23:52:07,716 - INFO - Searches: properties of elastomers, necessary properties of spacecraft components, elastomers use in spacecraft components
+2025-02-17 23:52:10,965 - INFO - Keeping result for spacecraft component, high strength, composite
+2025-02-17 23:52:10,965 - INFO - Searches: properties of composite materials
