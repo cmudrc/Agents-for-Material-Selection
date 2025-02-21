@@ -1,22 +1,26 @@
-import pandas as pd
 import re
+import pandas as pd
 import numpy as np
 from collections import defaultdict
 
 ##########################################################################################
 
-rerun_pattern = re.compile(r"- INFO - Retrying run for (.*?): (\d)/5")  # Matches retries
-result_pattern = re.compile(r"- INFO - Keeping result for (.*)")  # Matches successful results
-search_pattern = re.compile(r"- INFO - Searches: (.*)")  # Matches search queries
+# Create regex patterns to match retries, successful results, and search queries
+rerun_pattern = re.compile(r"- INFO - Retrying run for (.*?): (\d)/5")
+result_pattern = re.compile(r"- INFO - Keeping result for (.*)")
+search_pattern = re.compile(r"- INFO - Searches: (.*)")
 
 results = []
 total_reruns = defaultdict(list)
 successful_reruns = defaultdict(list)
 total_queries = defaultdict(list)
+size = []
+query = []
 unique_queries = defaultdict(list)
 unique_proportion = defaultdict(list)
 log_directory = 'Search Logs'
 
+# Iterate through logs for each model size and extract data
 for modelsize in [1.5, 3, 7, 14, 32, 72]:
     with open(f'Search Logs/{modelsize}B_logs.txt', 'r') as file:
         current_combination = None
@@ -30,11 +34,13 @@ for modelsize in [1.5, 3, 7, 14, 32, 72]:
                     total_reruns[modelsize].append(rerun_count)
                     rerun_count = 0
                 continue
-                 
+
             # Check for searches
             search_match = search_pattern.search(line)
             if search_match:
-                queries = search_match.group(1).split(',')
+                queries = [query.lower().strip() for query in search_match.group(1).split(',')]
+                query.extend(queries)
+                size.extend([modelsize] * len(queries))
                 total, unique = len(queries), len(set(queries))
                 total_queries[modelsize].append(total)
                 unique_queries[modelsize].append(unique)
@@ -51,6 +57,7 @@ for modelsize in [1.5, 3, 7, 14, 32, 72]:
 
 ##########################################################################################
 
+# Calculate mean and standard deviation by model size
 def calculate_stats(data_dict):
     return {modelsize: (np.mean(data), np.std(data)) for modelsize, data in data_dict.items()}
 
@@ -77,7 +84,11 @@ data = [
     for modelsize in total_reruns_stats
 ]
 
-df = pd.DataFrame(data).round(4)
-# df.to_csv('searches_summary.csv', index=False)
-pd.options.display.max_columns = None
-print(df)
+# Create dataframe summarizing total number of reruns, total number of reruns for
+# successful prompts, total queries, unique queries, and proportion of unique queries
+summary_df = pd.DataFrame(data).round(4)
+summary_df.to_csv('searches_summary.csv', index=False)
+
+# Create dataframe of all search queries
+query_df = pd.DataFrame({'Size': size, 'Query': query})
+query_df.to_csv('searches_by_size.csv', index=False)
