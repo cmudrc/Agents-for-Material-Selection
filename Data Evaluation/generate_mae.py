@@ -20,13 +20,13 @@ results = []
 # Load the survey responses CSV
 survey_responses_df = pd.read_csv('Data/survey_responses_mapped.csv')
 
-# drop the rows with nan values
+# Drop the rows with nan values
 survey_responses_df = survey_responses_df.dropna()
 
 # Group the survey responses by 'design', 'criteria', 'material' and calculate mean and std
 grouped_survey_stats = survey_responses_df.groupby(['design', 'criteria', 'material'])['response'].agg(['mean', 'std']).reset_index()
 
-for modelsize in [1.5, 3, 7, 14, 32, 72]:
+for modelsize in [1.5, 3, 7, 32, 72]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         for design in ['kitchen utensil grip', 'spacecraft component', 'underwater component', 'safety helmet']:
             for criteria in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
@@ -38,6 +38,7 @@ for modelsize in [1.5, 3, 7, 14, 32, 72]:
                     model_data_df = model_data_df[model_data_df['design'] == design]
                     model_data_df = model_data_df[model_data_df['criteria'] == criteria]
                     model_data_df = model_data_df[model_data_df['material'] == material]
+                    model_data_df = model_data_df.dropna()
 
                     # # clean the response column by only taking the first digits in the string
                     # try:
@@ -61,4 +62,5 @@ for modelsize in [1.5, 3, 7, 14, 32, 72]:
                     
 # Save the results to a CSV file
 results_df = pd.DataFrame(results)
-results_df.to_csv('Data/mean_error.csv', index=False)
+results_df = results_df.dropna()
+results_df.to_csv('Data Evaluation/Results/mean_error.csv', index=False)

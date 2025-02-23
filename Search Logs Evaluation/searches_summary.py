@@ -88,6 +88,8 @@ data = [
 # successful prompts, total queries, unique queries, and proportion of unique queries
 summary_df = pd.DataFrame(data).round(4)
 summary_df.to_csv('searches_summary.csv', index=False)
+pd.set_option('display.max_columns', None)
+print(summary_df)
 
 # Create dataframe of all search queries
 query_df = pd.DataFrame({'Size': size, 'Query': query})

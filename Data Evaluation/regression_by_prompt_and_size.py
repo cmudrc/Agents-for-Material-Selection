@@ -30,7 +30,7 @@ def regression_results(y_true, y_pred, y_val, grouping):
 
 def ols_regression(results_df, y_val, grouping):
     # Separate features (X) and target variable (y)
-    x = results_df[['Size', 'Prompt Type']]
+    x = results_df[['size', 'prompt type']]
     y = results_df[y_val]
 
     # Split the dataset into training and testing sets
@@ -38,13 +38,13 @@ def ols_regression(results_df, y_val, grouping):
 
     # One-Hot Encoding:
     encoder_one_hot = OneHotEncoder()
-    x_train_one_hot = encoder_one_hot.fit_transform(x_train[['Prompt Type']])
+    x_train_one_hot = encoder_one_hot.fit_transform(x_train[['prompt type']])
 
     # Build linear regression model
     model_one_hot = LinearRegression().fit(x_train_one_hot, y_train)
 
     # Evaluate model on the test set
-    x_test_one_hot = encoder_one_hot.transform(x_test[['Prompt Type']])
+    x_test_one_hot = encoder_one_hot.transform(x_test[['prompt type']])
     y_pred = model_one_hot.predict(x_test_one_hot)
     regression_results(y_test, y_pred, y_val, grouping)
 
@@ -52,7 +52,7 @@ def ols_regression(results_df, y_val, grouping):
     x = sm.add_constant(x)
     results_df.columns = results_df.columns.str.replace(' ', '_')
     results_df.columns = results_df.columns.str.replace('-', '_')
-    model = smf.ols(f"{y_val.replace('-', '_')} ~ Size + C(Prompt_Type)", data=results_df).fit()
+    model = smf.ols(f"{y_val.replace('-', '_')} ~ size + C(prompt_type)", data=results_df).fit()
     print(model.summary())
 
 ##########################################################################################
@@ -65,38 +65,39 @@ survey_df = survey_df.dropna(how='any')
 def zscore_regression(grouping):
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std']).reset_index()
     # Combine all data across model sizes and prompt types
-    results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'Z-Score'])
+    results_df = pd.DataFrame(columns=['size', 'prompt type', 'z-score'])
     for modelsize in [1.5, 3, 7, 14, 32, 72]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
+            df = df.dropna()
             df['response'] = pd.to_numeric(df['response'], errors='coerce')
             merged_df = pd.merge(df, survey_stats, on=grouping, how='left')
-            merged_df['Z-Score'] = (merged_df['response'] - merged_df['mean']) / merged_df['std']
-            merged_stats = merged_df.groupby(grouping)['Z-Score'].agg(['mean']).reset_index()
-            merged_stats.rename(columns={'mean':'Z-Score'}, inplace=True)
-            merged_stats['Size'] = modelsize
-            merged_stats['Prompt Type'] = question_type
-            results_df = pd.concat([results_df, merged_stats[['Size', 'Prompt Type', 'Z-Score']]])
-    
-    ols_regression(results_df, 'Z-Score', grouping)
+            merged_df['z-score'] = (merged_df['response'] - merged_df['mean']) / merged_df['std']
+            merged_stats = merged_df.groupby(grouping)['z-score'].agg(['mean']).reset_index()
+            merged_stats.rename(columns={'mean':'z-score'}, inplace=True)
+            merged_stats['size'] = modelsize
+            merged_stats['prompt type'] = question_type
+            results_df = pd.concat([results_df, merged_stats[['size', 'prompt type', 'z-score']]])
+    results_df.to_csv(f'Data Evaluation/Results/z-score_{'-'.join(grouping)}.csv', index=False)
+    ols_regression(results_df, 'z-score', grouping)
 
 # Read in MAE data
-mae_df = pd.read_csv('Data/mean_error.csv')
+mae_df = pd.read_csv('Data Evaluation/Results/mean_error.csv')
 
 def mae_regression(grouping):
     # Combine all data across model sizes and prompt types
-    results_df = pd.DataFrame(columns=['Size', 'Prompt Type', 'MAE'])
-    for modelsize in [1.5, 3, 7]:
+    results_df = pd.DataFrame(columns=['size', 'prompt type', 'mae'])
+    for modelsize in [1.5, 3, 7, 32, 72]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
             stats_df = df.groupby(grouping)['mean_error'].agg(['mean']).reset_index()
-            stats_df.rename(columns={'mean':'MAE'}, inplace=True)
-            stats_df['Size'] = modelsize
-            stats_df['Prompt Type'] = question_type
-            results_df = pd.concat([results_df, stats_df[['Size', 'Prompt Type', 'MAE']]])
+            stats_df.rename(columns={'mean':'mae'}, inplace=True)
+            stats_df['size'] = modelsize
+            stats_df['prompt type'] = question_type
+            results_df = pd.concat([results_df, stats_df[['size', 'prompt type', 'mae']]])
     results_df = results_df.dropna(how='any')
-
-    ols_regression(results_df, 'MAE', grouping)
+    results_df.to_csv(f'Data Evaluation/Results/mae_{'-'.join(grouping)}.csv', index=False)
+    ols_regression(results_df, 'mae', grouping)
 
 ##########################################################################################
 
