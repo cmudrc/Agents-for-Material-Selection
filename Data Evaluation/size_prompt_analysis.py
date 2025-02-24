@@ -16,11 +16,18 @@ def plot(num, df, grouping, y_val, modelsize, question_type):
     elif num == 10: figsize = (14, 8)
     else: figsize = (10, 6)
     plt.figure(figsize=figsize)
-    if modelsize != None: df = df[df['Model Size and Prompt Type'].str.startswith(f'{modelsize}B')]
-    elif question_type != None: df = df[df['Model Size and Prompt Type'].str.endswith(question_type)]
+    if modelsize: df = df[df['Model Size and Prompt Type'].str.startswith(f'{modelsize}B')]
+    elif question_type: df = df[df['Model Size and Prompt Type'].str.endswith(question_type)]
     ax = sns.boxplot(x='Model Size and Prompt Type', y=y_val, data=df, palette=palette)
-    plt.title(f'{y_val} Grouped By {' and '.join(word.capitalize() for word in grouping)}')
-    plt.tight_layout()
+    if modelsize:
+        new_labels = [prompt_type_rename[label.split("\n")[1]] for label in df['Model Size and Prompt Type'].unique()]
+        plt.title(f'{y_val} for {modelsize}B Model Grouped By {' and '.join(word.capitalize() for word in grouping)}')
+        plt.xlabel("Prompt Type")
+    elif question_type:
+        new_labels = [label.split("\n")[0] for label in df['Model Size and Prompt Type'].unique()]
+        plt.title(f'{y_val} for {prompt_type_rename[question_type]} Prompting Grouped By {' and '.join(word.capitalize() for word in grouping)}')
+        plt.xlabel("Model Size")
+    plt.xticks(ticks=range(len(new_labels)), labels=new_labels, rotation=45)
     plt.savefig(f'figure{figure}')
     figure += 1
 
@@ -28,12 +35,11 @@ def plot(num, df, grouping, y_val, modelsize, question_type):
 
 def size_prompt_analysis(grouping):
     mae_dict = defaultdict(list)
-    # iqr_dict = defaultdict(list)
     zscore_dict = defaultdict(list)
 
     # Add MAE values from previously generated csv file
-    mae_df = pd.read_csv('Data/mean_error.csv')
-    for modelsize in [1.5, 3, 7, 14, 32, 72]:
+    mae_df = pd.read_csv('Data Evaluation/Results/mean_error.csv')
+    for modelsize in [1.5, 3, 7, 32, 72]:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
             df = df.dropna(how='any')
@@ -48,14 +54,11 @@ def size_prompt_analysis(grouping):
     survey_stats = survey_df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
     # Read LLM results
-    for modelsize in ['1.5', '3', '7', '14', '32', '72']:
+    for modelsize in ['1.5', '3', '7', '32', '72']:
         for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
             df = pd.read_csv(f'Data/qwen_{modelsize}B_{question_type}.csv')
             df['response'] = pd.to_numeric(df['response'], errors='coerce')
             df_stats = df.groupby(grouping)['response'].agg(['mean', 'std']).reset_index()
-            # df_stats = df.groupby(grouping)['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
-            # for iqr_value in list(df_stats['iqr']):
-            #     iqr_dict[modelsize+'B\n'+question_type].append(iqr_value)
             merged_df = pd.merge(df, survey_stats, on=grouping, how='left')
             merged_df['z-score'] = (merged_df['response'] - merged_df['mean']) / merged_df['std']
             merged_stats = merged_df.groupby(grouping)['z-score'].agg(['mean']).reset_index()
@@ -70,14 +73,6 @@ def size_prompt_analysis(grouping):
         labels.extend([key] * len(values))
     mae_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'MAEs': mae_values})
 
-    # # Create dataframe of IQR values
-    # iqr_values = []
-    # labels = []
-    # for key, values in iqr_dict.items():
-    #     iqr_values.extend(values)
-    #     labels.extend([key] * len(values))
-    # iqr_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'IQRs': iqr_values})
-
     # Create dataframe of z-score values
     zscore_values = []
     labels = []
@@ -86,24 +81,23 @@ def size_prompt_analysis(grouping):
         labels.extend([key] * len(values))
     zscore_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'Z-Scores': zscore_values})
 
-    # plot(30, mae_df, grouping, "MAEs", None, None)
-    # plot(30, iqr_df, grouping, "IQRs")
-    # plot(30, zscore_df, grouping, "Z-Scores", None, None)
-
     # Plot by size
-    for modelsize in ['1.5', '3', '7', '14', '32', '72']:
+    for modelsize in ['1.5', '3', '7', '32', '72']:
         plot(5, mae_df, grouping, "MAEs", modelsize, None)
-        # plot(5, iqr_df, grouping, "IQRs", modelsize, None)
         plot(5, zscore_df, grouping, "Z-Scores", modelsize, None)
 
     # Plot by prompt type
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-        plot(6, mae_df, grouping, "MAEs", None, question_type)
-        # plot(6, iqr_df, grouping, "IQRs", None, question_type)
-        plot(6, zscore_df, grouping, "Z-Scores", None, question_type)
+        plot(5, mae_df, grouping, "MAEs", None, question_type)
+        plot(5, zscore_df, grouping, "Z-Scores", None, question_type)
 
 ##########################################################################################
 
+plt.rcParams['font.family'] = 'serif'
+plt.rcParams['font.size'] = 12
+prompt_type_rename = {'agentic': 'Agentic', 'zero-shot': 'Zero-Shot', 'few-shot': 'Few-Shot', 'parallel': 'Parallel', 'chain-of-thought': 'Chain-of-Thought'}
+
 size_prompt_analysis(['design', 'criteria'])
 size_prompt_analysis(['material'])
+plt.tight_layout()
 plt.show()

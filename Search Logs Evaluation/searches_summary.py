@@ -87,10 +87,24 @@ data = [
 # Create dataframe summarizing total number of reruns, total number of reruns for
 # successful prompts, total queries, unique queries, and proportion of unique queries
 summary_df = pd.DataFrame(data).round(4)
-summary_df.to_csv('searches_summary.csv', index=False)
-pd.set_option('display.max_columns', None)
-print(summary_df)
+summary_df.to_csv('Search Logs Data/searches_summary.csv', index=False)
 
 # Create dataframe of all search queries
 query_df = pd.DataFrame({'Size': size, 'Query': query})
-query_df.to_csv('searches_by_size.csv', index=False)
+query_df.to_csv('Search Logs Data/searches_by_size.csv', index=False)
+
+# Change queries to filler words for better analysis of word embeddings
+replacements = {
+    r'\b(kitchen utensil grip|kitchen utensil grips|kitchen utensils grips|utensil grip|utensil grips|grip|grips|kitchen utensil|kitchen utensils|safety helmet|safety helmets|safety equipment|underwater component|underwater components|underwater environments|underwater|marine environment|spacecraft component|spacecraft components|spacecraft|space environments|space applications)\b': '{design}',
+    r'\b(stainless steel|steel|aluminum alloys|aluminum|titanium|glass|wood|thermoplastic|thermoset materials|thermoset|thermosets|elastomer materials|elastomer|elastomers|composite material|composite materials|composite|composites)\b': '{material}',
+    r'\b(heat resistance scale|heat resistance|heat resistant|melting point|heat conductivity|heat-resistant|heat performance|thermal|corrosion resistance|corrosion resistant|corrosion-resistant|corrosion|corrosive|high strength|high-strength|strength|lightweight|weight|density)\b': '{criterion}',
+}
+
+def replace_phrases(query, replacements):
+    if isinstance(query, str):
+        for pattern, replacement in replacements.items():
+            query = re.sub(pattern, replacement, query)
+    return query
+
+query_df['Query'] = query_df['Query'].apply(lambda x: replace_phrases(x, replacements))
+query_df.to_csv('Search Logs Data/filtered_searches_by_size.csv', index=False)

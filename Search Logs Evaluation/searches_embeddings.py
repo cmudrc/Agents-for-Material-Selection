@@ -22,14 +22,13 @@ embeddings = defaultdict(list)
 modelsizes = [1.5, 3, 7, 32, 72]
 
 # Create embeddings for queries in system prompt examples
-prompt_queries = ['properties of wood', 'necessary properties of cutting boards', 'wood use in cutting boards', 'properties of thermoplastic'
-, 'necessary properties of cooking pans', 'thermoplastic use in cooking pans']
+prompt_queries = ['properties of {material}', 'necessary properties of {design}', '{material} use in {design}']
 for query in prompt_queries:
     embeddings['Prompt'].append(model.encode(query))
 prompt_embeddings = np.array(embeddings['Prompt'])
 
 # Create embeddings for search queries used by agent
-searches_df = pd.read_csv('Search Logs Data/searches_by_size.csv')
+searches_df = pd.read_csv('Search Logs Data/filtered_searches_by_size.csv')
 for _, row in searches_df.iterrows():
     modelsize = row['Size']
     line = row['Query']
@@ -83,3 +82,31 @@ ax2.grid(True)
 ax2.legend()
 plt.tight_layout()
 plt.show()
+
+def group_into_clusters(coordinates, labels, query_lines):
+    clusters = defaultdict(set)
+    
+    for i, (x, y) in enumerate(coordinates):
+        if -10 < x < 0 and y > -5:
+            clusters['Cluster 1'].add(query_lines[i])
+        elif x < -10:
+            clusters['Cluster 2'].add(query_lines[i])
+        elif x > 0:
+            clusters['Cluster 3'].add(query_lines[i])
+        else:
+            clusters['Cluster 4'].add(query_lines[i])
+    
+    return clusters
+
+all_queries = prompt_queries.copy()
+for modelsize in modelsizes:
+    search_queries = searches_df[searches_df['Size'] == modelsize]['Query'].dropna().tolist()
+    all_queries.extend(search_queries)
+
+clusters_pca = group_into_clusters(reduced_pca, labels, all_queries)
+
+print("\nClusters based on PCA coordinates:")
+for cluster, items in clusters_pca.items():
+    print(f"{cluster}:")
+    for query in items:
+        print(f"  - {query}")
