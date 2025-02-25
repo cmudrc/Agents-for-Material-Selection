@@ -14,7 +14,7 @@ query_counts = df['total_queries_avg']
 unique_query_counts = df['unique_queries_avg']
 
 x = np.arange(6)
-width = 0.3
+width = 0.4
 
 # Create plot summarizing rerun counts
 fig1, ax1 = plt.subplots(figsize=(8, 6))
@@ -27,6 +27,7 @@ for i, (category, values) in enumerate(zip(['Rerun Count', 'Successful Rerun Cou
 
 ax1.set_xlabel('Model Size', fontname='Georgia', fontsize=12)
 ax1.set_ylabel('Values', fontname='Georgia', fontsize=12)
+ax1.set_xticks(x - width)
 ax1.set_xticklabels(model_sizes, fontname='Georgia', fontsize=10)
 ax1.set_yticklabels(ax1.get_yticks(), fontname='Georgia', fontsize=10)
 ax1.set_title('Mean Rerun Values', fontname='Georgia', fontsize=16)
@@ -34,6 +35,9 @@ legend = ax1.legend()
 for text in legend.get_texts():
     text.set_fontname('Georgia')
     text.set_fontsize(12)
+
+plt.tight_layout()
+plt.show()
 
 # Create plot summarizing query counts
 fig2, ax2 = plt.subplots(figsize=(8, 6))
@@ -45,6 +49,7 @@ for i, (category, values) in enumerate(zip(['Query Count', 'Unique Query Count']
 
 ax2.set_xlabel('Model Size', fontname='Georgia', fontsize=12)
 ax2.set_ylabel('Values', fontname='Georgia', fontsize=12)
+ax2.set_xticks(x - width)
 ax2.set_xticklabels(model_sizes, fontname='Georgia', fontsize=10)
 ax2.set_yticklabels(ax2.get_yticks(), fontname='Georgia', fontsize=10)
 ax2.set_title('Mean Query Values', fontname='Georgia', fontsize=16)
@@ -53,7 +58,5 @@ for text in legend.get_texts():
     text.set_fontname('Georgia')
     text.set_fontsize(12)
 
-plt.rcParams['font.family'] = 'serif'
-plt.rcParams['font.size'] = 12
 plt.tight_layout()
 plt.show()
