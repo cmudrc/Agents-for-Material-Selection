@@ -1,4 +1,4 @@
-# Evaluating the Effectiveness of Large Language Model Powered Agents for Material Selection
+# Evaluating the Effectiveness of an Agentic Framework for Material Selection
 
 ## Abstract
 
