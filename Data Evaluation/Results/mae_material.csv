@@ -82,7 +82,7 @@ size,prompt type,mae
 3.0,parallel,2.372209547738144
 3.0,chain-of-thought,3.2062804971683336
 3.0,chain-of-thought,2.944251429175156
-3.0,chain-of-thought,5.729150960163462
+3.0,chain-of-thought,4.010217164525237
 3.0,chain-of-thought,3.7523735279675425
 3.0,chain-of-thought,3.622819159912858
 3.0,chain-of-thought,5.187574524514157
@@ -215,7 +215,7 @@ size,prompt type,mae
 72.0,parallel,2.9880213510604334
 72.0,parallel,2.4262883141739593
 72.0,parallel,2.290637389105327
-72.0,chain-of-thought,7.45960479446672
+72.0,chain-of-thought,2.6949399497785853
 72.0,chain-of-thought,2.336863241959148
 72.0,chain-of-thought,4.2104985601991505
 72.0,chain-of-thought,3.0356049486372703

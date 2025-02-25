@@ -1376,7 +1376,6 @@ model_size,question_type,design,criteria,material,mean_error
 3.0,chain-of-thought,underwater component,heat resistant,glass,7.105263157894737
 3.0,chain-of-thought,underwater component,heat resistant,wood,1.9736842105263157
 3.0,chain-of-thought,underwater component,heat resistant,thermoplastic,3.986842105263158
-3.0,chain-of-thought,underwater component,heat resistant,elastomer,31.513157894736842
 3.0,chain-of-thought,underwater component,heat resistant,thermoset,5.842105263157895
 3.0,chain-of-thought,underwater component,heat resistant,composite,2.6973684210526314
 3.0,chain-of-thought,underwater component,corrosion resistant,steel,3.782051282051282
@@ -3418,7 +3417,6 @@ model_size,question_type,design,criteria,material,mean_error
 72.0,chain-of-thought,kitchen utensil grip,high strength,thermoset,2.2837837837837838
 72.0,chain-of-thought,kitchen utensil grip,high strength,composite,1.9594594594594594
 72.0,chain-of-thought,spacecraft component,lightweight,steel,4.577464788732394
-72.0,chain-of-thought,spacecraft component,lightweight,aluminum,78.92957746478874
 72.0,chain-of-thought,spacecraft component,lightweight,titanium,2.183098591549296
 72.0,chain-of-thought,spacecraft component,lightweight,glass,1.943661971830986
 72.0,chain-of-thought,spacecraft component,lightweight,wood,2.76056338028169
