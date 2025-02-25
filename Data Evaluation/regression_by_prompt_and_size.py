@@ -31,6 +31,7 @@ def regression_results(y_true, y_pred, y_val, grouping):
 def ols_regression(results_df, y_val, grouping):
     # Separate features (X) and target variable (y)
     x = results_df[['size', 'prompt type']]
+    print(x)
     y = results_df[y_val]
 
     # Split the dataset into training and testing sets
@@ -52,7 +53,8 @@ def ols_regression(results_df, y_val, grouping):
     x = sm.add_constant(x)
     results_df.columns = results_df.columns.str.replace(' ', '_')
     results_df.columns = results_df.columns.str.replace('-', '_')
-    model = smf.ols(f"{y_val.replace('-', '_')} ~ size + C(prompt_type)", data=results_df).fit()
+    formula = f'{y_val.replace('-', '_')} ~ size + C(prompt_type) + (size * C(prompt_type))'
+    model = smf.ols(formula, data=results_df).fit()
     print(model.summary())
 
 ##########################################################################################

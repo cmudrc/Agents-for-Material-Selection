@@ -28,7 +28,20 @@ def plot(num, df, grouping, y_val, modelsize, question_type):
         plt.title(f'{y_val} for {prompt_type_rename[question_type]} Prompting Grouped By {' and '.join(word.capitalize() for word in grouping)}')
         plt.xlabel("Model Size")
     plt.xticks(ticks=range(len(new_labels)), labels=new_labels, rotation=45)
-    plt.savefig(f'figure{figure}')
+    # plt.savefig(f'figure{figure}')
+    figure += 1
+
+def plot_prompt(num, df, survey_df, grouping, y_val):
+    global figure
+    palette = sns.color_palette('hls', num)
+    plt.figure(figsize=(10, 6))
+    df[['Model Size', 'Prompt Type']] = df['Model Size and Prompt Type'].str.split("\n", expand=True)
+    ax = sns.boxplot(x='Prompt Type', y=y_val, hue='Model Size', data=df, palette=palette)
+    # sns.scatterplot(x='Prompt Type', y='response', data=survey_df, color='black', s=100, label='Survey Mean')
+    new_labels = [prompt_type_rename[label] for label in df['Prompt Type'].unique()]
+    plt.title(f'{y_val} for Results Grouped By {' and '.join(word.capitalize() for word in grouping)}')
+    plt.xlabel("Prompt Type")
+    plt.xticks(ticks=range(len(new_labels)), labels=new_labels, rotation=0)
     figure += 1
 
 ##########################################################################################
@@ -81,15 +94,18 @@ def size_prompt_analysis(grouping):
         labels.extend([key] * len(values))
     zscore_df = pd.DataFrame({'Model Size and Prompt Type': labels, 'Z-Scores': zscore_values})
 
-    # Plot by size
-    for modelsize in ['1.5', '3', '7', '32', '72']:
-        plot(5, mae_df, grouping, "MAEs", modelsize, None)
-        plot(5, zscore_df, grouping, "Z-Scores", modelsize, None)
+    plot_prompt(5, mae_df, survey_df, grouping, "MAEs")
+    plot_prompt(5, zscore_df, survey_df, grouping, "Z-Scores")
 
-    # Plot by prompt type
-    for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-        plot(5, mae_df, grouping, "MAEs", None, question_type)
-        plot(5, zscore_df, grouping, "Z-Scores", None, question_type)
+    # # Plot by size
+    # for modelsize in ['1.5', '3', '7', '32', '72']:
+    #     plot(5, mae_df, grouping, "MAEs", modelsize, None)
+    #     plot(5, zscore_df, grouping, "Z-Scores", modelsize, None)
+
+    # # Plot by prompt type
+    # for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
+    #     plot(5, mae_df, grouping, "MAEs", None, question_type)
+    #     plot(5, zscore_df, grouping, "Z-Scores", None, question_type)
 
 ##########################################################################################
 

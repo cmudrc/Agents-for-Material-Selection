@@ -10,7 +10,7 @@ def calculate_mean_error(row, survey_df):
                                    (survey_df['material'] == row['material'])]['response']
 
     # Calculate the absolute distance between the generated value and each survey response
-    distances = row['response'] - matching_responses
+    distances = abs(row['response'] - matching_responses)
 
     # Calculate and return the mean of these distances
     return distances.mean()

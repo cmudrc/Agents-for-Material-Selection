@@ -9,7 +9,6 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 
 ##########################################################################################
 
@@ -32,7 +31,8 @@ searches_df = pd.read_csv('Search Logs Data/filtered_searches_by_size.csv')
 for _, row in searches_df.iterrows():
     modelsize = row['Size']
     line = row['Query']
-    if pd.notna(line): embeddings[modelsize].append(model.encode(line))
+    if pd.notna(line): 
+        embeddings[modelsize].append(model.encode(line))
 
 # Combine all embeddings
 all_embeddings = prompt_embeddings.copy()  
@@ -46,67 +46,44 @@ for modelsize in modelsizes:
 scaler = StandardScaler()
 all_embeddings_scaled = scaler.fit_transform(all_embeddings)
 
-# Apply PCA and t-SNE to all embeddings
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+# Apply PCA
 pca = PCA(n_components=2)
-tsne = TSNE(n_components=2, random_state=42, perplexity=30)
 reduced_pca = pca.fit_transform(all_embeddings_scaled)
+
+# Apply t-SNE
+tsne = TSNE(n_components=2, random_state=42, perplexity=30)
 reduced_tsne = tsne.fit_transform(all_embeddings_scaled)
 
+# Define color palette
 palette = sns.color_palette("hls", len(modelsizes))
-color_map = {'1.5B':palette[0], '3B':palette[1], '7B':palette[2], '32B':palette[3], '72B':palette[4]}
+color_map = {f'{size}B': color for size, color in zip(modelsizes, palette)}
 
-# Plot word embeddings from agent queries
-for label in ['1.5B', '3B', '7B', '32B', '72B']:
-    indices = [i for i, l in enumerate(labels) if l == label]
-    ax1.scatter(reduced_pca[indices, 0], reduced_pca[indices, 1], label=label, color=color_map[label], alpha=0.6)
-for label in ['1.5B', '3B', '7B', '32B', '72B']:
-    indices = [i for i, l in enumerate(labels) if l == label]
-    ax2.scatter(reduced_tsne[indices, 0], reduced_tsne[indices, 1], label=label, color=color_map[label], alpha=0.6)
+# Function to plot embeddings
+def plot_embeddings(reduced_embeddings, title, xlabel, ylabel, filename):
+    plt.figure(figsize=(8, 6))
     
-# Plot word embeddings from system prompt
-prompt_indices = [i for i, l in enumerate(labels) if l == 'Prompt']
-ax1.scatter(reduced_pca[prompt_indices, 0], reduced_pca[prompt_indices, 1], label='Prompt', color='black', alpha=0.8, edgecolors='white', linewidth=0.6)
-ax2.scatter(reduced_tsne[prompt_indices, 0], reduced_tsne[prompt_indices, 1], label='Prompt', color='black', alpha=0.8, edgecolors='white', linewidth=0.6)
+    # Plot agent query embeddings
+    for label in ['1.5B', '3B', '7B', '32B', '72B']:
+        indices = [i for i, l in enumerate(labels) if l == label]
+        plt.scatter(reduced_embeddings[indices, 0], reduced_embeddings[indices, 1], label=label, color=color_map[label], alpha=0.6)
 
-plt.rcParams['font.family'] = 'serif'
-ax1.set_xlabel('PCA Component 1', fontname='Georgia', fontsize=12)
-ax1.set_ylabel('PCA Component 2', fontname='Georgia', fontsize=12)
-ax1.set_title('PCA of Query Embeddings', fontname='Georgia', fontsize=16)
-ax1.grid(True)
-ax1.legend()
-ax2.set_xlabel('t-SNE Component 1', fontname='Georgia', fontsize=12)
-ax2.set_ylabel('t-SNE Component 2', fontname='Georgia', fontsize=12)
-ax2.set_title('t-SNE of Query Embeddings', fontname='Georgia', fontsize=16)
-ax2.grid(True)
-ax2.legend()
-plt.tight_layout()
-plt.show()
+    # Plot prompt embeddings
+    prompt_indices = [i for i, l in enumerate(labels) if l == 'Prompt']
+    plt.scatter(reduced_embeddings[prompt_indices, 0], reduced_embeddings[prompt_indices, 1], label='Prompt', color='black', alpha=0.8, edgecolors='white', linewidth=0.6)
 
-def group_into_clusters(coordinates, labels, query_lines):
-    clusters = defaultdict(set)
-    
-    for i, (x, y) in enumerate(coordinates):
-        if -10 < x < 0 and y > -5:
-            clusters['Cluster 1'].add(query_lines[i])
-        elif x < -10:
-            clusters['Cluster 2'].add(query_lines[i])
-        elif x > 0:
-            clusters['Cluster 3'].add(query_lines[i])
-        else:
-            clusters['Cluster 4'].add(query_lines[i])
-    
-    return clusters
+    plt.xlabel(xlabel, fontname='Georgia', fontsize=14)
+    plt.ylabel(ylabel, fontname='Georgia', fontsize=14)
+    plt.title(title, fontname='Georgia', fontsize=16)
+    plt.grid(True)
+    legend = plt.legend()
+    for text in legend.get_texts():
+        text.set_fontname('Georgia')
+        text.set_fontsize(14)
+    plt.xticks(fontname='Georgia', fontsize=10)
+    plt.yticks(fontname='Georgia', fontsize=10)
+    plt.tight_layout()
+    plt.savefig(filename)
+    plt.show()
 
-all_queries = prompt_queries.copy()
-for modelsize in modelsizes:
-    search_queries = searches_df[searches_df['Size'] == modelsize]['Query'].dropna().tolist()
-    all_queries.extend(search_queries)
-
-clusters_pca = group_into_clusters(reduced_pca, labels, all_queries)
-
-print("\nClusters based on PCA coordinates:")
-for cluster, items in clusters_pca.items():
-    print(f"{cluster}:")
-    for query in items:
-        print(f"  - {query}")
+plot_embeddings(reduced_pca, "PCA of Query Embeddings", "PCA Component 1", "PCA Component 2", "pca_plot.png")
+plot_embeddings(reduced_tsne, "t-SNE of Query Embeddings", "t-SNE Component 1", "t-SNE Component 2", "tsne_plot.png")
