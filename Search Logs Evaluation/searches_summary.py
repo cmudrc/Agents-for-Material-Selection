@@ -9,15 +9,18 @@ from collections import defaultdict
 rerun_pattern = re.compile(r"- INFO - Retrying run for (.*?): (\d)/5")
 result_pattern = re.compile(r"- INFO - Keeping result for (.*)")
 search_pattern = re.compile(r"- INFO - Searches: (.*)")
+token_pattern = re.compile(r"- INFO - Completion tokens: (.*)")
 
 results = []
 total_reruns = defaultdict(list)
 successful_reruns = defaultdict(list)
 total_queries = defaultdict(list)
+successful_prompts = defaultdict(int)
 size = []
 query = []
 unique_queries = defaultdict(list)
 unique_proportion = defaultdict(list)
+completion_tokens = defaultdict(list)
 log_directory = 'Search Logs'
 
 # Iterate through logs for each model size and extract data
@@ -47,11 +50,18 @@ for modelsize in [1.5, 3, 7, 14, 32, 72]:
                 unique_proportion[modelsize].append(unique/total)
                 continue
 
+            tokens_match = token_pattern.search(line)
+            if tokens_match:
+                token_counts = [int(count.strip()) for count in tokens_match.group(1).split(',')]
+                for count in token_counts:
+                    if count > 3: completion_tokens[modelsize].append(count)
+
             # Check for successful results, moved on to next design, criterion, material combination
             result_match = result_pattern.search(line)
             if result_match:
                 combination = result_match.group(1)
                 successful_reruns[modelsize].append(rerun_count)
+                successful_prompts[modelsize] += 1
                 total_reruns[modelsize].append(rerun_count)
                 rerun_count = 0
 
@@ -66,6 +76,7 @@ successful_reruns_stats = calculate_stats(successful_reruns)
 total_queries_stats = calculate_stats(total_queries)
 unique_queries_stats = calculate_stats(unique_queries)
 unique_proportion_stats = calculate_stats(unique_proportion)
+completion_tokens_stats = calculate_stats(completion_tokens)
 
 data = [
     {
@@ -79,7 +90,9 @@ data = [
         'unique_queries_avg': unique_queries_stats[modelsize][0],
         'unique_queries_std': unique_queries_stats[modelsize][1],
         'unique_prop_avg': unique_proportion_stats[modelsize][0],
-        'unique_prop_std': unique_proportion_stats[modelsize][1]
+        'unique_prop_std': unique_proportion_stats[modelsize][1],
+        'completion_tokens_avg': completion_tokens_stats[modelsize][0],
+        'completion_tokens_std': completion_tokens_stats[modelsize][1]
     }
     for modelsize in total_reruns_stats
 ]
@@ -108,3 +121,5 @@ def replace_phrases(query, replacements):
 
 query_df['Query'] = query_df['Query'].apply(lambda x: replace_phrases(x, replacements))
 query_df.to_csv('Search Logs Data/filtered_searches_by_size.csv', index=False)
+
+print(successful_prompts)
