@@ -71,16 +71,16 @@ def plot_embeddings(reduced_embeddings, title, xlabel, ylabel, filename):
     prompt_indices = [i for i, l in enumerate(labels) if l == 'Prompt']
     plt.scatter(reduced_embeddings[prompt_indices, 0], reduced_embeddings[prompt_indices, 1], label='Prompt', color='black', alpha=0.8, edgecolors='white', linewidth=0.6)
 
-    plt.xlabel(xlabel, fontname='Georgia', fontsize=14)
-    plt.ylabel(ylabel, fontname='Georgia', fontsize=14)
-    plt.title(title, fontname='Georgia', fontsize=16)
+    plt.xlabel(xlabel, fontname='Georgia', fontsize=18)
+    plt.ylabel(ylabel, fontname='Georgia', fontsize=18)
+    plt.title(title, fontname='Georgia', fontsize=20)
     plt.grid(True)
     legend = plt.legend()
     for text in legend.get_texts():
         text.set_fontname('Georgia')
-        text.set_fontsize(14)
-    plt.xticks(fontname='Georgia', fontsize=10)
-    plt.yticks(fontname='Georgia', fontsize=10)
+        text.set_fontsize(16)
+    plt.xticks(fontname='Georgia', fontsize=16)
+    plt.yticks(fontname='Georgia', fontsize=16)
     plt.tight_layout()
     plt.savefig(filename)
     plt.show()

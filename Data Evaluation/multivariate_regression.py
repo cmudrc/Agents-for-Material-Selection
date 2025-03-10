@@ -136,20 +136,20 @@ def plot_contributions(coef_df, y_val):
     # Plot significance labels
     for bar, label in zip(bars, sig_labels1):
         width = bar.get_width()
-        axes[0].text(width + 0.003, bar.get_y() + bar.get_height() / 2, label, ha='left', va='center', fontsize=14, fontweight='bold')
+        axes[0].text(width + 0.003, bar.get_y() + bar.get_height() / 2, label, ha='left', va='center', fontsize=16, fontweight='bold')
 
-    axes[0].set_xlabel('Coefficient Value', fontname='Georgia', fontsize=14)
+    axes[0].set_xlabel('Coefficient Value', fontname='Georgia', fontsize=16)
     axes[0].set_xlim([0, max(contributions1) + 0.05])
     bars = axes[1].barh(terms2, contributions2, color=colors2, edgecolor='black')
 
     for bar, label in zip(bars, sig_labels2):
         width = bar.get_width()
-        axes[1].text(width + 0.0001, bar.get_y() + bar.get_height() / 2, label, ha='left', va='center', fontsize=14, fontweight='bold')
+        axes[1].text(width + 0.0001, bar.get_y() + bar.get_height() / 2, label, ha='left', va='center', fontsize=16, fontweight='bold')
 
-    axes[1].set_xlabel('Coefficient Value', fontname='Georgia', fontsize=14)
+    axes[1].set_xlabel('Coefficient Value', fontname='Georgia', fontsize=16)
     axes[1].set_xlim([0, max(contributions2) + 0.0005])
     legend_elements = [Patch(facecolor=palette[1], edgecolor='black', label='Positive'), Patch(facecolor=palette[0], edgecolor='black', label='Negative')]
-    fig.legend(bbox_to_anchor=(1.002, 0.9), handles=legend_elements, loc='upper right', fontsize=14)
+    fig.legend(bbox_to_anchor=(1.002, 0.9), handles=legend_elements, loc='upper right', fontsize=16)
 
     # Add box explaining stars and terms
     explanation_text = (
@@ -163,8 +163,8 @@ def plot_contributions(coef_df, y_val):
         'Cᴢ:  Zero-shot'
     )
 
-    axes[1].text(1.05, 0.81, explanation_text, transform=axes[1].transAxes, fontsize=14, verticalalignment='top', horizontalalignment='left', bbox=dict(facecolor='white', edgecolor='lightgrey', boxstyle='square,pad=0.5'))
-    plt.suptitle(f'Contribution to Predicting {y_val}', fontname='Georgia', fontsize=18)
+    axes[1].text(1.05, 0.81, explanation_text, transform=axes[1].transAxes, fontsize=16, verticalalignment='top', horizontalalignment='left', bbox=dict(facecolor='white', edgecolor='lightgrey', boxstyle='square,pad=0.5'))
+    plt.suptitle(f'Contribution to Predicting {y_val}', fontname='Georgia', fontsize=20)
 
     plt.tight_layout()
     plt.savefig(f'regression_{y_val.lower()}.png')

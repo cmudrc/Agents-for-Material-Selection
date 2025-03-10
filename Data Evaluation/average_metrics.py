@@ -29,7 +29,7 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
     # Plot heatmap
     plt.figure(figsize=(10, 8))
     pivot_table.rename(columns=prompt_type_rename, index=size_rename, inplace=True)
-    sns.heatmap(pivot_table, annot=True, cmap=cmap, center=center, linewidths=0.5, cbar_kws={'label': metric})
+    ax = sns.heatmap(pivot_table, annot=True, annot_kws={'size': 18}, cmap=cmap, center=center, linewidths=0.5, cbar_kws={'label': metric})
     
     mean_row_index = pivot_table.index.get_loc('Mean')
     mean_col_index = pivot_table.columns.get_loc('Mean')
@@ -40,9 +40,11 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
     plt.vlines(0, ymin=-0.5, ymax=len(pivot_table.index), color='black', linewidth=2, linestyle='-')
     plt.vlines(len(pivot_table.columns), ymin=-0.5, ymax=len(pivot_table.index), color='black', linewidth=2, linestyle='-')
 
-    plt.title(title,fontsize=16)
-    plt.xticks(rotation=45, ha="right")
-    plt.yticks(rotation=45, ha="right")
+    plt.title(title,fontsize=20)
+    plt.xticks(rotation=45, ha="right", fontsize=16)
+    plt.yticks(rotation=45, ha="right", fontsize=16)
+    ax.set_xlabel(ax.get_xlabel(), fontsize=18) 
+    ax.set_ylabel(ax.get_ylabel(), fontsize=18)
     plt.tight_layout()
     plt.savefig(filename)
     plt.show()

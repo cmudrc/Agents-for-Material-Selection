@@ -34,11 +34,13 @@ size_order = ['Survey', '1.5B', '3B', '7B', '32B', '72B']
 medians = combined_df.groupby('Size')['response'].median().reindex(size_order)
 positions = range(len(size_order))
 for pos, (size, median) in zip(positions, medians.items()):
-    ax.text(pos, median - 0.25, f'{int(median)}', horizontalalignment='center', verticalalignment='top', color='black')
+    ax.text(pos, median - 0.25, f'{int(median)}', horizontalalignment='center', verticalalignment='top', color='black', fontsize=16)
     
-plt.title("Scores by Model Size", fontname='Georgia', fontsize=16)
-plt.ylabel("Score", fontname='Georgia', fontsize=12)
-plt.xlabel("Model Size", fontname='Georgia', fontsize=12)
+plt.title("Scores by Model Size", fontname='Georgia', fontsize=20)
+plt.ylabel("Score", fontname='Georgia', fontsize=18)
+plt.xlabel("Model Size", fontname='Georgia', fontsize=18)
+plt.xticks(fontname='Georgia', fontsize=16)
+plt.yticks(fontname='Georgia', fontsize=16)
 plt.tight_layout()
 plt.show()
 
@@ -49,10 +51,12 @@ prompt_order = ['Survey', 'Agentic', 'Zero-Shot', 'Few-Shot', 'Parallel', 'Chain
 medians = combined_df.groupby('Prompt Type')['response'].median().reindex(prompt_order)
 positions = range(len(prompt_order))
 for pos, (ptype, median) in zip(positions, medians.items()):
-    ax.text(pos, median - 0.25, f'{int(median)}', horizontalalignment='center', verticalalignment='top', color='black')
+    ax.text(pos, median - 0.25, f'{int(median)}', horizontalalignment='center', verticalalignment='top', color='black', fontsize=16)
     
-plt.title("Scores by Prompt Type", fontname='Georgia', fontsize=16)
-plt.ylabel("Score", fontname='Georgia', fontsize=12)
-plt.xlabel("Prompt Type", fontname='Georgia', fontsize=12)
+plt.title("Scores by Prompt Type", fontname='Georgia', fontsize=20)
+plt.ylabel("Score", fontname='Georgia', fontsize=18)
+plt.xlabel("Prompt Type", fontname='Georgia', fontsize=18)
+plt.xticks(fontname='Georgia', fontsize=16)
+plt.yticks(fontname='Georgia', fontsize=16)
 plt.tight_layout()
 plt.show()
