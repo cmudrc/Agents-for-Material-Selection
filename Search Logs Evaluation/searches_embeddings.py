@@ -60,7 +60,7 @@ color_map = {f'{size}B': color for size, color in zip(modelsizes, palette)}
 
 # Function to plot embeddings
 def plot_embeddings(reduced_embeddings, title, xlabel, ylabel, filename):
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(8, 5.5))
     
     # Plot agent query embeddings
     for label in ['1.5B', '3B', '7B', '32B', '72B']:

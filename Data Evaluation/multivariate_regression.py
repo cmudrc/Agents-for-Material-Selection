@@ -130,7 +130,7 @@ def plot_contributions(coef_df, y_val):
     pvalues2 = df2['pvalue']
     sig_labels2 = generate_significance_labels(pvalues2)
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+    fig, axes = plt.subplots(1, 2, figsize=(14, 4.5))
     bars = axes[0].barh(terms1, contributions1, color=colors1, edgecolor='black')
 
     # Plot significance labels
@@ -163,7 +163,7 @@ def plot_contributions(coef_df, y_val):
         'Cᴢ:  Zero-shot'
     )
 
-    axes[1].text(1.05, 0.81, explanation_text, transform=axes[1].transAxes, fontsize=16, verticalalignment='top', horizontalalignment='left', bbox=dict(facecolor='white', edgecolor='lightgrey', boxstyle='square,pad=0.5'))
+    axes[1].text(1.05, 0.75, explanation_text, transform=axes[1].transAxes, fontsize=16, verticalalignment='top', horizontalalignment='left', bbox=dict(facecolor='white', edgecolor='lightgrey', boxstyle='square,pad=0.5'))
     plt.suptitle(f'Contribution to Predicting {y_val}', fontname='Georgia', fontsize=20)
 
     plt.tight_layout()

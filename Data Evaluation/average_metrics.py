@@ -27,7 +27,7 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
     pivot_table.loc['Mean'] = pivot_table.mean()
 
     # Plot heatmap
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(10, 7))
     pivot_table.rename(columns=prompt_type_rename, index=size_rename, inplace=True)
     ax = sns.heatmap(pivot_table, annot=True, annot_kws={'size': 18}, cmap=cmap, center=center, linewidths=0.5, cbar_kws={'label': metric})
     
