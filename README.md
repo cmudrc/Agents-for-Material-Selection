@@ -1,4 +1,4 @@
-# Evaluating the Effectiveness of an Agentic Framework for Material Selection
+# Evaluating the Effectiveness of Agentic AI for Material Selection
 
 ## Abstract
 
