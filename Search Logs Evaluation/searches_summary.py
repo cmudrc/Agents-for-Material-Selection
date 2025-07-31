@@ -24,8 +24,8 @@ completion_tokens = defaultdict(list)
 log_directory = 'Search Logs'
 
 # Iterate through logs for each model size and extract data
-for modelsize in [1.5, 3, 7, 14, 32, 72]:
-    with open(f'Search Logs/{modelsize}B_logs.txt', 'r') as file:
+for modelsize in [1.7, 4, 8, 14, 32]:
+    with open(f'Search Logs/qwen3_{modelsize}B_logs.txt', 'r') as file:
         current_combination = None
         rerun_count = 0
         for line in file:
@@ -121,5 +121,3 @@ def replace_phrases(query, replacements):
 
 query_df['Query'] = query_df['Query'].apply(lambda x: replace_phrases(x, replacements))
 query_df.to_csv('Search Logs Data/filtered_searches_by_size.csv', index=False)
-
-print(successful_prompts)

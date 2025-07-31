@@ -26,13 +26,13 @@ survey_responses_df = survey_responses_df.dropna()
 # Group the survey responses by 'design', 'criteria', 'material' and calculate mean and std
 grouped_survey_stats = survey_responses_df.groupby(['design', 'criteria', 'material'])['response'].agg(['mean', 'std']).reset_index()
 
-for modelsize in [1.5, 3, 7, 32, 72]:
+for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         for design in ['kitchen utensil grip', 'spacecraft component', 'underwater component', 'safety helmet']:
             for criteria in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
                 for material in ["steel", "aluminum", "titanium", "glass", "wood", "thermoplastic", "elastomer", "thermoset", "composite"]:
                     # load model data
-                    model_data_df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
+                    model_data_df = pd.read_csv(f'Data/qwen3_{str(modelsize)}B_{question_type}.csv')
 
                     # filter data
                     model_data_df = model_data_df[model_data_df['design'] == design]

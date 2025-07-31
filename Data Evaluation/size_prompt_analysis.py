@@ -54,7 +54,7 @@ zscore_dict = defaultdict(list)
 
 # Add MAE values from previously generated csv file
 mae_df = pd.read_csv('Data Evaluation/Results/mean_error.csv')
-for modelsize in [1.5, 3, 7, 32, 72]:
+for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
         df = df.dropna(how='any')
@@ -69,16 +69,16 @@ survey_df = survey_df.dropna(how='any')
 survey_stats = survey_df.groupby('material')['response'].agg(['mean', 'std', lambda x: iqr(x)]).rename(columns={'<lambda_0>': 'iqr'}).reset_index()
 
 # Read LLM results
-for modelsize in ['1.5', '3', '7', '32', '72']:
+for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-        df = pd.read_csv(f'Data/qwen_{modelsize}B_{question_type}.csv')
+        df = pd.read_csv(f'Data/qwen3_{modelsize}B_{question_type}.csv')
         df['response'] = pd.to_numeric(df['response'], errors='coerce')
         df_stats = df.groupby('material')['response'].agg(['mean', 'std']).reset_index()
         merged_df = pd.merge(df, survey_stats, on='material', how='left')
         merged_df['z-score'] = (merged_df['response'] - merged_df['mean']) / merged_df['std']
         merged_stats = merged_df.groupby('material')['z-score'].agg(['mean']).reset_index()
         for zscore in list(merged_stats['mean']):
-            zscore_dict[modelsize+'B\n'+question_type].append(zscore)
+            zscore_dict[str(modelsize)+'B\n'+question_type].append(zscore)
 
 # Create dataframe of mae values
 mae_values = []

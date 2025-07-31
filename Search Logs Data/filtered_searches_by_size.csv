@@ -1,1336 +1,2554 @@
 Size,Query
-1.5,properties of {material}
-1.5,use of {material} in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,suitability of {material} for {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} in {design}
-1.5,properties of {material}
-1.5,{criterion} in {material}
-1.5,{criterion} in {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,{criterion} of {material}
-1.5,suitable material for {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} materials
-1.5,properties of {material}
-1.5,properties of {design}
-1.5,{criterion} materials
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} {design} design
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material} as a material for {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,suitability of {material} for {criterion}
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{material} {criterion}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material} in relation to {criterion}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{material} for {design}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion}
-1.5,{material} use in {design}
-1.5,{criterion} of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{criterion} in {design}
-1.5,{criterion} {material}
-1.5,properties of {material}
-1.5,{criterion} in {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{material} for {design}
-1.5,properties of {material}
-1.5,{material} {design} applications
-1.5,properties of {material}
-1.5,necessary properties for {design}
-1.5,{material} use in {design}
-1.5,properties of {material} {design}
-1.5,properties of {material} {design}
-1.5,properties of {material} {design}
-1.5,properties of {material} {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{material} {design}
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,{material} use in {design} applications
-1.5,properties of {material}
-1.5,necessary properties of {criterion} materials
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,suitability of {material} for {design}
-1.5,{material} properties
-1.5,{material} {design} applications
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,{criterion} of {material} {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} applications of {material}
-1.5,{design} applications of {material}
-1.5,{criterion} {design} applications of {material}
-1.5,properties of {material}
-1.5,use of {material} in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material} {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{material} {design} performance
-1.5,{material} {design} {criterion}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,suitability of {material} for {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of materials used in {design}
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,{criterion} material
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,materials used for {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,{material} {criterion}
-1.5,properties of {material}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,properties of {material}
-1.5,suitability of {material} for {design}
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,{criterion} of {material}
-1.5,properties of {material}
-1.5,necessary properties of {design} materials
-1.5,{material} use in {design} materials
-1.5,properties of {material}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-1.5,properties of {material}
-1.5,necessary properties of {design}
-1.5,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {criterion}
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{criterion} of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties for {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{criterion} of {material}
-3.0,flexibility of {material}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {criterion} {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material} {criterion}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{criterion} of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} material use in helmets
-3.0,{material} material use in helmets
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} {design} designs
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties and uses of {material}
-3.0,properties and uses of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties for {criterion}
-3.0,{material} in {design}
-3.0,{material} in {design}
-3.0,{material} in {design}
-3.0,properties of {material}
-3.0,necessary properties for {criterion}
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design} applications
-3.0,{material} {criterion}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} {criterion}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties for {design}
-3.0,necessary properties for {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {design}
-3.0,{material} use in {design}
-3.0,{criterion} {design}
-3.0,properties of {material}
-3.0,necesssary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties for {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} as material for {design}
-3.0,{criterion} of {material} {design}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{criterion} {design} materials
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {criterion} {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {criterion} components
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,necessary properties of {criterion} materials
-3.0,{material} use in {criterion} materials
-3.0,properties of {material}
-3.0,necessary properties of {criterion} components
-3.0,{material} use in {criterion} components
-3.0,properties of {material}
-3.0,necessary properties for {design}
-3.0,{material} performance in necessary properties for {design}
-3.0,properties of {material}
-3.0,properties of {material} {criterion}
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {criterion} components
-3.0,{material} use in {criterion} components
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {criterion} materials
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} {criterion}
-3.0,{material} {criterion} methods
-3.0,properties of {material}
-3.0,necessary properties of {criterion} materials
-3.0,{material} use in {criterion} applications
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties for {design}
-3.0,{material} use in {design}
-3.0,{criterion} of {material}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,performance of {material} in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {criterion} {design}
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-3.0,{material} {criterion} performance
-3.0,{material} {criterion} performance
-3.0,properties of {material}
-3.0,necessary properties of {design}
-3.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,physical properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,{criterion} {material}
-7.0,suitability of {criterion} {material} for {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,suitability of {material} for {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{material} use in {design}
-7.0,definition of {material}
-7.0,{criterion} properties in {design} materials
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{material} use in {design}
-7.0,{material} properties
-7.0,{material} suitability for {criterion} applications
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,suitability of {material} for {design}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,{criterion} properties of {material}
-7.0,necessary properties of {design}
-7.0,{criterion} of {material} in {design}
-7.0,{material} properties
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,suitability of {material} for {design}
-7.0,properties of {material}
-7.0,use of {material} in {criterion} applications
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,{material} properties
-7.0,{material} in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{material} as {design} material
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,properties of {material} {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,suitability of {material} for {design} applications
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,can {material} be heat treated to increase its {criterion}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials for {design}
-7.0,{material} use in {criterion} {design}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} use in {design} applications
-7.0,properties of {material}
-7.0,{material} for {design} applications
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{criterion} of {material}
-7.0,properties of {material} in {design}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,{criterion} of {material} in {design} environment
-7.0,properties of {material} in {criterion} environment
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,{material} {criterion}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,use of {material} in {design} applications
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} {design}
-7.0,{material} use in {criterion} {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} {design}
-7.0,{material} use in {criterion} {design}
-7.0,properties of {material}
-7.0,{material} {design} properties
-7.0,properties of {material}
-7.0,necessary properties of {criterion} {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material} in {design}
-7.0,suitability of {material} in {criterion} applications
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,use of {material} in aerospace
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,specific properties of {material} for aerospace applications
-7.0,{criterion} properties of {material}
-7.0,properties of {material}
-7.0,{criterion} and {criterion} properties of {material}
-7.0,{criterion} {material}
-7.0,{criterion} and durability of {criterion} {material}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials for {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} as {criterion} material
-7.0,properties of {material}
-7.0,{material} use in {design}
-7.0,{criterion} properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} use as {criterion} material
-7.0,properties of {material}
-7.0,{material} in {criterion} applications
-7.0,properties of {material}
-7.0,{criterion} properties of {material}
-7.0,{material} and {criterion}
-7.0,properties of {material}
-7.0,{criterion} properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} use in {criterion} {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,{criterion} of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,{material} use in {criterion} materials
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,properties of {material}
-7.0,necessary properties of {criterion} materials
-7.0,suitability of {material} for {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,properties of {material}
-7.0,necessary properties of {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,necessary properties of {criterion} {design}
-7.0,{material} use in {design}
-7.0,properties of {material}
-7.0,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material} and {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {criterion} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {material}
+1.7,properties of {material} and {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} {criterion}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} for {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} used in {design}
+1.7,properties of {material} and {design}
+1.7,{material} in {design}
+1.7,properties of {material} and {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,{design} {material} performance
+1.7,{material} {design} performance
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion} properties
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} properties and {design} use
+1.7,{material} suitability for {design}
+1.7,{material} suitability for {design}
+1.7,properties of {material} and {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material} under water
+1.7,{material} {design} properties and {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion} {design}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material} in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material} in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material} in water
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material} {design}
+1.7,{material} properties {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} materials for {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} suitability for {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} resistance of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material} and {design} materials
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,are {material} {criterion}
+1.7,{criterion} {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material} and {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,thermoplastics vs {material}
+1.7,thermoplastics vs {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} use in {criterion} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} used in {design}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} use in {criterion}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,tensile {criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} properties and use in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,suitability of {material} for {criterion} in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material} and {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} in {design} applications
+1.7,{material} {design} performance
+1.7,{material} {design} use
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} in {design} applications
+1.7,properties of {material}
+1.7,{material} {design} {criterion}
+1.7,properties of {material}
+1.7,{material} {criterion} {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{material} properties
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,thermosetting {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} in {design} applications
+1.7,{criterion} resistance of {material} in {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,materials used in {design}
+1.7,{material} {design} {criterion}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{criterion} rating of {material}
+1.7,{material} {design} {criterion}
+1.7,properties of {material} and {design} use
+1.7,{material} {design} use
+1.7,properties of {material} {design}
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} {design} applications
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} properties under water
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material} and {design}
+1.7,{material} use in {design}
+1.7,
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} properties
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} properties
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion} properties
+1.7,properties of {material}
+1.7,{criterion} properties of {material}
+1.7,{criterion} properties of {material}
+1.7,{criterion} properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} in {design} applications
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} {criterion}
+1.7,{material} {criterion}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} in {design} applications
+1.7,properties of {material}
+1.7,necessary properties of materials for a {design}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,necessary properties of a {design}
+1.7,{material} use in kitchen {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design} for {design}
+1.7,{material} use in kitchen {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design} materials
+1.7,{material} use in {design} materials
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design} for {design}
+1.7,{material} use in {criterion} {design}
+1.7,{criterion} of {material}
+1.7,{criterion} conductivity of {material}
+1.7,{material} use in {design}
+1.7,necessary properties of a {criterion} {design}
+1.7,{material} {criterion} properties
+1.7,{material} {criterion} for {design}
+1.7,{material} properties {criterion}
+1.7,{material} use in cooking utensils
+1.7,properties of {material}
+1.7,necessary properties of {design} for {design} {criterion}
+1.7,{material} use in {design}
+1.7,{criterion} properties of {material}
+1.7,{material} {criterion} applications
+1.7,properties of {material}
+1.7,necessary properties of {design} for {design}
+1.7,{material} use in {criterion} {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in kitchen {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {criterion} applications
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design} materials for {design}
+1.7,{criterion} of {material}
+1.7,{material} used in {criterion} kitchen {design}
+1.7,performance of {material} in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in kitchen {design}
+1.7,{criterion} of {material}
+1.7,properties of {material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {criterion} {design}
+1.7,properties of {material}
+1.7,{criterion} materials for {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} {criterion} compared to other materials for {design}
+1.7,properties of {material}
+1.7,necessary properties of {criterion} materials
+1.7,{material} use in {design} materials
+1.7,properties of {material}
+1.7,necessary properties of {design} in {design}
+1.7,{material} use in kitchen {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} as a material for {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design} {criterion}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{criterion} of thermoplastics
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,necessary properties of {design}
+1.7,{criterion} of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} properties {criterion}
+1.7,{material} use in {design}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{criterion} {material} variants
+1.7,suitability of {material} for {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of materials for {design} applications
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,performance of {material} in {design} applications
+1.7,properties of {material}
+1.7,{material} {design} application
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion} properties
+1.7,necessary properties of {design} for {criterion}
+1.7,{material} use in high-temperature {design} applications
+1.7,{material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} suitability for {design}
+1.7,properties of {material}
+1.7,{material} use in {criterion} applications
+1.7,{material} use in {design}
+1.7,{material} properties and {design} applications
+1.7,properties of {material}
+1.7,necessary properties for {design}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} use in high-temperature applications
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {design} use
+1.7,{criterion} {material}
+1.7,{material} {design} {criterion}
+1.7,{criterion} of {material} in {design}
+1.7,necessary properties for {criterion} in {design} applications
+1.7,can {material} be made {criterion}
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,{criterion} of {material} in water
+1.7,properties of {material}
+1.7,necessary properties of materials for {design}
+1.7,{material} use in {design} applications
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,use of {material} in {design} applications
+1.7,{material} {criterion}
+1.7,necessary properties of materials for {design}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,properties of {material} for {design} use
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,{material} {criterion} {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,{material} use in {design} applications
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,necessary properties for {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{criterion} {material} variants
+1.7,properties of {material}
+1.7,necessary properties of {design} materials
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion} properties
+1.7,necessary properties of {criterion} for {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{criterion} of {material} in {design} applications
+1.7,{material} {criterion} properties
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of materials for {criterion} in {design}
+1.7,{material} use in {design} {criterion}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,{criterion} of {material} in aerospace
+1.7,{criterion} of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material} {criterion}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material} {criterion}
+1.7,{material} use in {design}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,{criterion} in {design} materials
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in aerospace
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material} in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,materials used in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion} properties
+1.7,{material} use in {criterion} {design}
+1.7,{criterion} properties of {material}
+1.7,{material} use in {criterion} {design}
+1.7,{material} {criterion}
+1.7,{material} {criterion}
+1.7,{material} {design}
+1.7,{material} {design}
+1.7,{material} {design}
+1.7,{material} {design}
+1.7,{material} {design}
+1.7,{material} {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {criterion} materials
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} properties {criterion}
+1.7,{material} properties {criterion}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{material} {design}
+1.7,necessary properties of {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {criterion} environments
+1.7,{material} {criterion}
+1.7,{material} {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} used in {design}
+1.7,{criterion} of {material} in kitchens
+1.7,{material} mechanical properties
+1.7,materials used in {design}
+1.7,{material} use in {design}
+1.7,{material} properties
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,necessary properties of {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,mechanical properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,{material} tensile {criterion}
+1.7,{material} tensile {criterion}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} properties
+1.7,{design} materials
+1.7,{material} {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} in {design}
+1.7,{material} {criterion} properties
+1.7,{material} use in {criterion} applications
+1.7,{criterion} of {material}
+1.7,{material} use in {criterion} applications
+1.7,{criterion} conductivity of {material}
+1.7,{material} {criterion}
+1.7,{design} material properties
+1.7,{material} {design}
+1.7,{criterion} properties of {material}
+1.7,{material} use in {criterion} applications
+1.7,{criterion} properties of {material}
+1.7,{material} use in {design}
+1.7,{material} {criterion} properties
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,{material} {criterion} design
+1.7,{material} {criterion} design
+1.7,{material} {criterion}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,materials used in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,tensile {criterion} of {material}
+1.7,impact resistance of {material} vs helmet materials
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,materials used in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {criterion} in water
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{material} {criterion} comparison
+1.7,{criterion} of {material}
+1.7,{material} use in {design}
+1.7,is {material} considered a {criterion} material
+1.7,properties of {material}
+1.7,{material} use in {design} structures
+1.7,water resistance of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{criterion} of {material}
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{material} {design} applications
+1.7,{criterion} of {material}
+1.7,{material} {design} {criterion}
+1.7,{material} use in {design}
+1.7,{material} {criterion}
+1.7,{material} {design} {criterion} components
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{material} {criterion} resistance
+1.7,{criterion} properties of {material}
+1.7,{material} suitability for {design} {criterion} applications
+1.7,{material} {criterion} {design}
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{material} {criterion}
+1.7,{material} {design} applications
+1.7,{material} {criterion}
+1.7,{material} {design} {criterion}
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,{criterion} of {material}
+1.7,{material} {design} applications
+1.7,{material} {criterion}
+1.7,{material} {criterion}
+1.7,{material} use in {design}
+1.7,{material} use in {design}
+1.7,{criterion} of {material}
+1.7,{material} {criterion} in seawater
+1.7,properties of {material}
+1.7,{material} {criterion} {design}
+1.7,properties of {material}
+1.7,{material} {criterion} {design}
+1.7,{material} use in {design} applications
+1.7,{material} {criterion} {design}
+1.7,{material} {criterion}
+1.7,{material} {design} applications
+1.7,properties of {material}
+1.7,{material} {design} applications
+1.7,{criterion} of {material} in water
+1.7,{material} properties
+1.7,necessary properties of {design}
+1.7,{material} use in {design}
+1.7,properties of {material}
+1.7,{material} use in {design}
+1.7,{criterion} of {material} in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} for {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,properties of {material}
+4.0,necessary properties of {design} materials
+4.0,{material} use in {design} materials
+4.0,{criterion} of {material}
+4.0,necessary properties of {design} materials for {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,materials used for {design}
+4.0,{material} {criterion} in kitchen {design}
+4.0,{material} properties {criterion}
+4.0,{material} use in cooking {design}
+4.0,properties of {material}
+4.0,{material} {criterion} applications
+4.0,properties of {material}
+4.0,{material} use in {criterion} {design}
+4.0,properties of {material}
+4.0,necessary properties of a {design} for {design}
+4.0,{material} use in {criterion} {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in cooking {design}
+4.0,properties of {material}
+4.0,{material} {criterion}
+4.0,necessary properties of a {design} for a {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,materials used in {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material} in kitchen conditions
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in kitchen {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of kitchen {design}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,tensile {criterion} of {material}
+4.0,properties of {material}
+4.0,necessary properties of a {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} for {design}
+4.0,{material} use in kitchen {design}
+4.0,properties of {material}
+4.0,necessary properties of a {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,materials used in {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,{material} properties {criterion}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} {criterion}
+4.0,{material} use in {criterion} {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} for {criterion}
+4.0,{material} in {design} {criterion}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,necessary properties of {design}
+4.0,{material} {criterion} in {design}
+4.0,{material} {criterion}
+4.0,{design} materials
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{material} {criterion}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,{material} properties
+4.0,{material} use in {design}
+4.0,{material} vs {material} for helmets
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design} applications
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} {design} applications
+4.0,{criterion} {material} for {design}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design} {criterion} applications
+4.0,{material} {criterion} properties
+4.0,necessary properties of {design}
+4.0,{material} use in {design} {criterion} applications
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{material} use in {criterion} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} {criterion} applications
+4.0,{criterion} of {material} in {design}
+4.0,use of {material} in {design}
+4.0,{criterion} rating of {material} in {design} applications
+4.0,acceptability of {material} for {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,necessary properties for {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} {criterion} {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} {criterion} {design}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{criterion} of {material}
+4.0,properties of {material}
+4.0,{criterion} of {material}
+4.0,{material} {design} application
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} {design} applications
+4.0,necessary properties of {design}
+4.0,{material} suitability for {design}
+4.0,properties of {material}
+4.0,{material} use in {design} applications
+4.0,{criterion} of {material} in {design}
+4.0,properties of {material}
+4.0,{material} {design} applications
+4.0,{material} {criterion} compared to other materials
+4.0,properties of {material}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,necessary properties of {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material} for {design}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{material} for {criterion}
+4.0,{material} in {design} heat shields
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} in {design} applications
+4.0,necessary properties of {design} for {criterion}
+4.0,{criterion} of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} materials
+4.0,{material} use in high-temperature applications
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design} {criterion} components
+4.0,properties of {material}
+4.0,necessary properties of materials for {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of {material} in space conditions
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} materials for {design}
+4.0,{material} use in {design}
+4.0,{criterion} of {material}
+4.0,{material} use in aerospace
+4.0,{material} in {design}
+4.0,{criterion} of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{criterion} of thermoplastics
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design} materials for {criterion}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {criterion} environments
+4.0,properties of {material}
+4.0,{material} in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,{material} {criterion} compared to other materials
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+4.0,properties of {material}
+4.0,necessary properties of {design}
+4.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {criterion} {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} safety for food contact
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion} properties
+8.0,{material} use in {criterion} kitchen {design}
+8.0,{material} {criterion}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {criterion} {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} {criterion} kitchen {design}
+8.0,properties of {material}
+8.0,{material} {criterion}
+8.0,{material} {design}
+8.0,{criterion} of {material}
+8.0,materials used in {design}
+8.0,{criterion} of {material}
+8.0,{material} {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,{material} {criterion}
+8.0,{material} {design}
+8.0,properties of {material}
+8.0,materials used in {design}
+8.0,{material} mechanical properties
+8.0,tensile {criterion} of {material}
+8.0,{criterion} requirements for {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} mechanical properties {criterion}
+8.0,materials used for {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {criterion} {design}
+8.0,{criterion} of {material}
+8.0,materials used in {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} properties
+8.0,{material} properties
+8.0,{material} properties
+8.0,{material} properties
+8.0,{design} material requirements
+8.0,{design} material requirements
+8.0,{material} use in {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,necessary properties of {design}
+8.0,{material} impact resistance
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,necessary properties of {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion} properties
+8.0,{material} use in {criterion} {design}
+8.0,{material} {criterion}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,necessary properties of {design}
+8.0,properties of {material}
+8.0,{material} {criterion}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {criterion} applications
+8.0,{material} {criterion}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,suitability of {material} for {design}
+8.0,{material} {criterion}
+8.0,{design} materials
+8.0,{material} {criterion}
+8.0,necessary properties of {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{criterion} of {material}
+8.0,{material} in {design}
+8.0,{material} in {design}
+8.0,properties of {material}
+8.0,materials used in {design}
+8.0,{material} properties
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} {design}
+8.0,{criterion} of {material}
+8.0,{criterion} {material} alloys
+8.0,properties of {material}
+8.0,{material} {criterion} {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} {design} applications
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,{criterion} {material} alternatives
+8.0,{criterion} {material} alternatives
+8.0,{material} suitability for {design} use
+8.0,properties of {material}
+8.0,{material} use in {design} applications
+8.0,treated {material} {design} use
+8.0,properties of {material}
+8.0,{material} {design} applications
+8.0,{material} {design} applications
+8.0,{material} {criterion}
+8.0,{material} {criterion}
+8.0,{material} {design} applications
+8.0,{material} {criterion}
+8.0,{material} {design} applications
+8.0,{material} properties {design} and {criterion}
+8.0,{material} {criterion}
+8.0,{material} {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,necessary properties of {design}
+8.0,{material} {criterion}
+8.0,{material} {design} applications
+8.0,{material} {criterion} properties {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{material} {design} applications
+8.0,{criterion} of {material}
+8.0,{criterion} {material} alloys for {design} use
+8.0,{material} {criterion}
+8.0,{material} {design} applications
+8.0,{criterion} of {material}
+8.0,{material} {design} applications
+8.0,{material} {criterion}
+8.0,materials for {design}
+8.0,{criterion} of {material}
+8.0,{material} {design} applications
+8.0,properties of {material}
+8.0,{material} {criterion}
+8.0,{material} {design} applications
+8.0,properties of {material}
+8.0,{material} {criterion} {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,tensile {criterion} of {material}
+8.0,materials used in {design}
+8.0,{material} use in {design} applications
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} {design} applications
+8.0,{material} {criterion} {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} suitability for {design}
+8.0,{material} properties
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,{material} use in aerospace
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,necessary properties of {design}
+8.0,{material} properties {design}
+8.0,properties of {material}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion} properties
+8.0,{material} use in {design}
+8.0,{material} {criterion} {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {criterion} {design}
+8.0,{material} {criterion}
+8.0,{material} {criterion}
+8.0,{material} use in {design}
+8.0,{material} use in {design}
+8.0,{material} limitations high heat
+8.0,{material} limitations high heat
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} {criterion}
+8.0,properties of {material}
+8.0,necessary properties for {criterion} {design}
+8.0,{material} in aerospace applications
+8.0,{criterion} stability of {material}
+8.0,{material} in {criterion} protection systems
+8.0,{criterion} of {material}
+8.0,{criterion} of {material}
+8.0,{material} {criterion} in space
+8.0,{material} use in {design}
+8.0,{material} {criterion} {design}
+8.0,{material} {criterion}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{criterion} of {material} in aerospace
+8.0,{criterion} of {material}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} {criterion}
+8.0,properties of {material} {criterion}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,materials used in {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,{material} mechanical properties
+8.0,{material} use in aerospace
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} aerospace applications
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material} {criterion}
+8.0,{material} use in {design} {criterion}
+8.0,properties of {material}
+8.0,{material} use in {criterion} {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,use of {material} in {design}
+8.0,{criterion} of {material}
+8.0,{material} in {design}
+8.0,properties of {material} {criterion}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,durability of {material} in kitchen environments
+8.0,{criterion} of {material}
+8.0,{criterion} of {material}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{material} {criterion}
+8.0,necessary properties of {design}
+8.0,{criterion} of {material}
+8.0,{material} in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,mechanical properties of {material}
+8.0,properties of {material}
+8.0,{material} use in {criterion} applications
+8.0,properties of {material}
+8.0,{material} use in {design}
+8.0,mechanical properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,use of {material} in {design}
+8.0,{criterion} properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,{criterion} properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material} {criterion}
+8.0,necessary properties of {design}
+8.0,{material} in {design}
+8.0,{criterion} of {material}
+8.0,necessary properties of {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,{material} use in {design}
+8.0,treated {material} {criterion}
+8.0,properties of {material} {criterion}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material} {criterion}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material} {criterion}
+8.0,{material} in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,mechanical properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,{material} use in {design}
+8.0,properties of {material} for {design}
+8.0,properties of {material}
+8.0,necessary properties of {design}
+8.0,properties of {material}
+8.0,requirements for {design}
+8.0,{material} use in {design}
+8.0,{criterion} of {material}
+8.0,properties required for {design}
+8.0,{material} use in {design}
+14.0,properties of {material}
 14.0,properties of {material}
 14.0,necessary properties of {design}
+14.0,{material} use in {design}
 14.0,properties of {material}
+14.0,{material} {criterion}
+14.0,{criterion} materials for kitchen {design}
+14.0,properties of {material}
+14.0,{criterion} {material} materials
+14.0,properties of {material}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} in {design}
 14.0,{criterion} of {material}
 14.0,necessary properties of {design}
+14.0,{material} use in {design}
 14.0,properties of {material}
 14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,{material} use in {design} {criterion}
+14.0,{criterion} properties of {material}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {criterion} kitchen {design}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material} in kitchen environments
+14.0,{material} {criterion} properties
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
 14.0,properties of {material}
 14.0,necessary properties of {design}
 14.0,{material} use in {design}
 14.0,properties of {material}
 14.0,necessary properties of {design}
-14.0,{material}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{material} in {design}
+14.0,
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,mechanical properties of {material} {criterion}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{material} {criterion} for kitchen {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,tensile {criterion} of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,{design} material properties
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,impact resistance of {material}
+14.0,use of {material} in {design}
+14.0,{criterion} properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
+14.0,necessary properties of {design}
+14.0,{material} use in {design} {criterion}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{criterion} of {material}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{criterion} of {material}
+14.0,{material} use in {design}
+14.0,{material} {criterion}
+14.0,necessary properties of {design}
+14.0,{criterion} of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,mechanical properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} in {design}
+14.0,{criterion} of {material}
+14.0,materials for {design}
+14.0,{material} properties for {design} use
 14.0,necessary properties of {design}
 14.0,properties of {material}
+14.0,{material} use in {design}
 14.0,properties of {material}
 14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material} in {design}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{criterion} of {material}
+14.0,{criterion} {material}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design} {criterion} materials
+14.0,properties of {material}
+14.0,requirements for {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,{criterion} properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design} {criterion} components
+14.0,{material} use in {design} {criterion} components
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,{material} {criterion} {design}
+14.0,{material} in {design} engineering {criterion}
+14.0,{criterion} of {material}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,materials for {design}
+14.0,{material} {criterion} properties
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
+14.0,properties of {material} in water
+14.0,{material} {criterion} {design}
+14.0,{criterion} of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{material} properties {design}
+14.0,{material} use in {design} {criterion}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{material} in {design} applications
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} suitability for {design} applications
+14.0,{material} properties {design}
+14.0,necessary properties of {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{criterion} properties of {material}
+14.0,{material} performance in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,{material} performance under water pressure
+14.0,properties of {material} {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} in {design} applications
+14.0,
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material} for {design}
+14.0,required properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in aerospace
+14.0,drawbacks of {material}
+14.0,properties of {material}
+14.0,{material} {criterion} stability aerospace
+14.0,properties of {material}
+14.0,{material} in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,properties of {material}
+14.0,{material} {criterion} stability aerospace
+14.0,properties of {material} {criterion}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,use of {material} in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design} {criterion} components
+14.0,{material} use in {design} {criterion} components
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} properties of {material}
+14.0,{material} use in aerospace {criterion}
+14.0,{criterion} properties of {material}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
+14.0,best materials for {design} {criterion}
+14.0,{criterion} of {material}
+14.0,{material} in {design}
+14.0,properties of {material}
+14.0,{material} in {design}
+14.0,{criterion} of {material} in aerospace
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,{criterion} of {material}
+14.0,necessary properties of {design}
+14.0,use of {material} in {design}
+14.0,{material} {criterion}
+14.0,{design} material {criterion} requirements
+14.0,properties of {material} {criterion}
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
+14.0,{material} in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,use of {material} in {design}
+14.0,{material} properties for {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,mechanical properties of {material}
+14.0,{design} material requirements
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,necessary properties of {design}
+14.0,{material} use in {design}
+14.0,properties of {material}
+14.0,{material} use in {design}
+14.0,properties of {material} {criterion}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design} {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,{criterion} properties of {material}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,{criterion} of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,requirements for {design}
-32.0,properties of {material}
-32.0,requirements for {design}
-32.0,{material} {criterion}
-32.0,{material} {criterion}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,{criterion} of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
+32.0,common materials for {design}
 32.0,use of {material} in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,suitability of {material} for {design}
-32.0,properties of {material}
-32.0,{design} materials
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,{criterion} property of {material}
-32.0,{criterion} of {material}
+32.0,materials for {design}
+32.0,properties of {material} for {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} {criterion} applications
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{criterion} of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
+32.0,{material} {criterion} properties
+32.0,common cooking temperatures
+32.0,materials for {criterion} kitchen {design}
+32.0,{criterion} properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,{criterion} of {material}
+32.0,properties of {design}
+32.0,{criterion} properties of {material}
 32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,{criterion} properties of {material}
+32.0,{material} in {design}
+32.0,{criterion} of {material}
+32.0,{material} {criterion}
+32.0,{material} use in {design}
+32.0,{material} {criterion} in kitchen environments
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,{criterion} of {material}
+32.0,{material} {design} applications
+32.0,{criterion} of {material}
+32.0,common materials for {design}
+32.0,properties of {material} {criterion}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,{criterion} of {material}
+32.0,{material} use in {design}
+32.0,{criterion} of {material}
+32.0,{material} in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,mechanical properties of {material}
+32.0,materials used in {design}
+32.0,properties of {material}
+32.0,mechanical properties of {material}
+32.0,mechanical properties of {material}
+32.0,{design} material requirements
+32.0,mechanical properties of {material}
+32.0,required properties for {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,materials used in {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,properties of {material}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,materials used in {design}
+32.0,properties of {material}
+32.0,materials used in {design}
+32.0,{material} {design} performance
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} in {design}
+32.0,{criterion} properties of {material}
+32.0,necessary properties of {criterion} {design}
+32.0,{material} use in {design}
+32.0,{material} {criterion} properties
+32.0,{criterion} materials for {design}
+32.0,{criterion} properties of {material}
+32.0,{criterion} properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,{criterion} properties of {material}
+32.0,necessary properties of {criterion} materials in {design}
+32.0,{material} use in {criterion} {design}
+32.0,properties of {material}
+32.0,materials used in {criterion} {design}
+32.0,properties of {material}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,materials used in {design}
+32.0,{material} {criterion}
+32.0,properties of {material} for {criterion} resistance
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
 32.0,{material} properties
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,{design} material requirements
 32.0,{material} use in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
+32.0,{criterion} of {material}
+32.0,{material} use in {design}
+32.0,{criterion} of {material}
+32.0,necessary properties of {design}
+32.0,{material} {criterion}
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,properties of {material} in engineering
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material} for {design}
+32.0,materials used in {design}
+32.0,{material} vs polycarbonate {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
-32.0,properties of {material} and suitability for {design} applications
-32.0,{material} types for {design} applications
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,materials used in {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} use in {design}
+32.0,properties of {material}
+32.0,necessary properties of {design}
+32.0,{material} in {design}
+32.0,properties of {material}
+32.0,materials for {design} structures
+32.0,properties of {material}
+32.0,{material} in {design}
+32.0,drawbacks of {material} {design}
 32.0,properties of {material}
 32.0,{material} {design} applications
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} use in {design} applications
+32.0,comparison of {material} and other materials for {design} structures
 32.0,properties of {material}
-32.0,suitability of {material} for {design} applications
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,{material} properties
-32.0,materials for {design} use
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
@@ -1339,287 +2557,138 @@ Size,Query
 32.0,{material} use in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} use in {design} applications
+32.0,{criterion} of {material}
+32.0,{material} use in {design} {criterion} applications
+32.0,{criterion} properties of {material}
+32.0,{criterion} properties of {material}
+32.0,{material} {criterion} {design}
+32.0,{material} {criterion} {design}
 32.0,properties of {material}
+32.0,{material} {design} applications
+32.0,{material} {criterion} properties {design}
+32.0,{criterion} properties of {material}
+32.0,{material} use in {design} {criterion} applications
+32.0,properties of {material}
+32.0,{criterion} of {material}
+32.0,{material} use in {design}
+32.0,properties of {material} {criterion} {design}
+32.0,{material} {design} {criterion} applications
+32.0,properties of {material}
+32.0,{material} {criterion}
+32.0,properties of {material}
+32.0,properties of {material}
+32.0,{criterion} of {material} {design}
+32.0,{material} {criterion} {design}
+32.0,properties of {material}
+32.0,{criterion} of {material}
+32.0,{material} in {design} applications
 32.0,{criterion} of {material} in {design}
+32.0,required properties for {design} materials
+32.0,{material} use in {design} structures
 32.0,properties of {material}
-32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} {criterion} {design}
+32.0,{material} applications in marine environments
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material} and {design} performance
-32.0,properties of {material} and {design} {criterion}
-32.0,{material} {design} {criterion}
+32.0,{criterion} of {material}
+32.0,{material} in marine environments
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,{material} properties
+32.0,{material} in {design} applications
+32.0,{material} mechanical properties {design}
 32.0,{material} {design} applications
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,mechanical properties of {material}
+32.0,{material} {design} applications
+32.0,properties of {material}
+32.0,necessary properties of {design} materials
+32.0,{material} use in {design} structures
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
+32.0,{material} {design} performance
 32.0,properties of {material}
 32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
 32.0,necessary properties of {design}
+32.0,{material} in {design} engineering
+32.0,properties of {material}
+32.0,materials used in {design} construction
+32.0,use of {material} in {design}
+32.0,{material} properties
+32.0,{design} material requirements
+32.0,{material} in {design}
+32.0,properties of {material}
+32.0,{material} in aerospace applications
+32.0,properties of {material}
+32.0,necessary properties of {design} materials
+32.0,{material} use in {design}
+32.0,properties of {material} for {design}
+32.0,properties of {material}
+32.0,properties of {material}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,necessary properties of {design} materials
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,required properties of {design} materials
+32.0,{material} in {design} applications
+32.0,properties of {material}
+32.0,materials used in {design} {criterion} components
+32.0,{material} use in {design} {criterion} components
+32.0,{material} properties for {design}
+32.0,properties of {material}
+32.0,{material} use in {design}
+32.0,{criterion} properties of {material}
+32.0,necessary properties of {design} {criterion} materials
+32.0,{material} use in {design}
+32.0,{criterion} properties of {material}
+32.0,materials used in {design} {criterion}
+32.0,properties of {material}
+32.0,necessary properties of {design} for {criterion}
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,{material} in aerospace applications
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,necessary properties of {design} materials
 32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,properties of {material} in {design}
+32.0,{criterion} of {material}
 32.0,{material} use in {design}
 32.0,{material} {criterion}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,{material} {criterion} in space
+32.0,{criterion} of {material}
+32.0,materials used in {design}
+32.0,{material} {criterion}
+32.0,{design} material {criterion}
+32.0,{material} {criterion}
+32.0,{design} material requirements
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,{material} {criterion} in {design}
+32.0,properties of {material}
+32.0,{criterion} of {material}
+32.0,{material} in {design}
+32.0,properties of {material}
+32.0,mechanical properties of {material}
+32.0,{design} material requirements
+32.0,properties of {material}
+32.0,{material} use in aerospace
+32.0,mechanical properties of {material}
+32.0,{design} material requirements
+32.0,{material} in {design} structural components
+32.0,properties of {material}
+32.0,necessary properties of {design} materials
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,common materials used in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
+32.0,{design} material requirements
 32.0,{material} use in {design}
 32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
 32.0,{material} use in {design}
 32.0,properties of {material}
 32.0,properties of {material}
-32.0,{material} {criterion} and temperature resistance
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,properties of {material}
-32.0,{design} materials
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-32.0,properties of {material}
-32.0,necessary properties of {design}
-32.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,{criterion} of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,{criterion} of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,{criterion} of {material}
-72.0,properties of {material}
-72.0,{material} {criterion}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {criterion} {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,necessary properties of {design}
-72.0,{material} use in {design}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
-72.0,properties of {material}
+32.0,{design} material requirements
+32.0,{material} in {design}

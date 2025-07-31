@@ -10,9 +10,9 @@ survey_stats = survey_df.groupby('material')['response'].agg(['mean', 'std']).re
 
 # Combine all data across model sizes and prompt types
 results_df = pd.DataFrame(columns=['size', 'prompt type', 'z-score'])
-for modelsize in [1.5, 3, 7, 32, 72]:
+for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
-        df = pd.read_csv(f'Data/qwen_{str(modelsize)}B_{question_type}.csv')
+        df = pd.read_csv(f'Data/qwen3_{str(modelsize)}B_{question_type}.csv')
         df = df.dropna()
         df['response'] = pd.to_numeric(df['response'], errors='coerce')
         merged_df = pd.merge(df, survey_stats, on='material', how='left')
@@ -29,7 +29,7 @@ mae_df = pd.read_csv('Data Evaluation/Results/mean_error.csv')
 
 # Combine all data across model sizes and prompt types
 results_df = pd.DataFrame(columns=['size', 'prompt type', 'mae'])
-for modelsize in [1.5, 3, 7, 32, 72]:
+for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
         df = mae_df[(mae_df['model_size'] == modelsize) & (mae_df['question_type'] == question_type)]
         stats_df = df.groupby('material')['mean_error'].agg(['mean']).reset_index()

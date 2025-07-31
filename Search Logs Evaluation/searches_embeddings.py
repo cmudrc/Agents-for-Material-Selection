@@ -9,16 +9,18 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from dotenv import load_dotenv
 
 ##########################################################################################
 
+load_dotenv()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 login(token=os.getenv('HUGGINGFACE_API_TOKEN'))
 model = SentenceTransformer('all-MiniLM-L12-v2')
 
 embeddings = defaultdict(list)
-modelsizes = [1.5, 3, 7, 32, 72]
+modelsizes = [1.7, 4, 8, 14, 32]
 
 # Create embeddings for queries in system prompt examples
 prompt_queries = ['properties of {material}', 'necessary properties of {design}', '{material} use in {design}']
@@ -63,7 +65,7 @@ def plot_embeddings(reduced_embeddings, title, xlabel, ylabel, filename):
     plt.figure(figsize=(8, 5.5))
     
     # Plot agent query embeddings
-    for label in ['1.5B', '3B', '7B', '32B', '72B']:
+    for label in ['1.7B', '4B', '8B', '14B', '32B']:
         indices = [i for i, l in enumerate(labels) if l == label]
         plt.scatter(reduced_embeddings[indices, 0], reduced_embeddings[indices, 1], label=label, color=color_map[label], alpha=0.6)
 

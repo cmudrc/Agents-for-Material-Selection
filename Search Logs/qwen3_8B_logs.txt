@@ -1,0 +1,1048 @@
+2025-07-28 12:42:30,754 - INFO - Retrying run for kitchen utensil grip, lightweight, steel: 1/5
+2025-07-28 12:43:03,535 - INFO - Keeping result for kitchen utensil grip, lightweight, steel
+2025-07-28 12:43:03,535 - INFO - Searches: properties of steel, necessary properties of kitchen utensil grips, steel use in lightweight kitchen utensil grips
+2025-07-28 12:43:03,535 - INFO - Total tokens: 2328, 2336, 2342, 2350, 2355, 2717, 2721, 2881, 2889, 2937
+2025-07-28 12:43:03,535 - INFO - Completion tokens: 708, 7, 5, 7, 7, 364, 3, 155, 3, 43
+2025-07-28 12:44:19,266 - INFO - Retrying run for kitchen utensil grip, lightweight, aluminum: 1/5
+2025-07-28 12:44:56,465 - INFO - Keeping result for kitchen utensil grip, lightweight, aluminum
+2025-07-28 12:44:56,465 - INFO - Searches: density of aluminum, aluminum use in kitchen utensil grips
+2025-07-28 12:44:56,465 - INFO - Total tokens: 2054, 2062, 2066, 2074, 2082, 2090, 2786, 2794, 2802, 3253
+2025-07-28 12:44:56,465 - INFO - Completion tokens: 434, 7, 3, 3, 3, 3, 691, 3, 3, 446
+2025-07-28 12:45:31,990 - INFO - Keeping result for kitchen utensil grip, lightweight, titanium
+2025-07-28 12:45:31,990 - INFO - Searches: properties of titanium, necessary properties of kitchen utensil grips, titanium use in kitchen utensil grips
+2025-07-28 12:45:31,990 - INFO - Total tokens: 2020, 2028, 2408, 2416, 2710, 2722, 2849, 3059
+2025-07-28 12:45:31,990 - INFO - Completion tokens: 400, 7, 382, 7, 296, 7, 129, 208
+2025-07-28 12:46:03,245 - INFO - Retrying run for kitchen utensil grip, lightweight, glass: 1/5
+2025-07-28 12:46:18,044 - INFO - Retrying run for kitchen utensil grip, lightweight, glass: 2/5
+2025-07-28 12:46:47,328 - INFO - Retrying run for kitchen utensil grip, lightweight, glass: 3/5
+2025-07-28 12:47:16,051 - INFO - Retrying run for kitchen utensil grip, lightweight, glass: 4/5
+2025-07-28 12:47:43,161 - INFO - Retrying run for kitchen utensil grip, lightweight, glass: 5/5
+2025-07-28 12:48:43,823 - INFO - Retrying run for kitchen utensil grip, lightweight, wood: 1/5
+2025-07-28 12:49:14,662 - INFO - Keeping result for kitchen utensil grip, lightweight, wood
+2025-07-28 12:49:14,662 - INFO - Searches: properties of wood, necessary properties of kitchen utensil grips, wood use in kitchen utensil grips
+2025-07-28 12:49:14,662 - INFO - Total tokens: 1969, 1977, 1982, 2312, 2324, 2539, 2852
+2025-07-28 12:49:14,662 - INFO - Completion tokens: 349, 7, 7, 332, 7, 217, 308
+2025-07-28 12:50:14,348 - INFO - Retrying run for kitchen utensil grip, lightweight, thermoplastic: 1/5
+2025-07-28 12:50:35,732 - INFO - Retrying run for kitchen utensil grip, lightweight, thermoplastic: 2/5
+2025-07-28 12:51:13,633 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoplastic
+2025-07-28 12:51:13,633 - INFO - Searches: properties of thermoplastic, thermoplastic use in kitchen utensils, thermoplastic safety for food contact
+2025-07-28 12:51:13,633 - INFO - Total tokens: 2124, 2130, 2512, 2524, 2529, 2903, 2915, 3207
+2025-07-28 12:51:13,633 - INFO - Completion tokens: 502, 5, 381, 7, 7, 376, 7, 294
+2025-07-28 12:51:52,512 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoset
+2025-07-28 12:51:52,512 - INFO - Searches: properties of thermoset, necessary properties of kitchen utensil grips, thermoset use in kitchen utensil grips
+2025-07-28 12:51:52,512 - INFO - Total tokens: 2020, 2028, 2414, 2422, 3014, 3026, 3031, 3275
+2025-07-28 12:51:52,512 - INFO - Completion tokens: 398, 7, 388, 7, 594, 7, 7, 246
+2025-07-28 12:52:32,177 - INFO - Retrying run for kitchen utensil grip, lightweight, elastomer: 1/5
+2025-07-28 12:52:55,330 - INFO - Keeping result for kitchen utensil grip, lightweight, elastomer
+2025-07-28 12:52:55,330 - INFO - Searches: properties of elastomer, elastomer use in kitchen utensil grips
+2025-07-28 12:52:55,331 - INFO - Total tokens: 2060, 2068, 2074, 2082, 2380, 2388, 2648
+2025-07-28 12:52:55,331 - INFO - Completion tokens: 439, 7, 5, 7, 300, 3, 255
+2025-07-28 12:53:27,092 - INFO - Retrying run for kitchen utensil grip, lightweight, composite: 1/5
+2025-07-28 12:53:59,276 - INFO - Retrying run for kitchen utensil grip, lightweight, composite: 2/5
+2025-07-28 12:54:18,747 - INFO - Keeping result for kitchen utensil grip, lightweight, composite
+2025-07-28 12:54:18,747 - INFO - Searches: properties of composite materials, necessary properties of kitchen utensil grips, composite materials use in kitchen utensil grips
+2025-07-28 12:54:18,747 - INFO - Total tokens: 2116, 2124, 2177, 2185, 2281, 2286, 2330
+2025-07-28 12:54:18,747 - INFO - Completion tokens: 496, 7, 52, 3, 91, 3, 39
+2025-07-28 12:54:59,230 - INFO - Retrying run for kitchen utensil grip, heat resistant, steel: 1/5
+2025-07-28 12:55:40,343 - INFO - Retrying run for kitchen utensil grip, heat resistant, steel: 2/5
+2025-07-28 12:56:20,249 - INFO - Retrying run for kitchen utensil grip, heat resistant, steel: 3/5
+2025-07-28 12:56:57,318 - INFO - Retrying run for kitchen utensil grip, heat resistant, steel: 4/5
+2025-07-28 12:57:54,253 - INFO - Retrying run for kitchen utensil grip, heat resistant, steel: 5/5
+2025-07-28 12:58:39,658 - INFO - Retrying run for kitchen utensil grip, heat resistant, aluminum: 1/5
+2025-07-28 12:59:09,750 - INFO - Retrying run for kitchen utensil grip, heat resistant, aluminum: 2/5
+2025-07-28 12:59:55,975 - INFO - Keeping result for kitchen utensil grip, heat resistant, aluminum
+2025-07-28 12:59:55,975 - INFO - Searches: aluminum heat resistance properties, aluminum use in heat-resistant kitchen grips
+2025-07-28 12:59:55,975 - INFO - Total tokens: 2137, 2145, 2151, 3152, 3220, 3224, 3645
+2025-07-28 12:59:55,975 - INFO - Completion tokens: 516, 7, 5, 1000, 63, 3, 416
+2025-07-28 13:00:45,245 - INFO - Retrying run for kitchen utensil grip, heat resistant, titanium: 1/5
+2025-07-28 13:01:22,331 - INFO - Keeping result for kitchen utensil grip, heat resistant, titanium
+2025-07-28 13:01:22,331 - INFO - Searches: titanium heat resistance, necessary properties of kitchen utensil grips, titanium use in kitchen utensil grips
+2025-07-28 13:01:22,331 - INFO - Total tokens: 1935, 1943, 2480, 2488, 2493, 2796, 2808, 3193
+2025-07-28 13:01:22,331 - INFO - Completion tokens: 314, 7, 539, 7, 7, 305, 7, 387
+2025-07-28 13:02:04,577 - INFO - Retrying run for kitchen utensil grip, heat resistant, glass: 1/5
+2025-07-28 13:02:39,622 - INFO - Retrying run for kitchen utensil grip, heat resistant, glass: 2/5
+2025-07-28 13:03:12,301 - INFO - Keeping result for kitchen utensil grip, heat resistant, glass
+2025-07-28 13:03:12,301 - INFO - Searches: properties of glass, glass use in kitchen utensil grips
+2025-07-28 13:03:12,301 - INFO - Total tokens: 2036, 2044, 2052, 2060, 2061, 2069, 2711, 2715, 2723, 3034
+2025-07-28 13:03:12,301 - INFO - Completion tokens: 415, 7, 7, 7, 3, 3, 637, 3, 3, 306
+2025-07-28 13:03:58,381 - INFO - Retrying run for kitchen utensil grip, heat resistant, wood: 1/5
+2025-07-28 13:04:34,579 - INFO - Retrying run for kitchen utensil grip, heat resistant, wood: 2/5
+2025-07-28 13:05:05,142 - INFO - Retrying run for kitchen utensil grip, heat resistant, wood: 3/5
+2025-07-28 13:05:50,979 - INFO - Retrying run for kitchen utensil grip, heat resistant, wood: 4/5
+2025-07-28 13:06:38,260 - INFO - Keeping result for kitchen utensil grip, heat resistant, wood
+2025-07-28 13:06:38,260 - INFO - Searches: heat resistance of wood, wood use in heat-resistant kitchen utensils
+2025-07-28 13:06:38,260 - INFO - Total tokens: 2248, 2256, 2262, 2266, 2274, 3159, 3167, 3175, 3690
+2025-07-28 13:06:38,260 - INFO - Completion tokens: 627, 7, 5, 3, 3, 880, 3, 3, 510
+2025-07-28 13:07:11,141 - INFO - Retrying run for kitchen utensil grip, heat resistant, thermoplastic: 1/5
+2025-07-28 13:07:32,315 - INFO - Retrying run for kitchen utensil grip, heat resistant, thermoplastic: 2/5
+2025-07-28 13:08:03,636 - INFO - Retrying run for kitchen utensil grip, heat resistant, thermoplastic: 3/5
+2025-07-28 13:08:27,789 - INFO - Retrying run for kitchen utensil grip, heat resistant, thermoplastic: 4/5
+2025-07-28 13:08:55,936 - INFO - Retrying run for kitchen utensil grip, heat resistant, thermoplastic: 5/5
+2025-07-28 13:09:48,317 - INFO - Keeping result for kitchen utensil grip, heat resistant, thermoset
+2025-07-28 13:09:48,317 - INFO - Searches: properties of thermoset, thermoset use in kitchen utensils, thermoset heat-resistant kitchen grips
+2025-07-28 13:09:48,317 - INFO - Total tokens: 2037, 2045, 2578, 3003, 3015, 3020, 3461, 3473, 3894
+2025-07-28 13:09:48,317 - INFO - Completion tokens: 414, 7, 535, 423, 7, 7, 443, 7, 423
+2025-07-28 13:10:28,985 - INFO - Retrying run for kitchen utensil grip, heat resistant, elastomer: 1/5
+2025-07-28 13:11:23,752 - INFO - Retrying run for kitchen utensil grip, heat resistant, elastomer: 2/5
+2025-07-28 13:11:58,957 - INFO - Retrying run for kitchen utensil grip, heat resistant, elastomer: 3/5
+2025-07-28 13:12:36,446 - INFO - Retrying run for kitchen utensil grip, heat resistant, elastomer: 4/5
+2025-07-28 13:13:18,476 - INFO - Retrying run for kitchen utensil grip, heat resistant, elastomer: 5/5
+2025-07-28 13:13:54,347 - INFO - Keeping result for kitchen utensil grip, heat resistant, composite
+2025-07-28 13:13:54,347 - INFO - Searches: properties of composite materials, composite materials heat resistance, composite materials kitchen utensils
+2025-07-28 13:13:54,347 - INFO - Total tokens: 2159, 2167, 2171, 2183, 2188, 2625, 2633, 2839, 2847, 3098
+2025-07-28 13:13:54,347 - INFO - Completion tokens: 538, 7, 3, 7, 7, 439, 3, 201, 3, 246
+2025-07-28 13:14:37,597 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, steel: 1/5
+2025-07-28 13:14:56,664 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, steel: 2/5
+2025-07-28 13:15:23,800 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, steel
+2025-07-28 13:15:23,801 - INFO - Searches: corrosion resistance of steel, materials used in kitchen utensil grips
+2025-07-28 13:15:23,801 - INFO - Total tokens: 2145, 2153, 2159, 2167, 2172, 2177, 2561, 2569, 2752
+2025-07-28 13:15:23,801 - INFO - Completion tokens: 524, 7, 5, 7, 7, 7, 386, 3, 178
+2025-07-28 13:15:49,289 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, aluminum
+2025-07-28 13:15:49,289 - INFO - Searches: corrosion resistance of aluminum, aluminum kitchen utensil grip
+2025-07-28 13:15:49,289 - INFO - Total tokens: 2016, 2024, 2381, 2393, 2700
+2025-07-28 13:15:49,289 - INFO - Completion tokens: 395, 7, 359, 7, 309
+2025-07-28 13:16:09,420 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, titanium: 1/5
+2025-07-28 13:16:28,194 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, titanium: 2/5
+2025-07-28 13:16:54,039 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, titanium: 3/5
+2025-07-28 13:17:30,805 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, titanium: 4/5
+2025-07-28 13:18:00,887 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, titanium: 5/5
+2025-07-28 13:18:33,282 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, glass
+2025-07-28 13:18:33,282 - INFO - Searches: properties of glass, glass use in kitchen utensils
+2025-07-28 13:18:33,282 - INFO - Total tokens: 2085, 2093, 2097, 2109, 2114, 2537, 2545, 2975
+2025-07-28 13:18:33,282 - INFO - Completion tokens: 464, 7, 3, 7, 7, 425, 3, 425
+2025-07-28 13:19:02,816 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, wood: 1/5
+2025-07-28 13:19:38,662 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, wood: 2/5
+2025-07-28 13:20:25,925 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, wood: 3/5
+2025-07-28 13:21:33,039 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, wood: 4/5
+2025-07-28 13:22:10,407 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, wood: 5/5
+2025-07-28 13:22:36,047 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoplastic: 1/5
+2025-07-28 13:23:23,251 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoplastic: 2/5
+2025-07-28 13:24:02,646 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoplastic: 3/5
+2025-07-28 13:24:45,197 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoplastic: 4/5
+2025-07-28 13:25:20,602 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoplastic: 5/5
+2025-07-28 13:25:54,891 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoset: 1/5
+2025-07-28 13:26:40,879 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoset: 2/5
+2025-07-28 13:27:25,709 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, thermoset: 3/5
+2025-07-28 13:27:59,396 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, thermoset
+2025-07-28 13:27:59,396 - INFO - Searches: properties of thermoset materials, corrosion resistance of thermoset materials, thermoset use in kitchen utensils
+2025-07-28 13:27:59,396 - INFO - Total tokens: 2032, 2041, 2052, 2059, 2070, 2534, 2545, 2931, 2942, 2999
+2025-07-28 13:27:59,396 - INFO - Completion tokens: 409, 8, 10, 6, 6, 459, 6, 381, 6, 52
+2025-07-28 13:28:38,541 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, elastomer: 1/5
+2025-07-28 13:29:22,307 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, elastomer: 2/5
+2025-07-28 13:30:19,434 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, elastomer: 3/5
+2025-07-28 13:30:56,512 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, elastomer
+2025-07-28 13:30:56,512 - INFO - Searches: properties of elastomer, corrosion resistance of elastomer, elastomer use in kitchen utensils
+2025-07-28 13:30:56,512 - INFO - Total tokens: 2380, 2388, 2393, 2895, 2907, 3152, 3194
+2025-07-28 13:30:56,512 - INFO - Completion tokens: 758, 7, 7, 504, 7, 247, 37
+2025-07-28 13:31:34,658 - INFO - Retrying run for kitchen utensil grip, corrosion resistant, composite: 1/5
+2025-07-28 13:32:07,267 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, composite
+2025-07-28 13:32:07,268 - INFO - Searches: composite materials corrosion resistance, composite materials kitchen utensils
+2025-07-28 13:32:07,268 - INFO - Total tokens: 2121, 2129, 2667, 3008
+2025-07-28 13:32:07,268 - INFO - Completion tokens: 500, 7, 540, 336
+2025-07-28 13:32:34,639 - INFO - Keeping result for kitchen utensil grip, high strength, steel
+2025-07-28 13:32:34,639 - INFO - Searches: properties of steel, materials used in kitchen utensil grips
+2025-07-28 13:32:34,639 - INFO - Total tokens: 2285, 2293, 2602, 2614, 2811
+2025-07-28 13:32:34,639 - INFO - Completion tokens: 664, 7, 311, 7, 199
+2025-07-28 13:33:05,828 - INFO - Retrying run for kitchen utensil grip, high strength, aluminum: 1/5
+2025-07-28 13:33:50,766 - INFO - Keeping result for kitchen utensil grip, high strength, aluminum
+2025-07-28 13:33:50,766 - INFO - Searches: aluminum mechanical properties, tensile strength of aluminum alloys, strength requirements for kitchen utensil grips, aluminum use in kitchen utensil grips
+2025-07-28 13:33:50,766 - INFO - Total tokens: 2109, 2117, 2123, 2569, 2577, 3007, 3015, 3077, 3081, 3415
+2025-07-28 13:33:50,766 - INFO - Completion tokens: 488, 7, 5, 445, 3, 425, 3, 57, 3, 329
+2025-07-28 13:34:08,257 - INFO - Keeping result for kitchen utensil grip, high strength, titanium
+2025-07-28 13:34:08,257 - INFO - Searches: properties of titanium, necessary properties of kitchen utensil grips, titanium use in kitchen utensil grips
+2025-07-28 13:34:08,257 - INFO - Total tokens: 2024, 2032, 2086, 2094, 2162, 2170, 2219
+2025-07-28 13:34:08,257 - INFO - Completion tokens: 403, 7, 53, 3, 63, 3, 44
+2025-07-28 13:34:33,092 - INFO - Keeping result for kitchen utensil grip, high strength, glass
+2025-07-28 13:34:33,092 - INFO - Searches: properties of glass, glass use in kitchen utensil grips
+2025-07-28 13:34:33,092 - INFO - Total tokens: 2046, 2054, 2058, 2066, 2074, 2082, 2546, 2550, 2558, 2690
+2025-07-28 13:34:33,092 - INFO - Completion tokens: 425, 7, 3, 3, 3, 3, 459, 3, 3, 127
+2025-07-28 13:35:17,975 - INFO - Retrying run for kitchen utensil grip, high strength, wood: 1/5
+2025-07-28 13:35:54,250 - INFO - Keeping result for kitchen utensil grip, high strength, wood
+2025-07-28 13:35:54,250 - INFO - Searches: wood mechanical properties strength, materials used for utensil grips
+2025-07-28 13:35:54,250 - INFO - Total tokens: 1950, 1958, 2876, 2888, 3167
+2025-07-28 13:35:54,250 - INFO - Completion tokens: 329, 7, 920, 7, 281
+2025-07-28 13:36:09,814 - INFO - Retrying run for kitchen utensil grip, high strength, thermoplastic: 1/5
+2025-07-28 13:36:32,844 - INFO - Retrying run for kitchen utensil grip, high strength, thermoplastic: 2/5
+2025-07-28 13:36:51,548 - INFO - Retrying run for kitchen utensil grip, high strength, thermoplastic: 3/5
+2025-07-28 13:37:09,564 - INFO - Keeping result for kitchen utensil grip, high strength, thermoplastic
+2025-07-28 13:37:09,565 - INFO - Searches: properties of thermoplastic, necessary properties of kitchen utensil grips, thermoplastic use in kitchen utensil grips
+2025-07-28 13:37:09,565 - INFO - Total tokens: 2092, 2100, 2161, 2169, 2240, 2248, 2301
+2025-07-28 13:37:09,565 - INFO - Completion tokens: 469, 7, 60, 3, 66, 3, 48
+2025-07-28 13:37:44,734 - INFO - Retrying run for kitchen utensil grip, high strength, thermoset: 1/5
+2025-07-28 13:38:25,263 - INFO - Retrying run for kitchen utensil grip, high strength, thermoset: 2/5
+2025-07-28 13:39:13,177 - INFO - Keeping result for kitchen utensil grip, high strength, thermoset
+2025-07-28 13:39:13,177 - INFO - Searches: properties of thermoset, necessary properties of kitchen utensil grip, thermoset use in kitchen utensil grips
+2025-07-28 13:39:13,177 - INFO - Total tokens: 2123, 2131, 3056, 3068, 3420, 3432, 3698
+2025-07-28 13:39:13,177 - INFO - Completion tokens: 500, 7, 927, 7, 354, 7, 268
+2025-07-28 13:40:24,256 - INFO - Retrying run for kitchen utensil grip, high strength, elastomer: 1/5
+2025-07-28 13:41:05,777 - INFO - Keeping result for kitchen utensil grip, high strength, elastomer
+2025-07-28 13:41:05,777 - INFO - Searches: properties of elastomer, necessary properties of kitchen utensil grips, elastomer use in high-strength grips
+2025-07-28 13:41:05,777 - INFO - Total tokens: 2115, 2123, 2550, 2562, 2900, 2912, 3356
+2025-07-28 13:41:05,777 - INFO - Completion tokens: 493, 7, 429, 7, 340, 7, 446
+2025-07-28 13:41:24,779 - INFO - Retrying run for kitchen utensil grip, high strength, composite: 1/5
+2025-07-28 13:42:07,294 - INFO - Retrying run for kitchen utensil grip, high strength, composite: 2/5
+2025-07-28 13:42:31,012 - INFO - Retrying run for kitchen utensil grip, high strength, composite: 3/5
+2025-07-28 13:43:17,239 - INFO - Retrying run for kitchen utensil grip, high strength, composite: 4/5
+2025-07-28 13:43:47,080 - INFO - Retrying run for kitchen utensil grip, high strength, composite: 5/5
+2025-07-28 13:44:06,048 - INFO - Retrying run for safety helmet, lightweight, steel: 1/5
+2025-07-28 13:44:43,292 - INFO - Retrying run for safety helmet, lightweight, steel: 2/5
+2025-07-28 13:45:00,090 - INFO - Retrying run for safety helmet, lightweight, steel: 3/5
+2025-07-28 13:45:35,476 - INFO - Keeping result for safety helmet, lightweight, steel
+2025-07-28 13:45:35,476 - INFO - Searches: density of steel, materials used in safety helmets, steel use in safety helmets
+2025-07-28 13:45:35,477 - INFO - Total tokens: 2017, 2025, 2244, 2256, 2704, 2716, 3045
+2025-07-28 13:45:35,477 - INFO - Completion tokens: 399, 7, 221, 7, 450, 7, 331
+2025-07-28 13:46:11,726 - INFO - Retrying run for safety helmet, lightweight, aluminum: 1/5
+2025-07-28 13:46:41,714 - INFO - Keeping result for safety helmet, lightweight, aluminum
+2025-07-28 13:46:41,714 - INFO - Searches: properties of aluminum, aluminum use in safety helmets
+2025-07-28 13:46:41,714 - INFO - Total tokens: 2118, 2126, 2131, 2623, 2631, 2636, 2887
+2025-07-28 13:46:41,714 - INFO - Completion tokens: 500, 7, 7, 494, 7, 7, 253
+2025-07-28 13:47:25,201 - INFO - Retrying run for safety helmet, lightweight, titanium: 1/5
+2025-07-28 13:48:13,176 - INFO - Keeping result for safety helmet, lightweight, titanium
+2025-07-28 13:48:13,176 - INFO - Searches: titanium properties, titanium properties, titanium properties, titanium properties, safety helmet material requirements, safety helmet material requirements, titanium use in safety helmets, titanium use in safety helmets
+2025-07-28 13:48:13,176 - INFO - Total tokens: 2020, 2047, 2053, 2076, 2103, 2539, 2567, 2909, 2939, 3283
+2025-07-28 13:48:13,176 - INFO - Completion tokens: 402, 26, 5, 22, 22, 431, 23, 337, 25, 339
+2025-07-28 13:48:46,295 - INFO - Retrying run for safety helmet, lightweight, glass: 1/5
+2025-07-28 13:49:20,790 - INFO - Keeping result for safety helmet, lightweight, glass
+2025-07-28 13:49:20,791 - INFO - Searches: properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-07-28 13:49:20,791 - INFO - Total tokens: 2222, 2230, 2619, 2627, 2632, 2762, 2820, 2919, 2975
+2025-07-28 13:49:20,791 - INFO - Completion tokens: 604, 7, 391, 7, 7, 132, 56, 98, 54
+2025-07-28 13:50:04,859 - INFO - Keeping result for safety helmet, lightweight, wood
+2025-07-28 13:50:04,859 - INFO - Searches: properties of wood, wood use in safety helmets, necessary properties of safety helmets, wood impact resistance
+2025-07-28 13:50:04,859 - INFO - Total tokens: 2011, 2019, 2571, 2583, 2588, 2855, 2867, 3147, 3159, 3409
+2025-07-28 13:50:04,859 - INFO - Completion tokens: 393, 7, 554, 7, 7, 269, 7, 282, 7, 252
+2025-07-28 13:50:38,582 - INFO - Keeping result for safety helmet, lightweight, thermoplastic
+2025-07-28 13:50:38,582 - INFO - Searches: properties of thermoplastic, thermoplastic use in safety helmets
+2025-07-28 13:50:38,582 - INFO - Total tokens: 2114, 2122, 2126, 2134, 2142, 2652, 2660, 2668, 3103
+2025-07-28 13:50:38,582 - INFO - Completion tokens: 494, 7, 3, 3, 3, 505, 3, 3, 430
+2025-07-28 13:51:05,230 - INFO - Retrying run for safety helmet, lightweight, thermoset: 1/5
+2025-07-28 13:51:36,351 - INFO - Retrying run for safety helmet, lightweight, thermoset: 2/5
+2025-07-28 13:52:03,362 - INFO - Keeping result for safety helmet, lightweight, thermoset
+2025-07-28 13:52:03,362 - INFO - Searches: properties of thermoset, thermoset use in safety helmets
+2025-07-28 13:52:03,362 - INFO - Total tokens: 2011, 2019, 2023, 2035, 2040, 2045, 2440, 2444, 2452, 2742
+2025-07-28 13:52:03,362 - INFO - Completion tokens: 391, 7, 3, 7, 7, 7, 397, 3, 3, 285
+2025-07-28 13:52:48,136 - INFO - Retrying run for safety helmet, lightweight, elastomer: 1/5
+2025-07-28 13:53:25,964 - INFO - Retrying run for safety helmet, lightweight, elastomer: 2/5
+2025-07-28 13:53:44,954 - INFO - Retrying run for safety helmet, lightweight, elastomer: 3/5
+2025-07-28 13:54:14,732 - INFO - Retrying run for safety helmet, lightweight, elastomer: 4/5
+2025-07-28 13:54:45,573 - INFO - Keeping result for safety helmet, lightweight, elastomer
+2025-07-28 13:54:45,573 - INFO - Searches: properties of elastomer, elastomer use in safety helmets, necessary properties of safety helmets
+2025-07-28 13:54:45,573 - INFO - Total tokens: 2117, 2125, 2478, 2490, 2495, 2797, 2855
+2025-07-28 13:54:45,573 - INFO - Completion tokens: 498, 7, 355, 7, 7, 304, 53
+2025-07-28 13:55:11,859 - INFO - Retrying run for safety helmet, lightweight, composite: 1/5
+2025-07-28 13:56:01,837 - INFO - Keeping result for safety helmet, lightweight, composite
+2025-07-28 13:56:01,837 - INFO - Searches: properties of composite materials, necessary properties of safety helmets, composite materials use in safety helmets
+2025-07-28 13:56:01,837 - INFO - Total tokens: 2036, 2418, 2847, 2859, 3293, 3305, 3721
+2025-07-28 13:56:01,837 - INFO - Completion tokens: 418, 381, 427, 7, 436, 7, 418
+2025-07-28 13:56:37,914 - INFO - Retrying run for safety helmet, heat resistant, steel: 1/5
+2025-07-28 13:57:50,769 - INFO - Retrying run for safety helmet, heat resistant, steel: 2/5
+2025-07-28 13:58:31,997 - INFO - Retrying run for safety helmet, heat resistant, steel: 3/5
+2025-07-28 13:59:24,319 - INFO - Retrying run for safety helmet, heat resistant, steel: 4/5
+2025-07-28 14:00:23,971 - INFO - Retrying run for safety helmet, heat resistant, steel: 5/5
+2025-07-28 14:01:22,916 - INFO - Retrying run for safety helmet, heat resistant, aluminum: 1/5
+2025-07-28 14:01:55,192 - INFO - Retrying run for safety helmet, heat resistant, aluminum: 2/5
+2025-07-28 14:02:41,994 - INFO - Keeping result for safety helmet, heat resistant, aluminum
+2025-07-28 14:02:41,994 - INFO - Searches: aluminum heat resistance properties, aluminum use in heat-resistant safety helmets
+2025-07-28 14:02:41,994 - INFO - Total tokens: 2018, 2024, 3008, 3020, 3580
+2025-07-28 14:02:41,994 - INFO - Completion tokens: 399, 5, 983, 7, 562
+2025-07-28 14:03:10,269 - INFO - Keeping result for safety helmet, heat resistant, titanium
+2025-07-28 14:03:10,269 - INFO - Searches: titanium heat resistance, titanium use in safety helmets
+2025-07-28 14:03:10,270 - INFO - Total tokens: 2085, 2093, 2099, 2543, 2547, 2820
+2025-07-28 14:03:10,270 - INFO - Completion tokens: 466, 7, 5, 443, 3, 268
+2025-07-28 14:03:30,103 - INFO - Retrying run for safety helmet, heat resistant, glass: 1/5
+2025-07-28 14:04:13,951 - INFO - Keeping result for safety helmet, heat resistant, glass
+2025-07-28 14:04:13,951 - INFO - Searches: properties of glass, glass use in safety helmets, necessary properties of safety helmets
+2025-07-28 14:04:13,951 - INFO - Total tokens: 2290, 2298, 2304, 2312, 2965, 2973, 3251, 3259, 3267, 3484
+2025-07-28 14:04:13,951 - INFO - Completion tokens: 671, 7, 5, 7, 655, 3, 273, 3, 3, 212
+2025-07-28 14:04:41,349 - INFO - Retrying run for safety helmet, heat resistant, wood: 1/5
+2025-07-28 14:05:07,745 - INFO - Retrying run for safety helmet, heat resistant, wood: 2/5
+2025-07-28 14:05:38,542 - INFO - Retrying run for safety helmet, heat resistant, wood: 3/5
+2025-07-28 14:05:55,107 - INFO - Retrying run for safety helmet, heat resistant, wood: 4/5
+2025-07-28 14:06:18,266 - INFO - Retrying run for safety helmet, heat resistant, wood: 5/5
+2025-07-28 14:06:38,298 - INFO - Keeping result for safety helmet, heat resistant, thermoplastic
+2025-07-28 14:06:38,298 - INFO - Searches: properties of thermoplastic, thermoplastic heat resistance
+2025-07-28 14:06:38,299 - INFO - Total tokens: 1922, 1930, 1934, 1942, 1950, 1958, 2280, 2284, 2292, 2427
+2025-07-28 14:06:38,299 - INFO - Completion tokens: 301, 7, 3, 3, 3, 3, 317, 3, 3, 130
+2025-07-28 14:07:14,210 - INFO - Retrying run for safety helmet, heat resistant, thermoset: 1/5
+2025-07-28 14:07:44,657 - INFO - Keeping result for safety helmet, heat resistant, thermoset
+2025-07-28 14:07:44,657 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-07-28 14:07:44,657 - INFO - Total tokens: 1950, 1958, 1962, 1970, 2391, 2399, 2724, 2732, 2740, 2862
+2025-07-28 14:07:44,657 - INFO - Completion tokens: 329, 7, 3, 3, 416, 3, 320, 3, 3, 117
+2025-07-28 14:08:21,619 - INFO - Retrying run for safety helmet, heat resistant, elastomer: 1/5
+2025-07-28 14:08:51,695 - INFO - Retrying run for safety helmet, heat resistant, elastomer: 2/5
+2025-07-28 14:09:20,565 - INFO - Keeping result for safety helmet, heat resistant, elastomer
+2025-07-28 14:09:20,565 - INFO - Searches: properties of elastomer, elastomer use in heat-resistant applications
+2025-07-28 14:09:20,565 - INFO - Total tokens: 2175, 2183, 2187, 2195, 2203, 2730, 2734, 2742, 2896
+2025-07-28 14:09:20,565 - INFO - Completion tokens: 555, 7, 3, 3, 3, 522, 3, 3, 149
+2025-07-28 14:10:01,786 - INFO - Retrying run for safety helmet, heat resistant, composite: 1/5
+2025-07-28 14:10:31,648 - INFO - Retrying run for safety helmet, heat resistant, composite: 2/5
+2025-07-28 14:11:06,759 - INFO - Retrying run for safety helmet, heat resistant, composite: 3/5
+2025-07-28 14:11:50,441 - INFO - Retrying run for safety helmet, heat resistant, composite: 4/5
+2025-07-28 14:12:39,878 - INFO - Keeping result for safety helmet, heat resistant, composite
+2025-07-28 14:12:39,879 - INFO - Searches: composite materials heat resistance, necessary properties of safety helmets, composite materials use in safety helmets
+2025-07-28 14:12:39,879 - INFO - Total tokens: 2523, 2532, 2538, 3158, 3171, 3534, 3543, 3730
+2025-07-28 14:12:39,879 - INFO - Completion tokens: 904, 8, 5, 619, 8, 362, 4, 182
+2025-07-28 14:13:12,126 - INFO - Keeping result for safety helmet, corrosion resistant, steel
+2025-07-28 14:13:12,126 - INFO - Searches: corrosion resistance of steel, steel use in safety helmets, suitability of steel for safety helmets
+2025-07-28 14:13:12,126 - INFO - Total tokens: 2191, 2197, 2629, 2637, 2895, 2939
+2025-07-28 14:13:12,126 - INFO - Completion tokens: 572, 5, 431, 7, 260, 39
+2025-07-28 14:13:30,212 - INFO - Retrying run for safety helmet, corrosion resistant, aluminum: 1/5
+2025-07-28 14:14:01,000 - INFO - Retrying run for safety helmet, corrosion resistant, aluminum: 2/5
+2025-07-28 14:14:43,294 - INFO - Retrying run for safety helmet, corrosion resistant, aluminum: 3/5
+2025-07-28 14:15:13,796 - INFO - Retrying run for safety helmet, corrosion resistant, aluminum: 4/5
+2025-07-28 14:15:56,684 - INFO - Keeping result for safety helmet, corrosion resistant, aluminum
+2025-07-28 14:15:56,684 - INFO - Searches: aluminum corrosion resistance, safety helmet materials
+2025-07-28 14:15:56,684 - INFO - Total tokens: 2170, 2178, 2184, 2192, 2197, 3014, 3022, 3030, 3378
+2025-07-28 14:15:56,684 - INFO - Completion tokens: 551, 7, 5, 7, 7, 819, 3, 3, 343
+2025-07-28 14:16:26,367 - INFO - Keeping result for safety helmet, corrosion resistant, titanium
+2025-07-28 14:16:26,367 - INFO - Searches: titanium corrosion resistance, necessary properties of safety helmets
+2025-07-28 14:16:26,367 - INFO - Total tokens: 2110, 2118, 2122, 2130, 2138, 2146, 2551, 2559, 2901
+2025-07-28 14:16:26,367 - INFO - Completion tokens: 491, 7, 3, 3, 3, 3, 400, 3, 337
+2025-07-28 14:17:03,793 - INFO - Keeping result for safety helmet, corrosion resistant, glass
+2025-07-28 14:17:03,793 - INFO - Searches: corrosion resistance of glass, glass use in safety helmets
+2025-07-28 14:17:03,793 - INFO - Total tokens: 2607, 2615, 2621, 2629, 2974, 2978, 3252
+2025-07-28 14:17:03,793 - INFO - Completion tokens: 988, 7, 5, 7, 347, 3, 269
+2025-07-28 14:17:39,596 - INFO - Keeping result for safety helmet, corrosion resistant, wood
+2025-07-28 14:17:39,596 - INFO - Searches: properties of wood, corrosion resistance of wood, necessary properties of safety helmets, wood use in safety helmets
+2025-07-28 14:17:39,596 - INFO - Total tokens: 2112, 2120, 2516, 2524, 2750, 2812, 3006
+2025-07-28 14:17:39,596 - INFO - Completion tokens: 493, 7, 398, 7, 228, 57, 193
+2025-07-28 14:18:27,295 - INFO - Retrying run for safety helmet, corrosion resistant, thermoplastic: 1/5
+2025-07-28 14:19:06,045 - INFO - Retrying run for safety helmet, corrosion resistant, thermoplastic: 2/5
+2025-07-28 14:19:40,261 - INFO - Retrying run for safety helmet, corrosion resistant, thermoplastic: 3/5
+2025-07-28 14:20:27,263 - INFO - Retrying run for safety helmet, corrosion resistant, thermoplastic: 4/5
+2025-07-28 14:20:43,982 - INFO - Retrying run for safety helmet, corrosion resistant, thermoplastic: 5/5
+2025-07-28 14:21:08,199 - INFO - Retrying run for safety helmet, corrosion resistant, thermoset: 1/5
+2025-07-28 14:21:44,763 - INFO - Retrying run for safety helmet, corrosion resistant, thermoset: 2/5
+2025-07-28 14:22:17,658 - INFO - Retrying run for safety helmet, corrosion resistant, thermoset: 3/5
+2025-07-28 14:22:45,183 - INFO - Retrying run for safety helmet, corrosion resistant, thermoset: 4/5
+2025-07-28 14:23:15,303 - INFO - Retrying run for safety helmet, corrosion resistant, thermoset: 5/5
+2025-07-28 14:23:48,163 - INFO - Retrying run for safety helmet, corrosion resistant, elastomer: 1/5
+2025-07-28 14:25:02,418 - INFO - Retrying run for safety helmet, corrosion resistant, elastomer: 2/5
+2025-07-28 14:25:29,553 - INFO - Retrying run for safety helmet, corrosion resistant, elastomer: 3/5
+2025-07-28 14:26:11,318 - INFO - Keeping result for safety helmet, corrosion resistant, elastomer
+2025-07-28 14:26:11,318 - INFO - Searches: properties of elastomer, corrosion resistance of elastomers, elastomer use in safety helmets
+2025-07-28 14:26:11,318 - INFO - Total tokens: 2269, 2277, 2283, 2291, 2706, 2714, 3041, 3049, 3407
+2025-07-28 14:26:11,318 - INFO - Completion tokens: 649, 7, 5, 7, 417, 3, 322, 3, 353
+2025-07-28 14:27:03,505 - INFO - Keeping result for safety helmet, corrosion resistant, composite
+2025-07-28 14:27:03,505 - INFO - Searches: properties of composite materials, properties of composite materials, corrosion resistance of composite materials, corrosion resistance of composite materials, composite materials in safety helmets, composite materials in safety helmets
+2025-07-28 14:27:03,505 - INFO - Total tokens: 2177, 2204, 2210, 2639, 2669, 2936, 2964, 3639
+2025-07-28 14:27:03,505 - INFO - Completion tokens: 558, 26, 5, 428, 25, 262, 23, 670
+2025-07-28 14:27:27,897 - INFO - Keeping result for safety helmet, high strength, steel
+2025-07-28 14:27:27,897 - INFO - Searches: properties of steel, materials used in safety helmets
+2025-07-28 14:27:27,897 - INFO - Total tokens: 1848, 1856, 1861, 2374, 2386, 2658
+2025-07-28 14:27:27,897 - INFO - Completion tokens: 229, 7, 7, 515, 7, 274
+2025-07-28 14:27:42,192 - INFO - Keeping result for safety helmet, high strength, aluminum
+2025-07-28 14:27:42,192 - INFO - Searches: aluminum properties, aluminum use in safety helmets
+2025-07-28 14:27:42,192 - INFO - Total tokens: 1866, 1875, 1881, 2144, 2190
+2025-07-28 14:27:42,192 - INFO - Completion tokens: 247, 8, 5, 262, 41
+2025-07-28 14:28:02,110 - INFO - Retrying run for safety helmet, high strength, titanium: 1/5
+2025-07-28 14:28:32,036 - INFO - Retrying run for safety helmet, high strength, titanium: 2/5
+2025-07-28 14:29:06,315 - INFO - Retrying run for safety helmet, high strength, titanium: 3/5
+2025-07-28 14:29:44,170 - INFO - Keeping result for safety helmet, high strength, titanium
+2025-07-28 14:29:44,170 - INFO - Searches: properties of titanium, titanium use in safety helmets
+2025-07-28 14:29:44,170 - INFO - Total tokens: 2000, 2008, 2013, 2636, 2648, 3269
+2025-07-28 14:29:44,170 - INFO - Completion tokens: 381, 7, 7, 625, 7, 623
+2025-07-28 14:30:12,443 - INFO - Retrying run for safety helmet, high strength, glass: 1/5
+2025-07-28 14:30:43,658 - INFO - Retrying run for safety helmet, high strength, glass: 2/5
+2025-07-28 14:30:59,866 - INFO - Retrying run for safety helmet, high strength, glass: 3/5
+2025-07-28 14:31:22,822 - INFO - Keeping result for safety helmet, high strength, glass
+2025-07-28 14:31:22,822 - INFO - Searches: properties of glass, glass use in safety helmets
+2025-07-28 14:31:22,822 - INFO - Total tokens: 1970, 1978, 1983, 2337, 2345, 2565
+2025-07-28 14:31:22,822 - INFO - Completion tokens: 351, 7, 7, 356, 7, 222
+2025-07-28 14:32:15,429 - INFO - Retrying run for safety helmet, high strength, wood: 1/5
+2025-07-28 14:32:32,524 - INFO - Retrying run for safety helmet, high strength, wood: 2/5
+2025-07-28 14:33:05,325 - INFO - Keeping result for safety helmet, high strength, wood
+2025-07-28 14:33:05,325 - INFO - Searches: strength properties of wood, wood use in safety helmets
+2025-07-28 14:33:05,325 - INFO - Total tokens: 2108, 2116, 2120, 2128, 2136, 2759, 2763, 2771, 3033
+2025-07-28 14:33:05,325 - INFO - Completion tokens: 489, 7, 3, 3, 3, 618, 3, 3, 257
+2025-07-28 14:33:40,177 - INFO - Retrying run for safety helmet, high strength, thermoplastic: 1/5
+2025-07-28 14:34:15,871 - INFO - Retrying run for safety helmet, high strength, thermoplastic: 2/5
+2025-07-28 14:34:56,236 - INFO - Retrying run for safety helmet, high strength, thermoplastic: 3/5
+2025-07-28 14:35:32,151 - INFO - Retrying run for safety helmet, high strength, thermoplastic: 4/5
+2025-07-28 14:36:10,470 - INFO - Keeping result for safety helmet, high strength, thermoplastic
+2025-07-28 14:36:10,470 - INFO - Searches: properties of thermoplastic, thermoplastic use in safety helmets
+2025-07-28 14:36:10,470 - INFO - Total tokens: 2200, 2208, 2214, 2218, 2226, 2234, 2822, 2826, 2834, 3293
+2025-07-28 14:36:10,470 - INFO - Completion tokens: 579, 7, 5, 3, 3, 3, 583, 3, 3, 454
+2025-07-28 14:36:30,246 - INFO - Retrying run for safety helmet, high strength, thermoset: 1/5
+2025-07-28 14:37:14,304 - INFO - Retrying run for safety helmet, high strength, thermoset: 2/5
+2025-07-28 14:37:45,884 - INFO - Retrying run for safety helmet, high strength, thermoset: 3/5
+2025-07-28 14:38:19,601 - INFO - Retrying run for safety helmet, high strength, thermoset: 4/5
+2025-07-28 14:39:04,451 - INFO - Retrying run for safety helmet, high strength, thermoset: 5/5
+2025-07-28 14:39:29,808 - INFO - Keeping result for safety helmet, high strength, elastomer
+2025-07-28 14:39:29,808 - INFO - Searches: properties of elastomer, elastomer use in safety helmets
+2025-07-28 14:39:29,808 - INFO - Total tokens: 1976, 1984, 1988, 1996, 2004, 2012, 2415, 2419, 2427, 2671
+2025-07-28 14:39:29,808 - INFO - Completion tokens: 356, 7, 3, 3, 3, 3, 398, 3, 3, 239
+2025-07-28 14:39:54,317 - INFO - Keeping result for safety helmet, high strength, composite
+2025-07-28 14:39:54,317 - INFO - Searches: properties of composite materials, composite materials safety helmet
+2025-07-28 14:39:54,317 - INFO - Total tokens: 2034, 2042, 2050, 2055, 2384, 2388, 2400, 2627
+2025-07-28 14:39:54,317 - INFO - Completion tokens: 415, 7, 7, 7, 331, 3, 7, 229
+2025-07-28 14:40:26,507 - INFO - Keeping result for underwater component, lightweight, steel
+2025-07-28 14:40:26,508 - INFO - Searches: density of steel, lightweight steel alloys
+2025-07-28 14:40:26,508 - INFO - Total tokens: 2111, 2119, 2124, 2588, 2600, 3028
+2025-07-28 14:40:26,508 - INFO - Completion tokens: 493, 7, 7, 466, 7, 430
+2025-07-28 14:40:53,400 - INFO - Keeping result for underwater component, lightweight, aluminum
+2025-07-28 14:40:53,400 - INFO - Searches: properties of aluminum, aluminum corrosion resistance underwater, aluminum use in underwater components
+2025-07-28 14:40:53,400 - INFO - Total tokens: 1954, 1962, 2267, 2279, 2642, 2696
+2025-07-28 14:40:53,400 - INFO - Completion tokens: 336, 7, 307, 7, 365, 49
+2025-07-28 14:41:23,873 - INFO - Keeping result for underwater component, lightweight, titanium
+2025-07-28 14:41:23,873 - INFO - Searches: properties of titanium, titanium underwater applications
+2025-07-28 14:41:23,873 - INFO - Total tokens: 2159, 2167, 2173, 2181, 2186, 2191, 2552, 2560, 2781
+2025-07-28 14:41:23,873 - INFO - Completion tokens: 541, 7, 5, 7, 7, 7, 363, 3, 216
+2025-07-28 14:41:50,703 - INFO - Retrying run for underwater component, lightweight, glass: 1/5
+2025-07-28 14:42:38,882 - INFO - Retrying run for underwater component, lightweight, glass: 2/5
+2025-07-28 14:43:25,731 - INFO - Keeping result for underwater component, lightweight, glass
+2025-07-28 14:43:25,731 - INFO - Searches: density of glass, glass use in underwater components, lightweight glass alternatives, lightweight glass alternatives, glass suitability for underwater use
+2025-07-28 14:43:25,731 - INFO - Total tokens: 2091, 2099, 2523, 2535, 2540, 2800, 2863, 3163, 3426
+2025-07-28 14:43:25,731 - INFO - Completion tokens: 473, 7, 426, 7, 7, 262, 58, 299, 258
+2025-07-28 14:43:58,489 - INFO - Keeping result for underwater component, lightweight, wood
+2025-07-28 14:43:58,489 - INFO - Searches: properties of wood, wood use in underwater applications, treated wood underwater use
+2025-07-28 14:43:58,489 - INFO - Total tokens: 2073, 2081, 2086, 2429, 2441, 2898, 2960
+2025-07-28 14:43:58,489 - INFO - Completion tokens: 455, 7, 7, 345, 7, 459, 57
+2025-07-28 14:44:24,043 - INFO - Retrying run for underwater component, lightweight, thermoplastic: 1/5
+2025-07-28 14:44:56,560 - INFO - Retrying run for underwater component, lightweight, thermoplastic: 2/5
+2025-07-28 14:45:14,046 - INFO - Retrying run for underwater component, lightweight, thermoplastic: 3/5
+2025-07-28 14:45:59,581 - INFO - Retrying run for underwater component, lightweight, thermoplastic: 4/5
+2025-07-28 14:46:33,535 - INFO - Retrying run for underwater component, lightweight, thermoplastic: 5/5
+2025-07-28 14:47:08,187 - INFO - Retrying run for underwater component, lightweight, thermoset: 1/5
+2025-07-28 14:47:53,206 - INFO - Retrying run for underwater component, lightweight, thermoset: 2/5
+2025-07-28 14:48:37,754 - INFO - Retrying run for underwater component, lightweight, thermoset: 3/5
+2025-07-28 14:49:21,234 - INFO - Retrying run for underwater component, lightweight, thermoset: 4/5
+2025-07-28 14:49:52,593 - INFO - Retrying run for underwater component, lightweight, thermoset: 5/5
+2025-07-28 14:50:38,317 - INFO - Retrying run for underwater component, lightweight, elastomer: 1/5
+2025-07-28 14:51:29,064 - INFO - Retrying run for underwater component, lightweight, elastomer: 2/5
+2025-07-28 14:52:03,488 - INFO - Keeping result for underwater component, lightweight, elastomer
+2025-07-28 14:52:03,488 - INFO - Searches: properties of elastomer, elastomer underwater applications
+2025-07-28 14:52:03,488 - INFO - Total tokens: 2051, 2059, 2063, 2071, 2079, 2472, 2476, 2484, 2992
+2025-07-28 14:52:03,489 - INFO - Completion tokens: 432, 7, 3, 3, 3, 388, 3, 3, 503
+2025-07-28 14:52:53,549 - INFO - Retrying run for underwater component, lightweight, composite: 1/5
+2025-07-28 14:53:21,892 - INFO - Keeping result for underwater component, lightweight, composite
+2025-07-28 14:53:21,892 - INFO - Searches: composite materials underwater applications, composite materials lightweight
+2025-07-28 14:53:21,892 - INFO - Total tokens: 2046, 2052, 2060, 2454, 2462, 2467, 2700
+2025-07-28 14:53:21,892 - INFO - Completion tokens: 428, 5, 7, 396, 7, 7, 235
+2025-07-28 14:53:50,251 - INFO - Retrying run for underwater component, heat resistant, steel: 1/5
+2025-07-28 14:54:34,938 - INFO - Retrying run for underwater component, heat resistant, steel: 2/5
+2025-07-28 14:55:04,670 - INFO - Retrying run for underwater component, heat resistant, steel: 3/5
+2025-07-28 14:55:49,056 - INFO - Retrying run for underwater component, heat resistant, steel: 4/5
+2025-07-28 14:56:44,293 - INFO - Retrying run for underwater component, heat resistant, steel: 5/5
+2025-07-28 14:57:35,230 - INFO - Keeping result for underwater component, heat resistant, aluminum
+2025-07-28 14:57:35,230 - INFO - Searches: aluminum heat resistance, aluminum underwater applications
+2025-07-28 14:57:35,230 - INFO - Total tokens: 2034, 2412, 2838, 2850, 3702
+2025-07-28 14:57:35,230 - INFO - Completion tokens: 415, 377, 424, 7, 854
+2025-07-28 14:58:11,235 - INFO - Keeping result for underwater component, heat resistant, titanium
+2025-07-28 14:58:11,236 - INFO - Searches: titanium heat resistance, titanium underwater applications
+2025-07-28 14:58:11,236 - INFO - Total tokens: 2112, 2120, 2124, 2132, 2140, 2692, 2696, 2704, 3034
+2025-07-28 14:58:11,236 - INFO - Completion tokens: 493, 7, 3, 3, 3, 547, 3, 3, 325
+2025-07-28 14:58:44,520 - INFO - Retrying run for underwater component, heat resistant, glass: 1/5
+2025-07-28 14:59:38,955 - INFO - Retrying run for underwater component, heat resistant, glass: 2/5
+2025-07-28 15:00:20,011 - INFO - Retrying run for underwater component, heat resistant, glass: 3/5
+2025-07-28 15:01:05,645 - INFO - Retrying run for underwater component, heat resistant, glass: 4/5
+2025-07-28 15:01:41,969 - INFO - Retrying run for underwater component, heat resistant, glass: 5/5
+2025-07-28 15:02:21,384 - INFO - Retrying run for underwater component, heat resistant, wood: 1/5
+2025-07-28 15:02:40,699 - INFO - Keeping result for underwater component, heat resistant, wood
+2025-07-28 15:02:40,699 - INFO - Searches: wood properties underwater and heat resistance
+2025-07-28 15:02:40,699 - INFO - Total tokens: 2061, 2070, 2079, 2084, 2093, 2102, 2111, 2383
+2025-07-28 15:02:40,699 - INFO - Completion tokens: 442, 8, 8, 4, 4, 4, 4, 267
+2025-07-28 15:03:10,937 - INFO - Keeping result for underwater component, heat resistant, thermoplastic
+2025-07-28 15:03:10,937 - INFO - Searches: thermoplastic heat resistance, thermoplastic underwater components
+2025-07-28 15:03:10,938 - INFO - Total tokens: 2058, 2066, 2070, 2078, 2086, 2094, 2605, 2609, 2617, 2848
+2025-07-28 15:03:10,938 - INFO - Completion tokens: 437, 7, 3, 3, 3, 3, 506, 3, 3, 226
+2025-07-28 15:03:48,717 - INFO - Retrying run for underwater component, heat resistant, thermoset: 1/5
+2025-07-28 15:04:34,714 - INFO - Keeping result for underwater component, heat resistant, thermoset
+2025-07-28 15:04:34,714 - INFO - Searches: properties of thermoset, thermoset use in underwater components, necessary properties of underwater components
+2025-07-28 15:04:34,714 - INFO - Total tokens: 2224, 2232, 2238, 2246, 2251, 2740, 2748, 3125, 3133, 3399
+2025-07-28 15:04:34,714 - INFO - Completion tokens: 603, 7, 5, 7, 7, 491, 3, 372, 3, 261
+2025-07-28 15:05:03,494 - INFO - Retrying run for underwater component, heat resistant, elastomer: 1/5
+2025-07-28 15:05:33,298 - INFO - Retrying run for underwater component, heat resistant, elastomer: 2/5
+2025-07-28 15:05:59,339 - INFO - Retrying run for underwater component, heat resistant, elastomer: 3/5
+2025-07-28 15:06:25,294 - INFO - Keeping result for underwater component, heat resistant, elastomer
+2025-07-28 15:06:25,295 - INFO - Searches: elastomer heat resistance, elastomer underwater applications, elastomer thermal properties underwater
+2025-07-28 15:06:25,295 - INFO - Total tokens: 1994, 2000, 2008, 2013, 2389, 2397, 2402, 2407, 2467, 2511
+2025-07-28 15:06:25,295 - INFO - Completion tokens: 374, 5, 7, 7, 378, 7, 7, 7, 62, 43
+2025-07-28 15:07:01,672 - INFO - Keeping result for underwater component, heat resistant, composite
+2025-07-28 15:07:01,672 - INFO - Searches: properties of composite materials, heat resistance of composite materials, composite materials underwater applications
+2025-07-28 15:07:01,672 - INFO - Total tokens: 1914, 1922, 1926, 1938, 1943, 2317, 2321, 2627, 2635, 3052
+2025-07-28 15:07:01,672 - INFO - Completion tokens: 295, 7, 3, 7, 7, 376, 3, 301, 3, 412
+2025-07-28 15:07:26,844 - INFO - Keeping result for underwater component, corrosion resistant, steel
+2025-07-28 15:07:26,844 - INFO - Searches: corrosion resistance of steel, corrosion-resistant steel alloys for underwater use
+2025-07-28 15:07:26,844 - INFO - Total tokens: 1929, 1937, 1941, 1949, 1957, 1965, 2337, 2345, 2353, 2680
+2025-07-28 15:07:26,844 - INFO - Completion tokens: 310, 7, 3, 3, 3, 3, 367, 3, 3, 322
+2025-07-28 15:07:54,922 - INFO - Keeping result for underwater component, corrosion resistant, aluminum
+2025-07-28 15:07:54,922 - INFO - Searches: aluminum corrosion resistance, aluminum underwater applications
+2025-07-28 15:07:54,922 - INFO - Total tokens: 2006, 2014, 2018, 2026, 2034, 2042, 2393, 2401, 2409, 2796
+2025-07-28 15:07:54,922 - INFO - Completion tokens: 387, 7, 3, 3, 3, 3, 346, 3, 3, 382
+2025-07-28 15:08:25,407 - INFO - Retrying run for underwater component, corrosion resistant, titanium: 1/5
+2025-07-28 15:08:45,387 - INFO - Retrying run for underwater component, corrosion resistant, titanium: 2/5
+2025-07-28 15:09:06,699 - INFO - Retrying run for underwater component, corrosion resistant, titanium: 3/5
+2025-07-28 15:09:35,025 - INFO - Retrying run for underwater component, corrosion resistant, titanium: 4/5
+2025-07-28 15:09:53,688 - INFO - Retrying run for underwater component, corrosion resistant, titanium: 5/5
+2025-07-28 15:10:27,372 - INFO - Keeping result for underwater component, corrosion resistant, glass
+2025-07-28 15:10:27,372 - INFO - Searches: corrosion resistance of glass, glass underwater applications
+2025-07-28 15:10:27,372 - INFO - Total tokens: 2153, 2161, 2165, 2173, 2181, 2189, 2807, 2811, 2819, 3068
+2025-07-28 15:10:27,373 - INFO - Completion tokens: 534, 7, 3, 3, 3, 3, 613, 3, 3, 244
+2025-07-28 15:10:53,264 - INFO - Retrying run for underwater component, corrosion resistant, wood: 1/5
+2025-07-28 15:11:30,837 - INFO - Retrying run for underwater component, corrosion resistant, wood: 2/5
+2025-07-28 15:11:52,846 - INFO - Retrying run for underwater component, corrosion resistant, wood: 3/5
+2025-07-28 15:12:17,920 - INFO - Retrying run for underwater component, corrosion resistant, wood: 4/5
+2025-07-28 15:12:43,059 - INFO - Retrying run for underwater component, corrosion resistant, wood: 5/5
+2025-07-28 15:13:22,926 - INFO - Retrying run for underwater component, corrosion resistant, thermoplastic: 1/5
+2025-07-28 15:14:03,809 - INFO - Retrying run for underwater component, corrosion resistant, thermoplastic: 2/5
+2025-07-28 15:14:28,417 - INFO - Retrying run for underwater component, corrosion resistant, thermoplastic: 3/5
+2025-07-28 15:15:01,641 - INFO - Keeping result for underwater component, corrosion resistant, thermoplastic
+2025-07-28 15:15:01,641 - INFO - Searches: thermoplastic corrosion resistance, materials for underwater components
+2025-07-28 15:15:01,641 - INFO - Total tokens: 2032, 2038, 2598, 2610, 2615, 2891
+2025-07-28 15:15:01,641 - INFO - Completion tokens: 411, 5, 559, 7, 7, 278
+2025-07-28 15:15:45,797 - INFO - Retrying run for underwater component, corrosion resistant, thermoset: 1/5
+2025-07-28 15:16:11,844 - INFO - Retrying run for underwater component, corrosion resistant, thermoset: 2/5
+2025-07-28 15:16:34,163 - INFO - Retrying run for underwater component, corrosion resistant, thermoset: 3/5
+2025-07-28 15:17:22,977 - INFO - Retrying run for underwater component, corrosion resistant, thermoset: 4/5
+2025-07-28 15:17:49,098 - INFO - Retrying run for underwater component, corrosion resistant, thermoset: 5/5
+2025-07-28 15:18:24,901 - INFO - Keeping result for underwater component, corrosion resistant, elastomer
+2025-07-28 15:18:24,901 - INFO - Searches: corrosion resistance of elastomers, elastomers underwater applications
+2025-07-28 15:18:24,901 - INFO - Total tokens: 2036, 2044, 2048, 2056, 2064, 2072, 2685, 2689, 3016
+2025-07-28 15:18:24,902 - INFO - Completion tokens: 416, 7, 3, 3, 3, 3, 608, 3, 322
+2025-07-28 15:19:02,661 - INFO - Retrying run for underwater component, corrosion resistant, composite: 1/5
+2025-07-28 15:19:23,206 - INFO - Keeping result for underwater component, corrosion resistant, composite
+2025-07-28 15:19:23,206 - INFO - Searches: properties of composite materials, composite materials corrosion resistance, composite materials underwater applications
+2025-07-28 15:19:23,206 - INFO - Total tokens: 2123, 2131, 2195, 2199, 2260, 2268, 2317
+2025-07-28 15:19:23,206 - INFO - Completion tokens: 504, 7, 63, 3, 56, 3, 44
+2025-07-28 15:19:53,496 - INFO - Retrying run for underwater component, high strength, steel: 1/5
+2025-07-28 15:20:37,451 - INFO - Retrying run for underwater component, high strength, steel: 2/5
+2025-07-28 15:21:10,072 - INFO - Retrying run for underwater component, high strength, steel: 3/5
+2025-07-28 15:21:36,943 - INFO - Keeping result for underwater component, high strength, steel
+2025-07-28 15:21:36,943 - INFO - Searches: properties of steel, steel corrosion resistance underwater, steel use in underwater components
+2025-07-28 15:21:36,943 - INFO - Total tokens: 1969, 1977, 2212, 2224, 2531, 2585
+2025-07-28 15:21:36,943 - INFO - Completion tokens: 350, 7, 237, 7, 309, 49
+2025-07-28 15:22:12,395 - INFO - Retrying run for underwater component, high strength, aluminum: 1/5
+2025-07-28 15:23:15,510 - INFO - Keeping result for underwater component, high strength, aluminum
+2025-07-28 15:23:15,510 - INFO - Searches: properties of aluminum, tensile strength of aluminum alloys, materials used in underwater components, aluminum use in underwater applications
+2025-07-28 15:23:15,510 - INFO - Total tokens: 2115, 2123, 2597, 2609, 3069, 3416, 3803
+2025-07-28 15:23:15,510 - INFO - Completion tokens: 496, 7, 476, 7, 462, 342, 382
+2025-07-28 15:23:40,963 - INFO - Retrying run for underwater component, high strength, titanium: 1/5
+2025-07-28 15:24:08,973 - INFO - Keeping result for underwater component, high strength, titanium
+2025-07-28 15:24:08,973 - INFO - Searches: properties of titanium, titanium use in underwater components
+2025-07-28 15:24:08,973 - INFO - Total tokens: 2096, 2104, 2108, 2116, 2124, 2132, 2518, 2522, 2530, 2788
+2025-07-28 15:24:08,973 - INFO - Completion tokens: 477, 7, 3, 3, 3, 3, 381, 3, 3, 253
+2025-07-28 15:24:28,987 - INFO - Retrying run for underwater component, high strength, glass: 1/5
+2025-07-28 15:24:58,018 - INFO - Keeping result for underwater component, high strength, glass
+2025-07-28 15:24:58,019 - INFO - Searches: properties of glass, glass use in underwater components
+2025-07-28 15:24:58,019 - INFO - Total tokens: 1997, 2005, 2011, 2019, 2024, 2532, 2536, 2544, 2781
+2025-07-28 15:24:58,019 - INFO - Completion tokens: 378, 7, 5, 7, 7, 510, 3, 3, 232
+2025-07-28 15:25:23,189 - INFO - Keeping result for underwater component, high strength, wood
+2025-07-28 15:25:23,189 - INFO - Searches: properties of wood, wood use in underwater components
+2025-07-28 15:25:23,189 - INFO - Total tokens: 2112, 2120, 2124, 2132, 2140, 2148, 2469, 2477, 2485, 2620
+2025-07-28 15:25:23,189 - INFO - Completion tokens: 493, 7, 3, 3, 3, 3, 316, 3, 3, 130
+2025-07-28 15:25:57,196 - INFO - Retrying run for underwater component, high strength, thermoplastic: 1/5
+2025-07-28 15:26:36,880 - INFO - Retrying run for underwater component, high strength, thermoplastic: 2/5
+2025-07-28 15:27:16,251 - INFO - Retrying run for underwater component, high strength, thermoplastic: 3/5
+2025-07-28 15:27:39,178 - INFO - Retrying run for underwater component, high strength, thermoplastic: 4/5
+2025-07-28 15:28:07,665 - INFO - Retrying run for underwater component, high strength, thermoplastic: 5/5
+2025-07-28 15:28:40,599 - INFO - Keeping result for underwater component, high strength, thermoset
+2025-07-28 15:28:40,599 - INFO - Searches: properties of thermoset, thermoset underwater applications, thermoset high strength underwater
+2025-07-28 15:28:40,599 - INFO - Total tokens: 1970, 1978, 2455, 2467, 2760, 2804
+2025-07-28 15:28:40,599 - INFO - Completion tokens: 349, 7, 479, 7, 295, 39
+2025-07-28 15:29:11,075 - INFO - Retrying run for underwater component, high strength, elastomer: 1/5
+2025-07-28 15:29:38,633 - INFO - Retrying run for underwater component, high strength, elastomer: 2/5
+2025-07-28 15:30:17,040 - INFO - Retrying run for underwater component, high strength, elastomer: 3/5
+2025-07-28 15:30:33,320 - INFO - Retrying run for underwater component, high strength, elastomer: 4/5
+2025-07-28 15:30:55,747 - INFO - Retrying run for underwater component, high strength, elastomer: 5/5
+2025-07-28 15:31:27,999 - INFO - Retrying run for underwater component, high strength, composite: 1/5
+2025-07-28 15:32:01,373 - INFO - Retrying run for underwater component, high strength, composite: 2/5
+2025-07-28 15:32:36,616 - INFO - Retrying run for underwater component, high strength, composite: 3/5
+2025-07-28 15:33:11,050 - INFO - Retrying run for underwater component, high strength, composite: 4/5
+2025-07-28 15:33:40,801 - INFO - Retrying run for underwater component, high strength, composite: 5/5
+2025-07-28 15:34:09,001 - INFO - Retrying run for spacecraft component, lightweight, steel: 1/5
+2025-07-28 15:34:40,287 - INFO - Retrying run for spacecraft component, lightweight, steel: 2/5
+2025-07-28 15:34:59,274 - INFO - Retrying run for spacecraft component, lightweight, steel: 3/5
+2025-07-28 15:35:30,848 - INFO - Keeping result for spacecraft component, lightweight, steel
+2025-07-28 15:35:30,848 - INFO - Searches: properties of steel, steel use in spacecraft
+2025-07-28 15:35:30,848 - INFO - Total tokens: 2071, 2079, 2085, 2093, 2098, 2583, 2587, 2595, 2846
+2025-07-28 15:35:30,848 - INFO - Completion tokens: 453, 7, 5, 7, 7, 487, 3, 3, 246
+2025-07-28 15:36:06,795 - INFO - Retrying run for spacecraft component, lightweight, aluminum: 1/5
+2025-07-28 15:36:40,158 - INFO - Retrying run for spacecraft component, lightweight, aluminum: 2/5
+2025-07-28 15:37:28,499 - INFO - Retrying run for spacecraft component, lightweight, aluminum: 3/5
+2025-07-28 15:38:01,690 - INFO - Keeping result for spacecraft component, lightweight, aluminum
+2025-07-28 15:38:01,690 - INFO - Searches: properties of aluminum, aluminum suitability for spacecraft components
+2025-07-28 15:38:01,690 - INFO - Total tokens: 2063, 2071, 2075, 2083, 2648, 2652, 2660, 2930
+2025-07-28 15:38:01,690 - INFO - Completion tokens: 445, 7, 3, 3, 560, 3, 3, 265
+2025-07-28 15:38:38,923 - INFO - Retrying run for spacecraft component, lightweight, titanium: 1/5
+2025-07-28 15:39:06,430 - INFO - Retrying run for spacecraft component, lightweight, titanium: 2/5
+2025-07-28 15:39:38,255 - INFO - Keeping result for spacecraft component, lightweight, titanium
+2025-07-28 15:39:38,255 - INFO - Searches: titanium properties, titanium use in spacecraft
+2025-07-28 15:39:38,255 - INFO - Total tokens: 2230, 2238, 2495, 2507, 2852
+2025-07-28 15:39:38,255 - INFO - Completion tokens: 612, 7, 259, 7, 347
+2025-07-28 15:40:20,460 - INFO - Retrying run for spacecraft component, lightweight, glass: 1/5
+2025-07-28 15:40:51,720 - INFO - Keeping result for spacecraft component, lightweight, glass
+2025-07-28 15:40:51,720 - INFO - Searches: density of glass, glass use in aerospace
+2025-07-28 15:40:51,720 - INFO - Total tokens: 2163, 2171, 2175, 2183, 2191, 2199, 2631, 2635, 2643, 2834
+2025-07-28 15:40:51,720 - INFO - Completion tokens: 545, 7, 3, 3, 3, 3, 427, 3, 3, 186
+2025-07-28 15:41:19,971 - INFO - Retrying run for spacecraft component, lightweight, wood: 1/5
+2025-07-28 15:41:57,900 - INFO - Keeping result for spacecraft component, lightweight, wood
+2025-07-28 15:41:57,900 - INFO - Searches: properties of wood, wood use in spacecraft, necessary properties of spacecraft components, wood properties spacecraft
+2025-07-28 15:41:57,900 - INFO - Total tokens: 2111, 2440, 2666, 2844, 3019
+2025-07-28 15:41:57,900 - INFO - Completion tokens: 493, 328, 221, 173, 170
+2025-07-28 15:42:18,040 - INFO - Retrying run for spacecraft component, lightweight, thermoplastic: 1/5
+2025-07-28 15:42:53,406 - INFO - Retrying run for spacecraft component, lightweight, thermoplastic: 2/5
+2025-07-28 15:43:40,760 - INFO - Retrying run for spacecraft component, lightweight, thermoplastic: 3/5
+2025-07-28 15:44:01,386 - INFO - Retrying run for spacecraft component, lightweight, thermoplastic: 4/5
+2025-07-28 15:44:45,408 - INFO - Retrying run for spacecraft component, lightweight, thermoplastic: 5/5
+2025-07-28 15:45:24,172 - INFO - Retrying run for spacecraft component, lightweight, thermoset: 1/5
+2025-07-28 15:46:06,755 - INFO - Retrying run for spacecraft component, lightweight, thermoset: 2/5
+2025-07-28 15:46:49,038 - INFO - Retrying run for spacecraft component, lightweight, thermoset: 3/5
+2025-07-28 15:47:42,184 - INFO - Keeping result for spacecraft component, lightweight, thermoset
+2025-07-28 15:47:42,184 - INFO - Searches: properties of thermoset, density of thermoset, thermoset use in spacecraft
+2025-07-28 15:47:42,184 - INFO - Total tokens: 2265, 2273, 2279, 2287, 2292, 2812, 2820, 3290, 3298, 3794
+2025-07-28 15:47:42,184 - INFO - Completion tokens: 645, 7, 5, 7, 7, 522, 3, 465, 3, 491
+2025-07-28 15:48:17,061 - INFO - Retrying run for spacecraft component, lightweight, elastomer: 1/5
+2025-07-28 15:48:53,731 - INFO - Retrying run for spacecraft component, lightweight, elastomer: 2/5
+2025-07-28 15:49:47,409 - INFO - Retrying run for spacecraft component, lightweight, elastomer: 3/5
+2025-07-28 15:50:11,405 - INFO - Retrying run for spacecraft component, lightweight, elastomer: 4/5
+2025-07-28 15:50:57,163 - INFO - Retrying run for spacecraft component, lightweight, elastomer: 5/5
+2025-07-28 15:51:29,981 - INFO - Retrying run for spacecraft component, lightweight, composite: 1/5
+2025-07-28 15:51:46,519 - INFO - Retrying run for spacecraft component, lightweight, composite: 2/5
+2025-07-28 15:52:03,774 - INFO - Retrying run for spacecraft component, lightweight, composite: 3/5
+2025-07-28 15:52:28,890 - INFO - Retrying run for spacecraft component, lightweight, composite: 4/5
+2025-07-28 15:52:47,227 - INFO - Keeping result for spacecraft component, lightweight, composite
+2025-07-28 15:52:47,227 - INFO - Searches: properties of composite materials, necessary properties of spacecraft components, composite materials use in spacecraft
+2025-07-28 15:52:47,227 - INFO - Total tokens: 2015, 2023, 2074, 2082, 2141, 2149, 2196
+2025-07-28 15:52:47,227 - INFO - Completion tokens: 397, 7, 50, 3, 54, 3, 42
+2025-07-28 15:53:26,700 - INFO - Retrying run for spacecraft component, heat resistant, steel: 1/5
+2025-07-28 15:53:49,565 - INFO - Keeping result for spacecraft component, heat resistant, steel
+2025-07-28 15:53:49,565 - INFO - Searches: steel heat resistance properties, steel use in spacecraft components, steel heat resistance spacecraft
+2025-07-28 15:53:49,566 - INFO - Total tokens: 2167, 2175, 2227, 2235, 2294, 2302, 2344
+2025-07-28 15:53:49,566 - INFO - Completion tokens: 548, 7, 51, 3, 54, 3, 37
+2025-07-28 15:54:34,911 - INFO - Retrying run for spacecraft component, heat resistant, aluminum: 1/5
+2025-07-28 15:55:14,403 - INFO - Retrying run for spacecraft component, heat resistant, aluminum: 2/5
+2025-07-28 15:56:05,412 - INFO - Keeping result for spacecraft component, heat resistant, aluminum
+2025-07-28 15:56:05,412 - INFO - Searches: properties of aluminum, necessary properties of spacecraft components, aluminum use in heat-resistant spacecraft components
+2025-07-28 15:56:05,413 - INFO - Total tokens: 2027, 2401, 2822, 2834, 3256, 3268, 3273, 3278, 3629
+2025-07-28 15:56:05,413 - INFO - Completion tokens: 408, 373, 419, 7, 424, 7, 7, 7, 353
+2025-07-28 15:56:51,233 - INFO - Retrying run for spacecraft component, heat resistant, titanium: 1/5
+2025-07-28 15:57:27,098 - INFO - Keeping result for spacecraft component, heat resistant, titanium
+2025-07-28 15:57:27,098 - INFO - Searches: titanium heat resistance, titanium heat resistance, titanium use in spacecraft, titanium use in spacecraft, titanium limitations high heat, titanium limitations high heat
+2025-07-28 15:57:27,098 - INFO - Total tokens: 2068, 2096, 2102, 2388, 2417, 2429, 2621, 2650, 2662, 2719
+2025-07-28 15:57:27,098 - INFO - Completion tokens: 449, 27, 5, 285, 24, 7, 194, 24, 7, 59
+2025-07-28 15:58:19,538 - INFO - Retrying run for spacecraft component, heat resistant, glass: 1/5
+2025-07-28 15:58:54,724 - INFO - Retrying run for spacecraft component, heat resistant, glass: 2/5
+2025-07-28 15:59:27,839 - INFO - Retrying run for spacecraft component, heat resistant, glass: 3/5
+2025-07-28 16:00:06,323 - INFO - Retrying run for spacecraft component, heat resistant, glass: 4/5
+2025-07-28 16:00:40,615 - INFO - Keeping result for spacecraft component, heat resistant, glass
+2025-07-28 16:00:40,615 - INFO - Searches: properties of glass, necessary properties of spacecraft components, glass use in spacecraft components
+2025-07-28 16:00:40,616 - INFO - Total tokens: 2142, 2150, 2156, 2164, 2499, 2507, 2844, 2852, 2927
+2025-07-28 16:00:40,616 - INFO - Completion tokens: 523, 7, 5, 7, 337, 3, 332, 3, 70
+2025-07-28 16:01:22,127 - INFO - Retrying run for spacecraft component, heat resistant, wood: 1/5
+2025-07-28 16:01:42,995 - INFO - Keeping result for spacecraft component, heat resistant, wood
+2025-07-28 16:01:42,995 - INFO - Searches: wood heat resistance
+2025-07-28 16:01:42,995 - INFO - Total tokens: 2098, 2106, 2110, 2118, 2126, 2134, 2142, 2442
+2025-07-28 16:01:42,995 - INFO - Completion tokens: 479, 7, 3, 3, 3, 3, 3, 295
+2025-07-28 16:02:06,077 - INFO - Retrying run for spacecraft component, heat resistant, thermoplastic: 1/5
+2025-07-28 16:02:39,639 - INFO - Retrying run for spacecraft component, heat resistant, thermoplastic: 2/5
+2025-07-28 16:03:11,994 - INFO - Retrying run for spacecraft component, heat resistant, thermoplastic: 3/5
+2025-07-28 16:03:42,652 - INFO - Retrying run for spacecraft component, heat resistant, thermoplastic: 4/5
+2025-07-28 16:04:14,889 - INFO - Retrying run for spacecraft component, heat resistant, thermoplastic: 5/5
+2025-07-28 16:04:50,760 - INFO - Retrying run for spacecraft component, heat resistant, thermoset: 1/5
+2025-07-28 16:05:27,932 - INFO - Retrying run for spacecraft component, heat resistant, thermoset: 2/5
+2025-07-28 16:06:09,293 - INFO - Keeping result for spacecraft component, heat resistant, thermoset
+2025-07-28 16:06:09,293 - INFO - Searches: properties of thermoset, necessary properties of spacecraft components, thermoset use in spacecraft
+2025-07-28 16:06:09,293 - INFO - Total tokens: 2035, 2046, 2052, 2060, 2065, 2616, 2627, 2895, 2906, 3184
+2025-07-28 16:06:09,293 - INFO - Completion tokens: 414, 10, 5, 7, 7, 553, 6, 263, 6, 273
+2025-07-28 16:06:53,017 - INFO - Retrying run for spacecraft component, heat resistant, elastomer: 1/5
+2025-07-28 16:07:24,937 - INFO - Retrying run for spacecraft component, heat resistant, elastomer: 2/5
+2025-07-28 16:08:03,928 - INFO - Retrying run for spacecraft component, heat resistant, elastomer: 3/5
+2025-07-28 16:08:52,111 - INFO - Retrying run for spacecraft component, heat resistant, elastomer: 4/5
+2025-07-28 16:09:23,787 - INFO - Keeping result for spacecraft component, heat resistant, elastomer
+2025-07-28 16:09:23,787 - INFO - Searches: properties of elastomer, elastomer heat resistance
+2025-07-28 16:09:23,787 - INFO - Total tokens: 1991, 2326, 2716, 2728, 2869, 2924
+2025-07-28 16:09:23,787 - INFO - Completion tokens: 371, 334, 388, 7, 143, 53
+2025-07-28 16:10:06,224 - INFO - Retrying run for spacecraft component, heat resistant, composite: 1/5
+2025-07-28 16:10:49,483 - INFO - Keeping result for spacecraft component, heat resistant, composite
+2025-07-28 16:10:49,483 - INFO - Searches: properties of composite materials, necessary properties for heat-resistant spacecraft components, composite materials in aerospace applications, thermal stability of composite materials, composites in thermal protection systems
+2025-07-28 16:10:49,484 - INFO - Total tokens: 1820, 2037, 2296, 2552, 2819, 3212
+2025-07-28 16:10:49,484 - INFO - Completion tokens: 201, 216, 258, 251, 262, 388
+2025-07-28 16:11:08,410 - INFO - Retrying run for spacecraft component, corrosion resistant, steel: 1/5
+2025-07-28 16:11:48,308 - INFO - Retrying run for spacecraft component, corrosion resistant, steel: 2/5
+2025-07-28 16:12:16,577 - INFO - Keeping result for spacecraft component, corrosion resistant, steel
+2025-07-28 16:12:16,577 - INFO - Searches: corrosion resistance of steel
+2025-07-28 16:12:16,578 - INFO - Total tokens: 2145, 2153, 2157, 2165, 2173, 2181, 2189, 2197, 2811
+2025-07-28 16:12:16,578 - INFO - Completion tokens: 526, 7, 3, 3, 3, 3, 3, 3, 609
+2025-07-28 16:13:00,262 - INFO - Keeping result for spacecraft component, corrosion resistant, aluminum
+2025-07-28 16:13:00,262 - INFO - Searches: corrosion resistance of aluminum, aluminum corrosion in space, aluminum use in spacecraft, aluminum corrosion spacecraft
+2025-07-28 16:13:00,262 - INFO - Total tokens: 1954, 1965, 1971, 2220, 2231, 2742, 2753, 3024, 3035, 3286
+2025-07-28 16:13:00,262 - INFO - Completion tokens: 335, 10, 5, 248, 6, 506, 6, 266, 6, 246
+2025-07-28 16:13:29,163 - INFO - Retrying run for spacecraft component, corrosion resistant, titanium: 1/5
+2025-07-28 16:14:06,334 - INFO - Retrying run for spacecraft component, corrosion resistant, titanium: 2/5
+2025-07-28 16:14:28,482 - INFO - Retrying run for spacecraft component, corrosion resistant, titanium: 3/5
+2025-07-28 16:15:06,881 - INFO - Retrying run for spacecraft component, corrosion resistant, titanium: 4/5
+2025-07-28 16:15:25,445 - INFO - Keeping result for spacecraft component, corrosion resistant, titanium
+2025-07-28 16:15:25,445 - INFO - Searches: titanium corrosion resistance, titanium use in spacecraft
+2025-07-28 16:15:25,445 - INFO - Total tokens: 1926, 1934, 1938, 1946, 1954, 1962, 2165, 2169, 2307
+2025-07-28 16:15:25,445 - INFO - Completion tokens: 307, 7, 3, 3, 3, 3, 198, 3, 133
+2025-07-28 16:15:58,055 - INFO - Keeping result for spacecraft component, corrosion resistant, glass
+2025-07-28 16:15:58,055 - INFO - Searches: properties of glass, glass use in spacecraft, corrosion resistance of glass in aerospace
+2025-07-28 16:15:58,055 - INFO - Total tokens: 1914, 1922, 1926, 1934, 1942, 2263, 2271, 2591, 2599, 2884
+2025-07-28 16:15:58,055 - INFO - Completion tokens: 295, 7, 3, 3, 3, 316, 3, 315, 3, 280
+2025-07-28 16:16:16,056 - INFO - Keeping result for spacecraft component, corrosion resistant, wood
+2025-07-28 16:16:16,056 - INFO - Searches: corrosion resistance of wood
+2025-07-28 16:16:16,056 - INFO - Total tokens: 1981, 1989, 1993, 2005, 2010, 2406
+2025-07-28 16:16:16,056 - INFO - Completion tokens: 362, 7, 3, 7, 7, 398
+2025-07-28 16:17:03,148 - INFO - Retrying run for spacecraft component, corrosion resistant, thermoplastic: 1/5
+2025-07-28 16:17:42,493 - INFO - Keeping result for spacecraft component, corrosion resistant, thermoplastic
+2025-07-28 16:17:42,493 - INFO - Searches: corrosion resistance of thermoplastic, thermoplastic use in spacecraft
+2025-07-28 16:17:42,493 - INFO - Total tokens: 2239, 2247, 2251, 2259, 2267, 2275, 2615, 2619, 2627, 3153
+2025-07-28 16:17:42,493 - INFO - Completion tokens: 618, 7, 3, 3, 3, 3, 335, 3, 3, 521
+2025-07-28 16:18:16,000 - INFO - Retrying run for spacecraft component, corrosion resistant, thermoset: 1/5
+2025-07-28 16:19:16,862 - INFO - Retrying run for spacecraft component, corrosion resistant, thermoset: 2/5
+2025-07-28 16:19:47,721 - INFO - Keeping result for spacecraft component, corrosion resistant, thermoset
+2025-07-28 16:19:47,721 - INFO - Searches: properties of thermoset, thermoset use in spacecraft, thermoset corrosion resistance
+2025-07-28 16:19:47,721 - INFO - Total tokens: 2012, 2020, 2080, 2088, 2098, 2459, 2467, 2788
+2025-07-28 16:19:47,721 - INFO - Completion tokens: 391, 7, 59, 3, 5, 360, 3, 316
+2025-07-28 16:20:20,720 - INFO - Keeping result for spacecraft component, corrosion resistant, elastomer
+2025-07-28 16:20:20,720 - INFO - Searches: properties of elastomer corrosion resistance, elastomer use in spacecraft
+2025-07-28 16:20:20,720 - INFO - Total tokens: 2114, 2122, 2632, 2644, 2922
+2025-07-28 16:20:20,720 - INFO - Completion tokens: 494, 7, 512, 7, 280
+2025-07-28 16:20:49,622 - INFO - Retrying run for spacecraft component, corrosion resistant, composite: 1/5
+2025-07-28 16:21:12,771 - INFO - Retrying run for spacecraft component, corrosion resistant, composite: 2/5
+2025-07-28 16:22:12,521 - INFO - Retrying run for spacecraft component, corrosion resistant, composite: 3/5
+2025-07-28 16:22:43,886 - INFO - Retrying run for spacecraft component, corrosion resistant, composite: 4/5
+2025-07-28 16:23:18,689 - INFO - Retrying run for spacecraft component, corrosion resistant, composite: 5/5
+2025-07-28 16:23:35,569 - INFO - Keeping result for spacecraft component, high strength, steel
+2025-07-28 16:23:35,569 - INFO - Searches: properties of steel, materials used in spacecraft, steel use in spacecraft
+2025-07-28 16:23:35,570 - INFO - Total tokens: 1956, 1964, 2016, 2024, 2088, 2096, 2157
+2025-07-28 16:23:35,570 - INFO - Completion tokens: 337, 7, 51, 3, 59, 3, 56
+2025-07-28 16:24:04,490 - INFO - Keeping result for spacecraft component, high strength, aluminum
+2025-07-28 16:24:04,490 - INFO - Searches: properties of aluminum, aluminum use in spacecraft
+2025-07-28 16:24:04,490 - INFO - Total tokens: 2149, 2157, 2163, 2171, 2540, 2544, 2780
+2025-07-28 16:24:04,490 - INFO - Completion tokens: 530, 7, 5, 7, 371, 3, 231
+2025-07-28 16:24:44,477 - INFO - Retrying run for spacecraft component, high strength, titanium: 1/5
+2025-07-28 16:25:27,263 - INFO - Retrying run for spacecraft component, high strength, titanium: 2/5
+2025-07-28 16:25:59,477 - INFO - Keeping result for spacecraft component, high strength, titanium
+2025-07-28 16:25:59,477 - INFO - Searches: properties of titanium, titanium use in spacecraft
+2025-07-28 16:25:59,477 - INFO - Total tokens: 2239, 2247, 2253, 2261, 2266, 2590, 2598, 2810
+2025-07-28 16:25:59,477 - INFO - Completion tokens: 620, 7, 5, 7, 7, 326, 3, 207
+2025-07-28 16:26:31,276 - INFO - Retrying run for spacecraft component, high strength, glass: 1/5
+2025-07-28 16:27:05,590 - INFO - Keeping result for spacecraft component, high strength, glass
+2025-07-28 16:27:05,590 - INFO - Searches: properties of glass, glass use in spacecraft
+2025-07-28 16:27:05,590 - INFO - Total tokens: 2035, 2043, 2514, 2526, 2531, 2763
+2025-07-28 16:27:05,591 - INFO - Completion tokens: 416, 7, 473, 7, 7, 234
+2025-07-28 16:27:37,073 - INFO - Keeping result for spacecraft component, high strength, wood
+2025-07-28 16:27:37,073 - INFO - Searches: wood mechanical properties, wood use in aerospace
+2025-07-28 16:27:37,073 - INFO - Total tokens: 1920, 1928, 1934, 1942, 2407, 2411, 2776
+2025-07-28 16:27:37,073 - INFO - Completion tokens: 301, 7, 5, 7, 467, 3, 360
+2025-07-28 16:27:55,771 - INFO - Retrying run for spacecraft component, high strength, thermoplastic: 1/5
+2025-07-28 16:28:31,912 - INFO - Retrying run for spacecraft component, high strength, thermoplastic: 2/5
+2025-07-28 16:29:03,352 - INFO - Retrying run for spacecraft component, high strength, thermoplastic: 3/5
+2025-07-28 16:29:38,621 - INFO - Retrying run for spacecraft component, high strength, thermoplastic: 4/5
+2025-07-28 16:30:18,847 - INFO - Retrying run for spacecraft component, high strength, thermoplastic: 5/5
+2025-07-28 16:30:51,405 - INFO - Keeping result for spacecraft component, high strength, thermoset
+2025-07-28 16:30:51,405 - INFO - Searches: properties of thermoset, thermoset use in spacecraft
+2025-07-28 16:30:51,405 - INFO - Total tokens: 2125, 2133, 2139, 2147, 2647, 2655, 2903
+2025-07-28 16:30:51,405 - INFO - Completion tokens: 504, 7, 5, 7, 502, 3, 243
+2025-07-28 16:31:19,139 - INFO - Retrying run for spacecraft component, high strength, elastomer: 1/5
+2025-07-28 16:31:49,243 - INFO - Keeping result for spacecraft component, high strength, elastomer
+2025-07-28 16:31:49,243 - INFO - Searches: properties of elastomer, elastomer aerospace applications
+2025-07-28 16:31:49,243 - INFO - Total tokens: 1960, 1968, 1974, 1982, 1987, 2483, 2487, 2762
+2025-07-28 16:31:49,243 - INFO - Completion tokens: 340, 7, 5, 7, 7, 498, 3, 270
+2025-07-28 16:32:27,717 - INFO - Retrying run for spacecraft component, high strength, composite: 1/5
+2025-07-28 16:32:49,099 - INFO - Retrying run for spacecraft component, high strength, composite: 2/5
+2025-07-28 16:33:27,008 - INFO - Retrying run for spacecraft component, high strength, composite: 3/5
+2025-07-28 16:33:56,943 - INFO - Retrying run for spacecraft component, high strength, composite: 4/5
+2025-07-28 16:34:22,836 - INFO - Retrying run for spacecraft component, high strength, composite: 5/5
+2025-07-28 16:35:13,129 - INFO - Keeping result for kitchen utensil grip, lightweight, steel
+2025-07-28 16:35:13,129 - INFO - Searches: properties of steel, necessary properties of kitchen utensil grips, steel use in kitchen utensil grips
+2025-07-28 16:35:13,129 - INFO - Total tokens: 2047, 2290, 2345, 2510, 2567, 2709
+2025-07-28 16:35:13,129 - INFO - Completion tokens: 427, 242, 53, 160, 55, 137
+2025-07-28 16:36:00,578 - INFO - Keeping result for kitchen utensil grip, lightweight, aluminum
+2025-07-28 16:36:00,578 - INFO - Searches: properties of aluminum, necessary properties of kitchen utensil grips
+2025-07-28 16:36:00,578 - INFO - Total tokens: 2099, 2105, 2111, 2497, 2552, 2849
+2025-07-28 16:36:00,578 - INFO - Completion tokens: 479, 5, 5, 385, 53, 292
+2025-07-28 16:36:46,048 - INFO - Keeping result for kitchen utensil grip, lightweight, titanium
+2025-07-28 16:36:46,048 - INFO - Searches: properties of titanium, necessary properties of kitchen utensil grips, titanium use in kitchen utensils
+2025-07-28 16:36:46,048 - INFO - Total tokens: 2054, 2299, 2481, 2544, 2718, 2765
+2025-07-28 16:36:46,048 - INFO - Completion tokens: 434, 244, 177, 61, 169, 45
+2025-07-28 16:37:44,292 - INFO - Keeping result for kitchen utensil grip, lightweight, glass
+2025-07-28 16:37:44,292 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips, glass use in kitchen utensil grips
+2025-07-28 16:37:44,292 - INFO - Total tokens: 2187, 2500, 2554, 2824, 2881, 3079
+2025-07-28 16:37:44,292 - INFO - Completion tokens: 567, 312, 52, 265, 55, 193
+2025-07-28 16:38:42,545 - INFO - Keeping result for kitchen utensil grip, lightweight, wood
+2025-07-28 16:38:42,545 - INFO - Searches: properties of wood, necessary properties of kitchen utensil grips, wood use in kitchen utensil grips
+2025-07-28 16:38:42,545 - INFO - Total tokens: 2009, 2015, 2404, 2825, 3081
+2025-07-28 16:38:42,545 - INFO - Completion tokens: 389, 5, 388, 416, 251
+2025-07-28 16:39:50,423 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoplastic
+2025-07-28 16:39:50,423 - INFO - Searches: properties of thermoplastic, necessary properties of kitchen utensil grips, thermoplastic use in kitchen utensils
+2025-07-28 16:39:50,423 - INFO - Total tokens: 2249, 2652, 2707, 3015, 3384
+2025-07-28 16:39:50,423 - INFO - Completion tokens: 627, 402, 53, 303, 364
+2025-07-28 16:40:45,761 - INFO - Keeping result for kitchen utensil grip, lightweight, thermoset
+2025-07-28 16:40:45,762 - INFO - Searches: properties of thermoset, necessary properties of kitchen utensil grips, thermoset use in kitchen utensils
+2025-07-28 16:40:45,762 - INFO - Total tokens: 2282, 2521, 2581, 2745, 2809, 3055
+2025-07-28 16:40:45,762 - INFO - Completion tokens: 660, 238, 58, 159, 62, 241
+2025-07-28 16:41:18,987 - INFO - Keeping result for kitchen utensil grip, lightweight, elastomer
+2025-07-28 16:41:18,987 - INFO - Searches: properties of elastomer, elastomer use in kitchen utensils
+2025-07-28 16:41:18,987 - INFO - Total tokens: 2037, 2258, 2317, 2474
+2025-07-28 16:41:18,987 - INFO - Completion tokens: 416, 220, 57, 152
+2025-07-28 16:42:07,510 - INFO - Keeping result for kitchen utensil grip, lightweight, composite
+2025-07-28 16:42:07,511 - INFO - Searches: properties of composite materials, necessary properties of kitchen utensil grips, composite use in kitchen utensil grips
+2025-07-28 16:42:07,511 - INFO - Total tokens: 2035, 2278, 2334, 2556, 2612, 2821
+2025-07-28 16:42:07,511 - INFO - Completion tokens: 415, 242, 54, 217, 54, 204
+2025-07-28 16:42:52,838 - INFO - Keeping result for kitchen utensil grip, heat resistant, steel
+2025-07-28 16:42:52,838 - INFO - Searches: thermal properties of steel
+2025-07-28 16:42:52,838 - INFO - Total tokens: 2401, 2847
+2025-07-28 16:42:52,838 - INFO - Completion tokens: 780, 445
+2025-07-28 16:44:21,547 - INFO - Keeping result for kitchen utensil grip, heat resistant, aluminum
+2025-07-28 16:44:21,547 - INFO - Searches: properties of aluminum, necessary properties of kitchen utensil grips, aluminum use in kitchen utensil grips
+2025-07-28 16:44:21,547 - INFO - Total tokens: 2437, 3054, 3513, 3907
+2025-07-28 16:44:21,547 - INFO - Completion tokens: 816, 616, 454, 389
+2025-07-28 16:45:07,101 - INFO - Keeping result for kitchen utensil grip, heat resistant, titanium
+2025-07-28 16:45:07,101 - INFO - Searches: thermal properties of titanium, titanium use in kitchen utensils
+2025-07-28 16:45:07,101 - INFO - Total tokens: 2164, 2573, 2827
+2025-07-28 16:45:07,101 - INFO - Completion tokens: 543, 408, 253
+2025-07-28 16:46:28,971 - INFO - Keeping result for kitchen utensil grip, heat resistant, glass
+2025-07-28 16:46:28,971 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips, glass use in kitchen utensils
+2025-07-28 16:46:28,971 - INFO - Total tokens: 2621, 2666, 3047, 3053, 3393, 3750
+2025-07-28 16:46:28,971 - INFO - Completion tokens: 1000, 40, 380, 5, 339, 352
+2025-07-28 16:47:10,788 - INFO - Keeping result for kitchen utensil grip, heat resistant, wood
+2025-07-28 16:47:10,789 - INFO - Searches: properties of wood heat resistance, wood use in kitchen utensil grips heat resistance
+2025-07-28 16:47:10,789 - INFO - Total tokens: 2008, 2014, 2342, 2400, 2638, 2672
+2025-07-28 16:47:10,789 - INFO - Completion tokens: 387, 5, 327, 56, 233, 32
+2025-07-28 16:47:58,952 - INFO - Keeping result for kitchen utensil grip, heat resistant, thermoplastic
+2025-07-28 16:47:58,953 - INFO - Searches: properties of thermoplastic, thermoplastic use in heat-resistant grips
+2025-07-28 16:47:58,953 - INFO - Total tokens: 2199, 2205, 2590, 2657, 2852
+2025-07-28 16:47:58,953 - INFO - Completion tokens: 576, 5, 384, 65, 190
+2025-07-28 16:48:51,640 - INFO - Keeping result for kitchen utensil grip, heat resistant, thermoset
+2025-07-28 16:48:51,640 - INFO - Searches: properties of thermoset, necessary properties of kitchen utensil grips, thermoset use in kitchen utensil grips
+2025-07-28 16:48:51,640 - INFO - Total tokens: 2037, 2267, 2324, 2659, 2722, 3011
+2025-07-28 16:48:51,640 - INFO - Completion tokens: 414, 229, 55, 330, 61, 284
+2025-07-28 16:49:42,052 - INFO - Keeping result for kitchen utensil grip, heat resistant, elastomer
+2025-07-28 16:49:42,053 - INFO - Searches: thermal properties of elastomer, necessary properties of kitchen utensil grips, elastomer use in kitchen utensil grips
+2025-07-28 16:49:42,053 - INFO - Total tokens: 2051, 2488, 2550, 2818, 2871
+2025-07-28 16:49:42,053 - INFO - Completion tokens: 429, 436, 60, 263, 52
+2025-07-28 16:50:35,585 - INFO - Keeping result for kitchen utensil grip, heat resistant, composite
+2025-07-28 16:50:35,585 - INFO - Searches: composite materials heat resistance, necessary properties of utensil grips, composite use in kitchen utensils
+2025-07-28 16:50:35,585 - INFO - Total tokens: 1960, 2334, 2693, 2994
+2025-07-28 16:50:35,586 - INFO - Completion tokens: 339, 373, 354, 296
+2025-07-28 16:51:39,478 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, steel
+2025-07-28 16:51:39,478 - INFO - Searches: corrosion resistance of steel, use of stainless steel in kitchen utensils
+2025-07-28 16:51:39,478 - INFO - Total tokens: 2221, 3065, 3312
+2025-07-28 16:51:39,478 - INFO - Completion tokens: 600, 843, 242
+2025-07-28 16:52:28,618 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, aluminum
+2025-07-28 16:52:28,618 - INFO - Searches: corrosion resistance of aluminum, aluminum in kitchen utensils
+2025-07-28 16:52:28,618 - INFO - Total tokens: 2144, 2150, 2471, 2803
+2025-07-28 16:52:28,618 - INFO - Completion tokens: 523, 5, 320, 327
+2025-07-28 16:53:08,860 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, titanium
+2025-07-28 16:53:08,860 - INFO - Searches: properties of titanium corrosion resistance, titanium use in kitchen utensils
+2025-07-28 16:53:08,860 - INFO - Total tokens: 2201, 2207, 2422, 2653
+2025-07-28 16:53:08,860 - INFO - Completion tokens: 580, 5, 214, 226
+2025-07-28 16:54:01,919 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, glass
+2025-07-28 16:54:01,919 - INFO - Searches: corrosion resistance of glass, glass use in kitchen utensil grips, durability of glass in kitchen environments
+2025-07-28 16:54:01,919 - INFO - Total tokens: 2190, 2403, 2635, 2984
+2025-07-28 16:54:01,919 - INFO - Completion tokens: 569, 212, 227, 344
+2025-07-28 16:54:53,928 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, wood
+2025-07-28 16:54:53,928 - INFO - Searches: corrosion resistance of wood
+2025-07-28 16:54:53,928 - INFO - Total tokens: 2292, 2990
+2025-07-28 16:54:53,928 - INFO - Completion tokens: 671, 697
+2025-07-28 16:55:26,094 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, thermoplastic
+2025-07-28 16:55:26,094 - INFO - Searches: corrosion resistance of thermoplastic
+2025-07-28 16:55:26,094 - INFO - Total tokens: 2162, 2461
+2025-07-28 16:55:26,094 - INFO - Completion tokens: 539, 298
+2025-07-28 16:56:33,844 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, thermoset
+2025-07-28 16:56:33,844 - INFO - Searches: properties of thermoset, necessary properties of kitchen utensil grips, thermoset use in kitchen utensil grips
+2025-07-28 16:56:33,844 - INFO - Total tokens: 2352, 2697, 2756, 3110, 3169, 3458
+2025-07-28 16:56:33,844 - INFO - Completion tokens: 729, 344, 57, 349, 57, 284
+2025-07-28 16:57:33,745 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, elastomer
+2025-07-28 16:57:33,745 - INFO - Searches: elastomer corrosion resistance, necessary properties of kitchen utensil grips
+2025-07-28 16:57:33,745 - INFO - Total tokens: 2186, 2192, 2837, 3181
+2025-07-28 16:57:33,745 - INFO - Completion tokens: 564, 5, 644, 339
+2025-07-28 16:58:06,885 - INFO - Keeping result for kitchen utensil grip, corrosion resistant, composite
+2025-07-28 16:58:06,885 - INFO - Searches: corrosion resistance of composite materials, composite materials in kitchen utensils
+2025-07-28 16:58:06,885 - INFO - Total tokens: 2044, 2310, 2466
+2025-07-28 16:58:06,885 - INFO - Completion tokens: 423, 265, 151
+2025-07-28 16:58:54,979 - INFO - Keeping result for kitchen utensil grip, high strength, steel
+2025-07-28 16:58:54,979 - INFO - Searches: properties of steel, necessary properties of kitchen utensil grips, steel use in kitchen utensil grips
+2025-07-28 16:58:54,979 - INFO - Total tokens: 2034, 2040, 2298, 2356, 2522, 2581, 2806
+2025-07-28 16:58:54,979 - INFO - Completion tokens: 413, 5, 257, 56, 165, 57, 220
+2025-07-28 16:59:47,436 - INFO - Keeping result for kitchen utensil grip, high strength, aluminum
+2025-07-28 16:59:47,436 - INFO - Searches: properties of aluminum, necessary properties of kitchen utensil grips, aluminum use in kitchen utensils
+2025-07-28 16:59:47,436 - INFO - Total tokens: 2021, 2372, 2425, 2651, 2710, 2933, 2983
+2025-07-28 16:59:47,436 - INFO - Completion tokens: 400, 350, 51, 221, 57, 218, 48
+2025-07-28 17:00:20,320 - INFO - Keeping result for kitchen utensil grip, high strength, titanium
+2025-07-28 17:00:20,320 - INFO - Searches: properties of titanium, titanium use in kitchen utensils
+2025-07-28 17:00:20,320 - INFO - Total tokens: 2098, 2104, 2285, 2434
+2025-07-28 17:00:20,320 - INFO - Completion tokens: 477, 5, 180, 144
+2025-07-28 17:01:06,723 - INFO - Keeping result for kitchen utensil grip, high strength, glass
+2025-07-28 17:01:06,723 - INFO - Searches: properties of glass, necessary properties of kitchen utensil grips
+2025-07-28 17:01:06,723 - INFO - Total tokens: 2136, 2515, 2795
+2025-07-28 17:01:06,723 - INFO - Completion tokens: 515, 378, 275
+2025-07-28 17:01:31,506 - INFO - Keeping result for kitchen utensil grip, high strength, wood
+2025-07-28 17:01:31,506 - INFO - Searches: mechanical properties of wood
+2025-07-28 17:01:31,506 - INFO - Total tokens: 1941, 2265
+2025-07-28 17:01:31,506 - INFO - Completion tokens: 320, 323
+2025-07-28 17:02:21,532 - INFO - Keeping result for kitchen utensil grip, high strength, thermoplastic
+2025-07-28 17:02:21,532 - INFO - Searches: properties of thermoplastic, thermoplastic use in high strength applications
+2025-07-28 17:02:21,532 - INFO - Total tokens: 2054, 2536, 2760, 2963
+2025-07-28 17:02:21,532 - INFO - Completion tokens: 431, 481, 219, 201
+2025-07-28 17:03:12,723 - INFO - Keeping result for kitchen utensil grip, high strength, thermoset
+2025-07-28 17:03:12,723 - INFO - Searches: properties of thermoset, thermoset use in kitchen utensils
+2025-07-28 17:03:12,723 - INFO - Total tokens: 2225, 2510, 2750, 3001
+2025-07-28 17:03:12,724 - INFO - Completion tokens: 602, 284, 235, 249
+2025-07-28 17:04:04,587 - INFO - Keeping result for kitchen utensil grip, high strength, elastomer
+2025-07-28 17:04:04,587 - INFO - Searches: mechanical properties of elastomer, necessary properties of kitchen utensil grips, elastomer use in kitchen utensil grips
+2025-07-28 17:04:04,587 - INFO - Total tokens: 2081, 2087, 2328, 2592, 2945
+2025-07-28 17:04:04,587 - INFO - Completion tokens: 459, 5, 240, 259, 348
+2025-07-28 17:05:04,003 - INFO - Keeping result for kitchen utensil grip, high strength, composite
+2025-07-28 17:05:04,003 - INFO - Searches: properties of composite materials, necessary properties of kitchen utensil grips, composite use in kitchen utensil grips
+2025-07-28 17:05:04,003 - INFO - Total tokens: 2186, 2192, 2198, 2476, 2534, 2772, 2829, 3129
+2025-07-28 17:05:04,003 - INFO - Completion tokens: 565, 5, 5, 277, 56, 237, 55, 295
+2025-07-28 17:05:53,900 - INFO - Keeping result for safety helmet, lightweight, steel
+2025-07-28 17:05:53,900 - INFO - Searches: properties of steel, necessary properties of safety helmets, steel use in safety helmets
+2025-07-28 17:05:53,900 - INFO - Total tokens: 2121, 2350, 2399, 2606, 2659, 2873
+2025-07-28 17:05:53,900 - INFO - Completion tokens: 503, 228, 47, 202, 51, 209
+2025-07-28 17:06:24,242 - INFO - Keeping result for safety helmet, lightweight, aluminum
+2025-07-28 17:06:24,242 - INFO - Searches: properties of aluminum, necessary properties of safety helmets, aluminum use in safety helmets
+2025-07-28 17:06:24,242 - INFO - Total tokens: 1906, 1912, 2037, 2155, 2165, 2302
+2025-07-28 17:06:24,242 - INFO - Completion tokens: 288, 5, 124, 113, 5, 136
+2025-07-28 17:07:18,593 - INFO - Keeping result for safety helmet, lightweight, titanium
+2025-07-28 17:07:18,593 - INFO - Searches: properties of titanium, necessary properties of safety helmets, titanium use in safety helmets
+2025-07-28 17:07:18,593 - INFO - Total tokens: 2158, 2164, 2170, 2448, 2734, 3005
+2025-07-28 17:07:18,593 - INFO - Completion tokens: 540, 5, 5, 277, 285, 266
+2025-07-28 17:08:24,618 - INFO - Keeping result for safety helmet, lightweight, glass
+2025-07-28 17:08:24,618 - INFO - Searches: properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-07-28 17:08:24,618 - INFO - Total tokens: 2084, 2394, 2751, 2996, 3049, 3314
+2025-07-28 17:08:24,618 - INFO - Completion tokens: 466, 309, 355, 240, 51, 260
+2025-07-28 17:09:51,911 - INFO - Retrying run for safety helmet, lightweight, wood: 1/5
+2025-07-28 17:10:54,298 - INFO - Keeping result for safety helmet, lightweight, wood
+2025-07-28 17:10:54,298 - INFO - Searches: properties of wood, necessary properties of safety helmets, wood use in safety helmets
+2025-07-28 17:10:54,298 - INFO - Total tokens: 2243, 2601, 2914, 3186
+2025-07-28 17:10:54,298 - INFO - Completion tokens: 625, 357, 308, 267
+2025-07-28 17:11:45,595 - INFO - Keeping result for safety helmet, lightweight, thermoplastic
+2025-07-28 17:11:45,595 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-07-28 17:11:45,595 - INFO - Total tokens: 2053, 2290, 2529, 2897
+2025-07-28 17:11:45,595 - INFO - Completion tokens: 433, 236, 234, 363
+2025-07-28 17:12:39,431 - INFO - Keeping result for safety helmet, lightweight, thermoset
+2025-07-28 17:12:39,432 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-07-28 17:12:39,432 - INFO - Total tokens: 1885, 1891, 2383, 2731, 3013
+2025-07-28 17:12:39,432 - INFO - Completion tokens: 265, 5, 491, 343, 277
+2025-07-28 17:13:30,936 - INFO - Keeping result for safety helmet, lightweight, elastomer
+2025-07-28 17:13:30,936 - INFO - Searches: properties of elastomer, necessary properties of safety helmets, elastomer use in safety helmets
+2025-07-28 17:13:30,936 - INFO - Total tokens: 2133, 2139, 2426, 2727, 2903
+2025-07-28 17:13:30,937 - INFO - Completion tokens: 514, 5, 286, 296, 171
+2025-07-28 17:14:16,306 - INFO - Keeping result for safety helmet, lightweight, composite
+2025-07-28 17:14:16,306 - INFO - Searches: properties of composite materials, necessary properties of safety helmets, composite materials in safety helmets
+2025-07-28 17:14:16,306 - INFO - Total tokens: 2040, 2249, 2303, 2541, 2597, 2765
+2025-07-28 17:14:16,306 - INFO - Completion tokens: 422, 208, 52, 233, 54, 163
+2025-07-28 17:15:04,636 - INFO - Keeping result for safety helmet, heat resistant, steel
+2025-07-28 17:15:04,636 - INFO - Searches: properties of steel, necessary properties of safety helmets, steel use in safety helmets
+2025-07-28 17:15:04,636 - INFO - Total tokens: 2007, 2482, 2652, 2823
+2025-07-28 17:15:04,636 - INFO - Completion tokens: 388, 474, 165, 166
+2025-07-28 17:15:52,388 - INFO - Keeping result for safety helmet, heat resistant, aluminum
+2025-07-28 17:15:52,388 - INFO - Searches: properties of aluminum, use of aluminum in safety helmets
+2025-07-28 17:15:52,388 - INFO - Total tokens: 2170, 2371, 2494, 2826
+2025-07-28 17:15:52,388 - INFO - Completion tokens: 551, 200, 118, 330
+2025-07-28 17:16:39,648 - INFO - Keeping result for safety helmet, heat resistant, titanium
+2025-07-28 17:16:39,648 - INFO - Searches: thermal properties of titanium, necessary properties of safety helmets, titanium use in safety helmets
+2025-07-28 17:16:39,648 - INFO - Total tokens: 1974, 2165, 2414, 2811
+2025-07-28 17:16:39,648 - INFO - Completion tokens: 355, 190, 244, 392
+2025-07-28 17:17:21,611 - INFO - Keeping result for safety helmet, heat resistant, glass
+2025-07-28 17:17:21,611 - INFO - Searches: thermal properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-07-28 17:17:21,611 - INFO - Total tokens: 2034, 2077, 2083, 2089, 2518, 2524, 2530, 2581, 2626
+2025-07-28 17:17:21,611 - INFO - Completion tokens: 415, 42, 5, 5, 428, 5, 5, 50, 40
+2025-07-28 17:18:13,033 - INFO - Keeping result for safety helmet, heat resistant, wood
+2025-07-28 17:18:13,033 - INFO - Searches: thermal properties of wood, wood use in safety helmets
+2025-07-28 17:18:13,033 - INFO - Total tokens: 2162, 2691, 2960
+2025-07-28 17:18:13,033 - INFO - Completion tokens: 543, 528, 264
+2025-07-28 17:19:04,032 - INFO - Keeping result for safety helmet, heat resistant, thermoplastic
+2025-07-28 17:19:04,032 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-07-28 17:19:04,032 - INFO - Total tokens: 2078, 2084, 2090, 2335, 2389, 2604, 2665, 2905
+2025-07-28 17:19:04,033 - INFO - Completion tokens: 457, 5, 5, 244, 52, 210, 59, 235
+2025-07-28 17:19:53,545 - INFO - Keeping result for safety helmet, heat resistant, thermoset
+2025-07-28 17:19:53,545 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-07-28 17:19:53,545 - INFO - Total tokens: 2039, 2295, 2352, 2651, 2858
+2025-07-28 17:19:53,545 - INFO - Completion tokens: 418, 255, 55, 294, 202
+2025-07-28 17:20:31,646 - INFO - Keeping result for safety helmet, heat resistant, elastomer
+2025-07-28 17:20:31,646 - INFO - Searches: thermal properties of elastomer, necessary properties of safety helmets, elastomer use in safety helmets
+2025-07-28 17:20:31,646 - INFO - Total tokens: 2169, 2329, 2476, 2552
+2025-07-28 17:20:31,646 - INFO - Completion tokens: 549, 159, 142, 71
+2025-07-28 17:21:11,515 - INFO - Keeping result for safety helmet, heat resistant, composite
+2025-07-28 17:21:11,515 - INFO - Searches: properties of composite materials heat resistance, necessary properties of safety helmets, composite materials in safety helmets
+2025-07-28 17:21:11,515 - INFO - Total tokens: 1995, 2265, 2387, 2473, 2611
+2025-07-28 17:21:11,515 - INFO - Completion tokens: 376, 269, 117, 81, 136
+2025-07-28 17:21:52,951 - INFO - Keeping result for safety helmet, corrosion resistant, steel
+2025-07-28 17:21:52,951 - INFO - Searches: corrosion resistance of steel, necessary properties of safety helmets
+2025-07-28 17:21:52,951 - INFO - Total tokens: 2038, 2044, 2050, 2394, 2718
+2025-07-28 17:21:52,951 - INFO - Completion tokens: 419, 5, 5, 343, 319
+2025-07-28 17:22:36,174 - INFO - Keeping result for safety helmet, corrosion resistant, aluminum
+2025-07-28 17:22:36,174 - INFO - Searches: corrosion resistance of aluminum, aluminum use in safety helmets
+2025-07-28 17:22:36,175 - INFO - Total tokens: 2064, 2070, 2469, 2716
+2025-07-28 17:22:36,175 - INFO - Completion tokens: 445, 5, 398, 242
+2025-07-28 17:23:15,962 - INFO - Keeping result for safety helmet, corrosion resistant, titanium
+2025-07-28 17:23:15,962 - INFO - Searches: properties of titanium, necessary properties of safety helmets
+2025-07-28 17:23:15,963 - INFO - Total tokens: 2107, 2113, 2320, 2370, 2627, 2674
+2025-07-28 17:23:15,963 - INFO - Completion tokens: 488, 5, 206, 48, 252, 45
+2025-07-28 17:23:52,370 - INFO - Keeping result for safety helmet, corrosion resistant, glass
+2025-07-28 17:23:52,370 - INFO - Searches: corrosion resistance of glass, glass use in safety helmets
+2025-07-28 17:23:52,370 - INFO - Total tokens: 2025, 2031, 2037, 2276, 2324, 2513, 2558
+2025-07-28 17:23:52,370 - INFO - Completion tokens: 406, 5, 5, 238, 46, 184, 43
+2025-07-28 17:24:40,205 - INFO - Keeping result for safety helmet, corrosion resistant, wood
+2025-07-28 17:24:40,205 - INFO - Searches: corrosion resistance of wood, wood use in safety helmets, treated wood corrosion resistance
+2025-07-28 17:24:40,205 - INFO - Total tokens: 1930, 2233, 2362, 2537, 2791
+2025-07-28 17:24:40,205 - INFO - Completion tokens: 311, 302, 124, 173, 249
+2025-07-28 17:25:16,546 - INFO - Keeping result for safety helmet, corrosion resistant, thermoplastic
+2025-07-28 17:25:16,546 - INFO - Searches: properties of thermoplastic corrosion resistance
+2025-07-28 17:25:16,546 - INFO - Total tokens: 2155, 2161, 2167, 2604
+2025-07-28 17:25:16,546 - INFO - Completion tokens: 534, 5, 5, 436
+2025-07-28 17:26:07,989 - INFO - Keeping result for safety helmet, corrosion resistant, thermoset
+2025-07-28 17:26:07,989 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-07-28 17:26:07,989 - INFO - Total tokens: 2020, 2329, 2674, 2969
+2025-07-28 17:26:07,989 - INFO - Completion tokens: 399, 308, 344, 290
+2025-07-28 17:26:55,312 - INFO - Keeping result for safety helmet, corrosion resistant, elastomer
+2025-07-28 17:26:55,312 - INFO - Searches: properties of elastomer corrosion resistance, necessary properties of safety helmets, elastomer use in safety helmets
+2025-07-28 17:26:55,312 - INFO - Total tokens: 2212, 2218, 2380, 2580, 2799
+2025-07-28 17:26:55,312 - INFO - Completion tokens: 592, 5, 161, 195, 214
+2025-07-28 17:27:29,595 - INFO - Keeping result for safety helmet, corrosion resistant, composite
+2025-07-28 17:27:29,596 - INFO - Searches: properties of composite materials corrosion resistance, composite materials in safety helmets
+2025-07-28 17:27:29,596 - INFO - Total tokens: 1975, 1981, 2266, 2316, 2493
+2025-07-28 17:27:29,596 - INFO - Completion tokens: 356, 5, 284, 48, 172
+2025-07-28 17:28:11,200 - INFO - Keeping result for safety helmet, high strength, steel
+2025-07-28 17:28:11,200 - INFO - Searches: properties of steel, necessary properties of safety helmets, steel use in safety helmets
+2025-07-28 17:28:11,200 - INFO - Total tokens: 2004, 2213, 2429, 2632
+2025-07-28 17:28:11,200 - INFO - Completion tokens: 385, 208, 211, 198
+2025-07-28 17:29:07,258 - INFO - Keeping result for safety helmet, high strength, aluminum
+2025-07-28 17:29:07,258 - INFO - Searches: properties of aluminum, necessary properties of safety helmets, aluminum use in safety helmets
+2025-07-28 17:29:07,258 - INFO - Total tokens: 2051, 2400, 2727, 3035
+2025-07-28 17:29:07,258 - INFO - Completion tokens: 432, 348, 322, 303
+2025-07-28 17:29:54,829 - INFO - Keeping result for safety helmet, high strength, titanium
+2025-07-28 17:29:54,829 - INFO - Searches: properties of titanium, necessary properties of safety helmets, titanium use in safety helmets
+2025-07-28 17:29:54,829 - INFO - Total tokens: 1958, 2191, 2244, 2511, 2745, 2785
+2025-07-28 17:29:54,829 - INFO - Completion tokens: 339, 232, 51, 262, 229, 38
+2025-07-28 17:30:43,619 - INFO - Keeping result for safety helmet, high strength, glass
+2025-07-28 17:30:43,619 - INFO - Searches: properties of glass, necessary properties of safety helmets, glass use in safety helmets
+2025-07-28 17:30:43,619 - INFO - Total tokens: 1982, 2329, 2335, 2634, 2847
+2025-07-28 17:30:43,619 - INFO - Completion tokens: 363, 346, 5, 298, 208
+2025-07-28 17:31:31,685 - INFO - Keeping result for safety helmet, high strength, wood
+2025-07-28 17:31:31,685 - INFO - Searches: mechanical properties of wood, necessary properties of safety helmets, wood use in safety helmets
+2025-07-28 17:31:31,685 - INFO - Total tokens: 1981, 2393, 2665, 2899
+2025-07-28 17:31:31,685 - INFO - Completion tokens: 362, 411, 271, 229
+2025-07-28 17:32:30,658 - INFO - Keeping result for safety helmet, high strength, thermoplastic
+2025-07-28 17:32:30,658 - INFO - Searches: properties of thermoplastic, necessary properties of safety helmets, thermoplastic use in safety helmets
+2025-07-28 17:32:30,658 - INFO - Total tokens: 2120, 2126, 2132, 2477, 2536, 2764, 2824, 3116
+2025-07-28 17:32:30,658 - INFO - Completion tokens: 499, 5, 5, 344, 57, 223, 58, 287
+2025-07-28 17:33:34,020 - INFO - Keeping result for safety helmet, high strength, thermoset
+2025-07-28 17:33:34,020 - INFO - Searches: properties of thermoset, necessary properties of safety helmets, thermoset use in safety helmets
+2025-07-28 17:33:34,020 - INFO - Total tokens: 2187, 2565, 2616, 2847, 2906, 3239
+2025-07-28 17:33:34,020 - INFO - Completion tokens: 566, 377, 49, 226, 57, 328
+2025-07-28 17:34:55,128 - INFO - Keeping result for safety helmet, high strength, elastomer
+2025-07-28 17:34:55,128 - INFO - Searches: properties of elastomer, necessary properties of safety helmets, elastomer use in safety helmets
+2025-07-28 17:34:55,128 - INFO - Total tokens: 2083, 2494, 2894, 3254, 3310, 3716
+2025-07-28 17:34:55,128 - INFO - Completion tokens: 463, 410, 398, 355, 54, 401
+2025-07-28 17:35:29,662 - INFO - Keeping result for safety helmet, high strength, composite
+2025-07-28 17:35:29,662 - INFO - Searches: properties of composite materials for safety helmets
+2025-07-28 17:35:29,662 - INFO - Total tokens: 2155, 2542
+2025-07-28 17:35:29,662 - INFO - Completion tokens: 536, 386
+2025-07-28 17:36:06,417 - INFO - Keeping result for underwater component, lightweight, steel
+2025-07-28 17:36:06,417 - INFO - Searches: properties of steel, necessary properties of underwater components
+2025-07-28 17:36:06,417 - INFO - Total tokens: 2075, 2349, 2517
+2025-07-28 17:36:06,417 - INFO - Completion tokens: 457, 273, 167
+2025-07-28 17:36:48,679 - INFO - Keeping result for underwater component, lightweight, aluminum
+2025-07-28 17:36:48,679 - INFO - Searches: properties of aluminum, requirements for underwater components, aluminum use in underwater components
+2025-07-28 17:36:48,679 - INFO - Total tokens: 1987, 2194, 2445, 2717
+2025-07-28 17:36:48,679 - INFO - Completion tokens: 369, 206, 246, 267
+2025-07-28 18:01:52,751 - INFO - Keeping result for underwater component, lightweight, titanium
+2025-07-28 18:01:52,751 - INFO - Searches: density of titanium, properties required for underwater components, titanium use in underwater components
+2025-07-28 18:01:52,751 - INFO - Total tokens: 2284, 2636, 2686, 3037, 3097, 3362
+2025-07-28 18:01:52,751 - INFO - Completion tokens: 666, 351, 48, 346, 58, 260
