@@ -6,6 +6,7 @@ from collections import defaultdict
 ##########################################################################################
 
 # Create regex patterns to match retries, successful results, and search queries
+start_pattern = re.compile(r"- INFO - Starting runs for (\d+(?:\.\d+)?)B model")
 rerun_pattern = re.compile(r"- INFO - Retrying run for (.*?): (\d)/5")
 result_pattern = re.compile(r"- INFO - Keeping result for (.*)")
 search_pattern = re.compile(r"- INFO - Searches: (.*)")
@@ -21,49 +22,53 @@ query = []
 unique_queries = defaultdict(list)
 unique_proportion = defaultdict(list)
 completion_tokens = defaultdict(list)
-log_directory = 'Search Logs'
 
 # Iterate through logs for each model size and extract data
-for modelsize in [1.7, 4, 8, 14, 32]:
-    with open(f'Search Logs/qwen3_{modelsize}B_logs.txt', 'r') as file:
-        current_combination = None
-        rerun_count = 0
-        for line in file:
-            # Check for reruns
-            rerun_match = rerun_pattern.search(line)
-            if rerun_match:
-                rerun_count = int(rerun_match.groups()[1])
-                if rerun_count == 5:
-                    total_reruns[modelsize].append(rerun_count)
-                    rerun_count = 0
-                continue
+with open(f'Search Logs/qwen3_logs.txt', 'r') as file:
+    current_combination = None
+    rerun_count = 0
+    omission_count = 0
+    for line in file:
+        # Check for starting new model size
+        start_match = start_pattern.search(line)
+        if start_match:
+            modelsize = float(start_match.group(1))
 
-            # Check for searches
-            search_match = search_pattern.search(line)
-            if search_match:
-                queries = [query.lower().strip() for query in search_match.group(1).split(',')]
-                query.extend(queries)
-                size.extend([modelsize] * len(queries))
-                total, unique = len(queries), len(set(queries))
-                total_queries[modelsize].append(total)
-                unique_queries[modelsize].append(unique)
-                unique_proportion[modelsize].append(unique/total)
-                continue
-
-            tokens_match = token_pattern.search(line)
-            if tokens_match:
-                token_counts = [int(count.strip()) for count in tokens_match.group(1).split(',')]
-                for count in token_counts:
-                    if count > 3: completion_tokens[modelsize].append(count)
-
-            # Check for successful results, moved on to next design, criterion, material combination
-            result_match = result_pattern.search(line)
-            if result_match:
-                combination = result_match.group(1)
-                successful_reruns[modelsize].append(rerun_count)
-                successful_prompts[modelsize] += 1
+        # Check for reruns
+        rerun_match = rerun_pattern.search(line)
+        if rerun_match:
+            rerun_count = int(rerun_match.groups()[1])
+            if rerun_count == 5:
                 total_reruns[modelsize].append(rerun_count)
                 rerun_count = 0
+            continue
+
+        # Check for searches
+        search_match = search_pattern.search(line)
+        if search_match:
+            queries = [query.lower().strip() for query in search_match.group(1).split(',')]
+            query.extend(queries)
+            size.extend([modelsize] * len(queries))
+            total, unique = len(queries), len(set(queries))
+            total_queries[modelsize].append(total)
+            unique_queries[modelsize].append(unique)
+            unique_proportion[modelsize].append(unique/total)
+            continue
+
+        tokens_match = token_pattern.search(line)
+        if tokens_match:
+            token_counts = [int(count.strip()) for count in tokens_match.group(1).split(',')]
+            for count in token_counts:
+                if count > 3: completion_tokens[modelsize].append(count)
+
+        # Check for successful results, moved on to next design, criterion, material combination
+        result_match = result_pattern.search(line)
+        if result_match:
+            combination = result_match.group(1)
+            successful_reruns[modelsize].append(rerun_count)
+            successful_prompts[modelsize] += 1
+            total_reruns[modelsize].append(rerun_count)
+            rerun_count = 0
 
 ##########################################################################################
 

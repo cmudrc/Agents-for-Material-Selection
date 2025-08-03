@@ -53,8 +53,8 @@ def extract_content_from_memory(memory):
 MAX_TRIES = 5
 
 for modelsize in [
-                  '1.7',
-                  '4',
+                #   '1.7',
+                #   '4',
                   '8',
                   '14',
                   '32'
@@ -117,7 +117,6 @@ for modelsize in [
                     response = run_response[-1]
                     logging.info(f'{modelsize}, {question_type}, thinking mode: {thinking_mode}')
                     break
-                results = append_results(results, design, criterion, material, response, question_type)
             else:
                 for material in materials:
                     if question_type == 'agentic':
@@ -186,4 +185,3 @@ for modelsize in [
                             response = run_response
                             logging.info(f'{modelsize}, {question_type}, {material}, thinking mode: {thinking_mode}')
                             break
-                    results = append_results(results, design, criterion, material, response, question_type)

@@ -32,7 +32,7 @@ for modelsize in [1.7, 4, 8, 14, 32]:
             for criteria in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
                 for material in ["steel", "aluminum", "titanium", "glass", "wood", "thermoplastic", "elastomer", "thermoset", "composite"]:
                     # load model data
-                    model_data_df = pd.read_csv(f'Data/qwen3_{str(modelsize)}B_{question_type}.csv')
+                    model_data_df = pd.read_csv(f'Data/qwen3_{modelsize}B_{question_type}.csv')
 
                     # filter data
                     model_data_df = model_data_df[model_data_df['design'] == design]

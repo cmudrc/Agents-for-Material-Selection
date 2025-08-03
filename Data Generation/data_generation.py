@@ -1,6 +1,6 @@
 # Force cuda usage
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0, 2, 3"
 
 ##########################################################################################
 
@@ -42,15 +42,13 @@ class WikipediaSearch(Tool):
 materials = ['steel', 'aluminum', 'titanium', 'glass', 'wood', 'thermoplastic', 'thermoset', 'elastomer', 'composite']
 
 # Configure logging
-log_dir = 'agent_logs'
-os.makedirs(log_dir, exist_ok=True)
 
-def setup_logger(modelsize):
-    logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(f'{log_dir}/qwen3_{modelsize}B_logs.log'), logging.StreamHandler()]
-    )
+logging.basicConfig(
+level=logging.INFO,
+format='%(asctime)s - %(levelname)s - %(message)s',
+handlers=[logging.FileHandler(f'qwen3_logs.log'), logging.StreamHandler()]
+)
+logger = logging.getLogger()
 
 def extract_content_from_memory(memory):
     return [entry['content'] for entry in memory if 'content' in entry]
@@ -61,14 +59,13 @@ completion_tokens = []
 MAX_TRIES = 5
 
 for modelsize in [
-                #   '1.7',
+                  '1.7',
                   '4',
-                #   '8',
-                #   '14',
-                #   '32'
+                  '8',
+                  '14',
+                  '32'
                   ]:
-    setup_logger(modelsize)
-    logger = logging.getLogger()
+    logger.info(f"Starting runs for {modelsize}B model")
 
     # Create LLM object
     llm = llama_cpp.Llama.from_pretrained(
