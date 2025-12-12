@@ -15,7 +15,7 @@ def calculate_mean_error(row, survey_df):
     # Calculate and return the mean of these distances
     return distances.mean()
 
-results = []
+mae_results = []
 
 # Load the survey responses CSV
 survey_responses_df = pd.read_csv('Data/survey_responses_mapped.csv')
@@ -23,37 +23,27 @@ survey_responses_df = pd.read_csv('Data/survey_responses_mapped.csv')
 # Drop the rows with nan values
 survey_responses_df = survey_responses_df.dropna()
 
-# Group the survey responses by 'design', 'criteria', 'material' and calculate mean and std
-grouped_survey_stats = survey_responses_df.groupby(['design', 'criteria', 'material'])['response'].agg(['mean', 'std']).reset_index()
-
 for modelsize in [1.7, 4, 8, 14, 32]:
     for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
+        # load model data
+        model_data_df = pd.read_csv(f'Data/qwen3_{modelsize}B_{question_type}.csv')
+        
         for design in ['kitchen utensil grip', 'spacecraft component', 'underwater component', 'safety helmet']:
             for criteria in ['lightweight', 'heat resistant', 'corrosion resistant', 'high strength']:
                 for material in ["steel", "aluminum", "titanium", "glass", "wood", "thermoplastic", "elastomer", "thermoset", "composite"]:
-                    # load model data
-                    model_data_df = pd.read_csv(f'Data/qwen3_{modelsize}B_{question_type}.csv')
 
                     # filter data
-                    model_data_df = model_data_df[model_data_df['design'] == design]
-                    model_data_df = model_data_df[model_data_df['criteria'] == criteria]
-                    model_data_df = model_data_df[model_data_df['material'] == material]
-                    model_data_df = model_data_df.dropna()
+                    filtered_df = model_data_df[
+                        (model_data_df['design'] == design) & 
+                        (model_data_df['criteria'] == criteria) &
+                        (model_data_df['material'] == material)
+                    ].dropna()
 
-                    # # clean the response column by only taking the first digits in the string
-                    # try:
-                    #     model_data_df['response'] = model_data_df['response'].str.extract(r'(\d+)').astype(int)
-                    # except:
-                    #     pass
-
-                    # # floor all values above 10 to 10, and all values below 0 to 0
-                    # model_data_df['response'] = model_data_df['response'].apply(lambda x: min(10, max(0, x)))
-
-                    model_data_df['mean_distance'] = model_data_df.apply(lambda row: calculate_mean_error(row, survey_responses_df), axis=1)
+                    filtered_df['mean_distance'] = filtered_df.apply(lambda row: calculate_mean_error(row, survey_responses_df), axis=1)
 
                     # Save the mean error in the results array
-                    mean_error = model_data_df['mean_distance'].mean()
-                    results.append({'model_size': modelsize,
+                    mean_error = filtered_df['mean_distance'].mean()
+                    mae_results.append({'model_size': modelsize,
                                     'question_type': question_type,
                                     'design': design,
                                     'criteria': criteria,
@@ -61,6 +51,6 @@ for modelsize in [1.7, 4, 8, 14, 32]:
                                     'mean_error': mean_error})
                     
 # Save the results to a CSV file
-results_df = pd.DataFrame(results)
-results_df = results_df.dropna()
-results_df.to_csv('Data Evaluation/Results/mean_error.csv', index=False)
+mae_results_df = pd.DataFrame(mae_results)
+mae_results_df = mae_results_df.dropna()
+mae_results_df.to_csv('Data Evaluation/Results/mean_error.csv', index=False)
