@@ -177,3 +177,6 @@ ols_regression(results_df, 'Z-Score')
 
 results_df = pd.read_csv('Data Evaluation/Results/mae_material.csv')
 ols_regression(results_df, 'MAE')
+
+results_df = pd.read_csv('Data Evaluation/Results/r2_material.csv')
+ols_regression(results_df, 'R2')

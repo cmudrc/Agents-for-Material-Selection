@@ -52,9 +52,10 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
 # Create heatmap for both metrics
 plot_heatmap(metric='Z-Score', cmap=custom_cmap, center=0, title='Mean Z-Scores', filename='z_score_heatmap.png')
 plot_heatmap(metric='MAE', cmap='Greens', title='Mean Absolute Errors (MAEs) to Survey Data', filename='mae_heatmap.png')
+plot_heatmap(metric='R2', cmap='Greens', title='Mean r-squared Values', filename='r2_heatmap.png')
 
 # Create and save pivot tables for both metrics
-for metric in ['MAE', 'Z-Score']:
+for metric in ['MAE', 'Z-Score', "R2"]:
     df = pd.read_csv(f'Data Evaluation/Results/{metric.lower()}_material.csv')
     df['Prompt Type'] = pd.Categorical(df['prompt type'], categories=prompt_type_order, ordered=True)
     df['Size'] = pd.Categorical(df['size'], categories=size_order, ordered=True)

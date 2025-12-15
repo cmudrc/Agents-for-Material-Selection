@@ -4,7 +4,7 @@ from sklearn.metrics import r2_score
 ##########################################################################################
 
 def calculate_rss(row, matching_responses):
-    return ((row['response'] - matching_responses) ** 2).mean() # actual - predicted squared
+    return ((matching_responses - row['response']) ** 2).mean() # actual - predicted squared
 
 r2_results = []
 
@@ -39,9 +39,8 @@ for modelsize in [1.7, 4, 8, 14, 32]:
                     filtered_df['rss'] = filtered_df.apply(lambda row: calculate_rss(row, matching_responses), axis=1)
 
                     # Calculate TSS
-                    tss = ((matching_responses - matching_responses.mean()) ** 2).mean()
-                    # currently calculating predicted value - average predicted value, need actual value - average of actual values... can we compute r^2?? we don't have enough data points to average over for each combination
-
+                    tss = ((matching_responses - matching_responses.mean()) ** 2).sum()
+                    
                     # Calculate r^2
                     r2 = 1 - (filtered_df['rss'].sum() / tss)
                     

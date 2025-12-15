@@ -39,3 +39,19 @@ for modelsize in [1.7, 4, 8, 14, 32]:
         results_df = pd.concat([results_df, stats_df[['size', 'prompt type', 'mae']]])
 results_df = results_df.dropna(how='any')
 results_df.to_csv(f'Data Evaluation/Results/mae_material.csv', index=False)
+
+# Read in r^2 data
+r2_df = pd.read_csv('Data Evaluation/Results/r2.csv')
+
+# Combine all data across model sizes and prompt types
+results_df = pd.DataFrame(columns=['size', 'prompt type', 'r2'])
+for modelsize in [1.7, 4, 8, 14, 32]:
+    for question_type in ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']:
+        df = r2_df[(r2_df['model_size'] == modelsize) & (r2_df['question_type'] == question_type)]
+        stats_df = df.groupby('material')['r2'].agg(['mean']).reset_index()
+        stats_df.rename(columns={'mean':'r2'}, inplace=True)
+        stats_df['size'] = modelsize
+        stats_df['prompt type'] = question_type
+        results_df = pd.concat([results_df, stats_df[['size', 'prompt type', 'r2']]])
+results_df = results_df.dropna(how='any')
+results_df.to_csv(f'Data Evaluation/Results/r2_material.csv', index=False)
