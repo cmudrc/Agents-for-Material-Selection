@@ -52,7 +52,7 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
 # Create heatmap for both metrics
 plot_heatmap(metric='Z-Score', cmap=custom_cmap, center=0, title='Mean Z-Scores', filename='z_score_heatmap.png')
 plot_heatmap(metric='MAE', cmap='Greens', title='Mean Absolute Errors (MAEs) to Survey Data', filename='mae_heatmap.png')
-plot_heatmap(metric='R2', cmap='Greens', title='Mean r-squared Values', filename='r2_heatmap.png')
+plot_heatmap(metric='R2', cmap='Greens', title='Mean R-squared Values', filename='r2_heatmap.png')
 
 # Create and save pivot tables for both metrics
 for metric in ['MAE', 'Z-Score', "R2"]:
