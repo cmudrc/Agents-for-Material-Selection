@@ -164,7 +164,7 @@ def plot_contributions(coef_df, y_val):
     )
 
     axes[1].text(1.05, 0.75, explanation_text, transform=axes[1].transAxes, fontsize=16, verticalalignment='top', horizontalalignment='left', bbox=dict(facecolor='white', edgecolor='lightgrey', boxstyle='square,pad=0.5'))
-    plt.suptitle(f'Contribution to Predicting {y_val}', fontname='Georgia', fontsize=20)
+    plt.suptitle(f'Contribution to Predicting {y_val if y_val != "R2" else "R-squared"}', fontname='Georgia', fontsize=20)
 
     plt.tight_layout()
     plt.savefig(f'regression_{y_val.lower()}.png')
@@ -177,3 +177,6 @@ ols_regression(results_df, 'Z-Score')
 
 results_df = pd.read_csv('Data Evaluation/Results/mae_material.csv')
 ols_regression(results_df, 'MAE')
+
+results_df = pd.read_csv('Data Evaluation/Results/r2_material.csv')
+ols_regression(results_df, 'R2')

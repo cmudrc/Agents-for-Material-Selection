@@ -10,9 +10,9 @@ plt.rcParams['font.size'] = 14
 custom_cmap = LinearSegmentedColormap.from_list("custom_diverging", ["green", "white", "green"], N=100)
 
 prompt_type_order = ['agentic', 'zero-shot', 'few-shot', 'parallel', 'chain-of-thought']
-size_order = [1.5, 3, 7, 32, 72]
+size_order = [1.7, 4, 8, 14, 32]
 
-size_rename = {1.5: '1.5B', 3: '3B', 7: '7B', 32: '32B', 72: '72B'}
+size_rename = {1.7: '1.7B', 4: '4B', 8: '8B', 14: '14B', 32: '32B'}
 prompt_type_rename = {'agentic': 'Agentic', 'zero-shot': 'Zero-Shot', 'few-shot': 'Few-Shot', 'parallel': 'Parallel', 'chain-of-thought': 'Chain-of-\nThought'}
 
 # Create heatmap for a given metric
@@ -52,9 +52,10 @@ def plot_heatmap(metric, cmap, center=None, title=None, filename=None):
 # Create heatmap for both metrics
 plot_heatmap(metric='Z-Score', cmap=custom_cmap, center=0, title='Mean Z-Scores', filename='z_score_heatmap.png')
 plot_heatmap(metric='MAE', cmap='Greens', title='Mean Absolute Errors (MAEs) to Survey Data', filename='mae_heatmap.png')
+plot_heatmap(metric='R2', cmap='Greens', title='Mean R-squared Values', filename='r2_heatmap.png')
 
 # Create and save pivot tables for both metrics
-for metric in ['MAE', 'Z-Score']:
+for metric in ['MAE', 'Z-Score', "R2"]:
     df = pd.read_csv(f'Data Evaluation/Results/{metric.lower()}_material.csv')
     df['Prompt Type'] = pd.Categorical(df['prompt type'], categories=prompt_type_order, ordered=True)
     df['Size'] = pd.Categorical(df['size'], categories=size_order, ordered=True)

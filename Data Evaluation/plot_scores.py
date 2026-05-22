@@ -13,9 +13,9 @@ combined_df["Size"] = "Survey"
 combined_df["Prompt Type"] = "Survey"
 
 # Read all LLM results
-for modelsize in ['1.5B', '3B', '7B', '32B', '72B']:
+for modelsize in ['1.7B', '4B', '8B', '14B', '32B']:
     for question_type in ['Agentic', 'Zero-Shot', 'Few-Shot', 'Parallel', 'Chain-of-Thought']:
-        df = pd.read_csv(f"Data/qwen_{modelsize.lower()}_{question_type.lower()}.csv")
+        df = pd.read_csv(f"Data/qwen3_{modelsize.lower()}_{question_type.lower()}.csv")
         df = df.dropna(how="any")
         df['Size'] = modelsize
         df['Prompt Type'] = question_type
@@ -32,7 +32,7 @@ agentic_df = combined_df[(combined_df['Prompt Type'] == 'Agentic') | (combined_d
 plt.figure(figsize=(10, 5))
 ax = sns.boxplot(x="Size", y="response", data=agentic_df, palette=palette)
 
-size_order = ['Survey', '1.5B', '3B', '7B', '32B', '72B']
+size_order = ['Survey', '1.7B', '4B', '8B', '14B', '32B']
 medians = agentic_df.groupby('Size')['response'].median().reindex(size_order)
 positions = range(len(size_order))
 for pos, (size, median) in zip(positions, medians.items()):
@@ -51,7 +51,6 @@ llm_df = combined_df[combined_df['Prompt Type'] != 'Agentic']
 plt.figure(figsize=(10, 5))
 ax = sns.boxplot(x="Size", y="response", data=llm_df, palette=palette)
 
-size_order = ['Survey', '1.5B', '3B', '7B', '32B', '72B']
 medians = llm_df.groupby('Size')['response'].median().reindex(size_order)
 positions = range(len(size_order))
 for pos, (size, median) in zip(positions, medians.items()):
